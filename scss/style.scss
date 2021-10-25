@@ -1,0 +1,1095 @@
+@import "reboot";
+@import "mixins";
+@import "utilities";
+@import "service";
+@import "contact";
+@import "whoweare";
+@import "product";
+
+.home-header {
+  height: 50vh;
+  overflow-x: hidden;
+  background: url(../Image/homebg.svg) no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-position: center center;
+  position: relative;
+  .container {
+    height: 100%;
+    img {
+      margin-top: 0.5rem;
+      width: 4rem;
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .nav-container {
+        background: #fff;
+        z-index: 999999;
+        position: fixed;
+        width: 80vw;
+        height: 100vh;
+        top: 0;
+        right: -80vw;
+        transition: all 0.3s linear;
+        .close-btn {
+          color: $primary-color;
+        }
+
+        ul {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          height: 60%;
+          padding-left: 2rem;
+          list-style: none;
+          li {
+            a {
+              color: $primary-color;
+              font-size: 25px;
+              text-decoration: none;
+              padding: 7px 13px;
+              border-radius: 3px;
+            }
+          }
+        }
+      }
+      .menu {
+        img {
+          width: 2rem;
+        }
+      }
+    }
+    .moto {
+      display: grid;
+      place-items: center;
+      margin-top: 5rem;
+      margin-left: 1rem;
+      h1 {
+        font-size: 1.4em;
+        margin: 0.5em;
+        color: #fff;
+        .big {
+          font-size: 2rem;
+        }
+      }
+      a {
+        margin-left: 0rem;
+      }
+    }
+  }
+}
+.show-nav {
+  right: 0 !important;
+  z-index: 999999;
+}
+.we-do {
+  margin-top: 2rem;
+  .container {
+    .row {
+      margin-bottom: 5rem;
+      .img-container {
+        text-align: center;
+        img {
+          margin: 0 auto;
+          width: 12rem;
+        }
+      }
+      .cont-desc {
+        h1 {
+          margin-top: 1.5rem;
+          margin-bottom: 1.8rem;
+          font-size: 1rem;
+          font-weight: bold;
+        }
+        p {
+          line-height: 1.81rem;
+        }
+      }
+    }
+    .bg {
+      background: url(../Image/bg.jpg) no-repeat;
+      background-size: 15rem;
+      background-blend-mode: overlay;
+      background-position: center center;
+    }
+    .reverse {
+      flex-direction: column-reverse;
+    }
+    .backbg {
+      background: url(../Image/backbg.jpg) no-repeat;
+      background-size: cover;
+      background-blend-mode: overlay;
+      background-position: center center;
+      position: relative;
+    }
+  }
+}
+.offer {
+  margin-top: 4rem;
+  .container {
+    h1 {
+      text-align: center;
+      color: $primary-color;
+      font-weight: bold;
+      font-size: 21px;
+      margin-bottom: 3rem;
+    }
+    .offer-list {
+      background: url(../Image/offerbg.jpg) no-repeat;
+      background-size: 50rem;
+      background-blend-mode: overlay;
+      background-position: center center;
+
+      .offer-item {
+        .offer-img {
+          img {
+            width: 3rem;
+          }
+        }
+        .offer-cont {
+          h2 {
+            margin-bottom: 1rem;
+            font-weight: bold;
+          }
+          p {
+            line-height: 1.5rem;
+            margin-bottom: 2.4rem;
+          }
+        }
+      }
+    }
+  }
+}
+.gallery {
+  margin-top: 2rem;
+  .container {
+    h1 {
+      text-align: center;
+      color: $primary-color;
+      font-weight: bold;
+      font-size: 21px;
+      margin-bottom: 3rem;
+    }
+    
+  .gallery-container {
+    margin: 2rem;
+    display: grid;
+    grid-template-columns : repeat(1,1fr);
+  
+    grid-gap: 10px;
+  }
+  
+  .grid_image {
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    transition:0.5s ease-in;
+  }
+  
+  .grid_item {
+    position: relative;
+
+    overflow: hidden; 
+  }
+
+  
+  .grid_item:hover .grid_image {
+    transform : scale(1.1);
+    filter: blur(3px);
+  }
+  
+  .text {
+    font-size : 1.3rem;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+    font-weight:2rem;
+    display: none;
+  }
+  a{
+    text-decoration: none;
+ 
+      margin-top: 40px;
+      padding: 5px 10px;
+      background-color: transparent;
+      color:$primary-color;
+    
+    
+  }
+
+  .grid_item:hover .text {
+    display: block;
+    z-index: 999;
+    animation : slide 0.5s ease;
+  }
+  
+  
+  @keyframes slide {
+    0%{
+      top: -50%;
+    }
+    100% {
+      top: 40%;
+    }
+  }
+
+
+
+
+    .figure-container {
+      .row {
+        .gallery-image {
+          visibility: visible;
+          position: relative;
+          overflow: hidden;
+          .grid-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: 0.5s ease-in;
+            &:hover{
+              transform : scale(1.1);
+              filter: blur(2px);
+            }
+          }
+        }
+        .show-img {
+          visibility: hidden;
+        }
+      }
+      .image-list {
+        width: 0.1rem;
+      }
+    }
+  }
+}
+
+.call-to-action {
+  margin-top: 5rem;
+
+  overflow-x: hidden;
+  background: url(../Image/act.jpg) no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-position: center center;
+  text-align: center;
+  .call-title {
+    margin-top: 1rem;
+    color: #fff;
+  }
+  .call-btn {
+    margin-top: 0.5rem;
+  }
+}
+.client {
+  .container {
+    h1 {
+      margin-top: 3rem;
+      text-align: center;
+      color: $primary-color;
+      font-weight: bold;
+      font-size: 21px;
+      margin-bottom: 3rem;
+    }
+    .client-image {
+      .client-logo {
+        img {
+          width: 20rem;
+        }
+      }
+    }
+  }
+}
+.contact {
+  .container {
+    h1 {
+      margin-top: 3rem;
+      text-align: center;
+      color: $primary-color;
+      font-weight: bold;
+      font-size: 21px;
+      margin-bottom: 2rem;
+    }
+  }
+  .contact-container {
+    padding: 10px;
+  
+    overflow-x: hidden;
+    background: url(../Image/act2.jpg) no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-position: center center;
+    display: grid;
+    place-items: center;
+    .contact-list {
+      margin-top: 1rem;
+      div {
+        a {
+          display: flex;
+          align-items: center;
+          margin-bottom: 1.5rem;
+          .bx {
+            color: #fff;
+            font-size: 2rem;
+          }
+          span {
+            color: #fff;
+            font-size: 18px;
+          }
+        }
+      }
+    }
+    .contact-all {
+      display: none;
+    }
+  }
+}
+.map1 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  z-index: -1;
+  .location {
+    height: 30.5rem;
+    overflow: hidden;
+    .container {
+      .location-title {
+        margin-bottom: 2.64rem;
+      }
+    }
+    .map-responsive {
+      overflow: hidden;
+      padding-bottom: 56.25%;
+      position: relative;
+      height: 100%;
+      iframe {
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        position: absolute;
+      }
+    }
+  }
+}
+footer {
+  .container {
+    .footer-logo {
+      display: grid;
+      place-items: center;
+      margin-top: 2rem;
+      img {
+        width: 8rem;
+      }
+    }
+    .footer-service {
+      margin-top: 2rem;
+      // margin-right: 8rem;
+      // margin-left: 8rem;
+      h2 {
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        text-align: center;
+        font-weight: bold;
+      }
+      a {
+        display: inline-block;
+
+        img {
+          margin-top: 0.5rem;
+          margin-bottom: 0.5rem;
+          margin-left: 2rem;
+          width: 1.5rem;
+        }
+        .bx {
+          margin-top: 0.5rem;
+          color: gray;
+          margin-left: 1.77rem;
+          font-size: 1.5rem;
+        }
+      }
+    }
+  }
+  .footer-copyright {
+    margin-top: 2rem;
+    background-color: $secondary-color;
+    height: 2vh;
+    .container {
+      div {
+        font-size: 8px;
+        color: black;
+        text-align: center;
+      }
+    }
+  }
+}
+@include responsive($md) {
+  .home-header {
+    .container {
+      height: 100%;
+      img {
+        margin-top: 0.5rem;
+        width: 8rem;
+      }
+     .nav{
+      .menu {
+        img {
+          width: 3rem;
+        }
+      }
+     }
+      .moto {
+        margin-top: 7rem;
+        margin-left: 1rem;
+        h1 {
+          font-size: 2rem;
+          .big {
+            font-size: 3rem;
+          }
+        }
+      }
+    }
+  }
+  .we-do {
+    .container {
+      .reverse {
+        flex-direction: row;
+      }
+    }
+  }
+  .offer {
+    .container {
+      h1 {
+        text-align: center;
+        color: $primary-color;
+        font-weight: bold;
+        font-size: 21px;
+        margin-bottom: 3rem;
+      }
+      .offer-list {
+        .offer-item {
+          .offer-img {
+            img {
+              width: 3rem;
+              margin-top: 2rem;
+            }
+          }
+          .offer-cont {
+            h2 {
+              margin-bottom: 1rem;
+              font-weight: bold;
+            }
+            p {
+              line-height: 1.5rem;
+              margin-bottom: 2.4rem;
+            }
+          }
+        }
+      }
+    }
+  }
+  .call-to-action {
+    padding: 10px;
+    .call-title {
+      margin-top: 1.5rem;
+      font-size: 21px;
+    }
+    .call-btn {
+      margin-top: 0.5rem;
+    }
+  }
+  .gallery {
+    .container {
+      h1 {
+        font-size: 32px;
+      }
+      .gallery-container {
+        margin: 2rem;
+        display: grid;
+        grid-template-columns : repeat(3,1fr);
+        grid-template-rows: repeat(2, 20vw);
+        grid-gap: 10px;
+      }
+       
+  .text {
+    font-size : 2rem;
+    
+  }
+    }
+  }
+  .client {
+    .container {
+      .client-image {
+        display: flex;
+        .client-logo {
+          img {
+            width: 20rem;
+          }
+        }
+      }
+    }
+  }
+  .contact {
+    .container {
+      h1 {
+        margin-top: 3rem;
+        text-align: center;
+        color: $primary-color;
+        font-weight: bold;
+        font-size: 21px;
+        margin-bottom: 2rem;
+      }
+    }
+    .contact-container {
+      
+
+      .contact-list {
+        display: none;
+      }
+      .contact-all {
+        display: flex;
+        margin-top: 3rem;
+
+        .contact1,
+        .contact2 {
+          div {
+            margin-top: 1rem;
+            margin-left: 3rem;
+            margin-right: 3rem;
+            a {
+              display: flex;
+              align-items: center;
+              margin-bottom: 1.5rem;
+              .bx {
+                color: #fff;
+                font-size: 2rem;
+              }
+              span {
+                color: #fff;
+                font-size: 18px;
+              }
+            }
+          }
+        }
+        .mid-contact {
+          margin-top: 0.1rem;
+        }
+      }
+    }
+  }
+  .location {
+    .map-responsive {
+      gap: 0.1rem;
+    }
+  }
+  footer {
+    .container {
+      display: flex;
+      .footer-logo {
+        margin-right: 1rem;
+        margin-left: 1rem;
+        img {
+          width: 20rem;
+        }
+      }
+      .footer-service {
+        margin-top: 2rem;
+        font-size: 14px;
+        text-align: center;
+
+        h2 {
+          font-size: 18px;
+        }
+        a {
+          img {
+            margin-top: 1rem;
+
+            margin-left: 1rem;
+            width: 1.5rem;
+          }
+          .bx {
+            margin-top: 1rem;
+
+            margin-left: 1rem;
+            font-size: 1.5rem;
+          }
+        }
+      }
+    }
+    .footer-copyright {
+      .container {
+        div {
+          width: 100%;
+          text-align: center;
+          font-size: 12px;
+          overflow: hidden;
+        }
+      }
+    }
+  }
+}
+@include responsive($lg) {
+  .home-header {
+    .container {
+      height: 100%;
+      img {
+        margin-top: 0.5rem;
+        width: 8rem;
+      }
+      
+      .moto {
+        margin-top: 8rem;
+        margin-left: .6rem;
+        h1 {
+          font-size: 3rem;
+          .big {
+            font-size: 4rem;
+          }
+        }
+      }
+    }
+  }
+  .we-do {
+    .container {
+      margin-top: 5rem;
+      .reverse {
+        flex-direction: row;
+      }
+      .row {
+        .cont-desc {
+          h1 {
+            font-size: 18px;
+          }
+          p {
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  }
+
+
+  .call-to-action {
+    
+    .call-title {
+      margin-left: 2rem;
+    margin-right: 2rem;
+      margin-top: 2rem;
+      font-size: 28px;
+    }
+    .call-btn {
+      margin-top: 0.5rem;
+    }
+  }
+  .map1 {
+    margin-bottom: 2rem;
+    .location {
+      height: 30rem;
+      .map-responsive {
+        height: 100%;
+        padding: 0;
+      }
+    }
+  }
+  .client {
+    .container {
+      .client-image {
+        margin-left: 2rem;
+        display: flex;
+        gap:7rem;
+        .client-logo {
+          img {
+            width: 20rem;
+          }
+        }
+      }
+    }
+  }
+  footer {
+    .container {
+      display: flex;
+      .footer-logo {
+        margin-right: 1rem;
+        margin-left: 1rem;
+        img {
+          width: 20rem;
+        }
+      }
+      .footer-service {
+        margin-top: 2rem;
+        font-size: 14px;
+        text-align: center;
+
+        h2 {
+          font-size: 18px;
+        }
+        a {
+          img {
+            margin-top: 1rem;
+
+            margin-left: 1rem;
+            width: 1.5rem;
+          }
+          .bx {
+            margin-top: 1rem;
+
+            margin-left: 1rem;
+            font-size: 1.5rem;
+          }
+        }
+      }
+    }
+    .footer-copyright {
+      .container {
+        div {
+          width: 100%;
+          text-align: center;
+          font-size: 12px;
+          overflow: hidden;
+        }
+      }
+    }
+  }
+}
+@include responsive($xl) {
+  .home-header {
+    width: 100%;
+    height: 130vh;
+    background: url(../Image/homebg-xxl.svg) no-repeat;
+    .container {
+      height: 100%;
+      img {
+        margin-top: 0.5rem;
+        width: 8rem;
+      }
+      .nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .nav-container {
+          display: block;
+          background: transparent;
+          z-index: 999999;
+          position: static;
+          text-align: right;
+          margin-right: 0.5rem;
+          width: auto;
+          height: auto;
+          top: 0;
+          right: 0vw;
+          transition: all 0.3s linear;
+          .close-btn {
+            display: none;
+          }
+          h2 {
+            margin-top: 1rem;
+            margin-left: 3rem;
+            font-size: 18px;
+            color: #fff;
+            display: block;
+            img {
+              margin-left: 0.5rem;
+              margin-right: 0.5rem;
+              margin-top: 0.3rem;
+            }
+          }
+          ul {
+            color: #fff;
+            flex-direction: row;
+            top: 0em;
+            li {
+              display: inline-block;
+              line-height: 80px;
+              margin: 0 5px;
+              position: relative;
+
+              a {
+                color: #fff;
+                font-size: 1.3rem;
+                padding: 7px 13px;
+                border-radius: 3px;
+                text-decoration: none;
+
+                &:hover {
+                  font-size: 1.6rem;
+                  font-weight: bold;
+                  color: #fff;
+
+                  &::after {
+                    width: 100%;
+                  }
+                }
+              }
+            }
+          }
+        }
+        .menu {
+          display: none;
+        }
+      }
+      .moto {
+        margin-top: 12rem;
+        margin-left: 1rem;
+        h1 {
+          font-size: 3.4em;
+          margin: 0.5em;
+
+          .big {
+            font-size: 5rem;
+          }
+        }
+      }
+    }
+  }
+  .we-do {
+    .container {
+      margin-top: 8rem;
+
+      .row {
+        .img-container{
+          img{
+            width: 20rem;
+          }
+
+        }
+
+        .cont-desc {
+          h1 {
+            font-size: 32px;
+          }
+          p {
+            font-size: 21px;
+          }
+        }
+      }
+    }
+  }
+  .offer {
+    .container {
+      h1 {
+        font-size: 32px;
+        margin-bottom: 5rem;
+      }
+      .offer-list {
+        .offer-item {
+          .offer-img {
+            img {
+              width: 4rem;
+              margin-top: 3rem;
+            }
+          }
+          .offer-cont {
+            margin-top: 3rem;
+            h2 {
+              font-size: 24px;
+            }
+            p {
+              margin-top: 2rem;
+              font-size: 21px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .gallery {
+    .container {
+      h1 {
+        font-size: 32px;
+      }
+      .gallery-container {
+        margin: 2rem;
+        display: grid;
+        grid-template-columns : repeat(3,1fr);
+        grid-template-rows: repeat(2, 20vw);
+        grid-gap: 10px;
+      }
+    }
+  }
+  .client {
+    .container {
+      h1 {
+        font-size: 32px;
+      }
+      .client-image {
+        margin-left: 7rem;
+        place-items: center;
+        gap: 15rem;
+        display: flex;
+        .client-logo1,
+        .client-logo2 {
+          img {
+            width: 28rem;
+          }
+        }
+      }
+    }
+  }
+  .contact {
+    margin-bottom: 2rem;
+    .container {
+      h1 {
+        font-size: 32px;
+      }
+    }
+    .contact-container {
+     
+
+      .contact-all {
+        display: flex;
+        margin-top: 2.4rem;
+
+        .contact1,
+        .contact2 {
+          div {
+            margin-top: 1rem;
+            margin-left: 3rem;
+            margin-right: 3rem;
+            a {
+              display: flex;
+              align-items: center;
+              margin-bottom: 1.5rem;
+              .bx {
+                margin-right: 1rem;
+                color: #fff;
+                font-size: 2.677rem;
+              }
+              span {
+                color: #fff;
+                font-size: 24px;
+              }
+            }
+          }
+        }
+        .mid-contact {
+          margin-top: 0.1rem;
+        }
+      }
+    }
+  }
+  footer {
+    .container {
+      display: flex;
+      .footer-logo {
+        margin-right: 1rem;
+        margin-left: 1rem;
+        img {
+          width: 15rem;
+        }
+      }
+      .footer-service {
+        margin-right: 1rem;
+        margin-left: 1rem;
+        margin-top: 2rem;
+        font-size: 20px;
+        text-align: center;
+
+        h2 {
+          font-size: 21px;
+        }
+        a {
+          img {
+            margin-top: 1rem;
+
+            margin-left: 2rem;
+            width: 2rem;
+          }
+          .bx {
+            margin-top: 1rem;
+
+            margin-left: 2rem;
+            font-size: 2rem;
+          }
+        }
+      }
+    }
+    .footer-copyright {
+      .container {
+        div {
+          width: 100%;
+          text-align: center;
+          font-size: 12px;
+          overflow: hidden;
+        }
+      }
+    }
+  }
+}
+
+@include responsive($xxl) {
+  .home-header {
+    height: 100vh;
+    background: url(../Image/homebg-xxl.svg) no-repeat;
+
+    .container {
+      height: 100%;
+      img {
+        margin-top: 0.5rem;
+        width: 8rem;
+      }
+    }
+    .moto {
+      display: grid;
+      place-items: center;
+      margin-top: 5rem;
+      margin-left: 1rem;
+      h1 {
+        font-size: 3em;
+        margin: 0.5em;
+        color: #fff;
+        .big {
+          font-size: 2rem;
+        }
+      }
+      a {
+        margin-left: 0rem;
+      }
+    }
+
+  }
+  .gallery {
+    margin-top: 2rem;
+    .container {
+      h1 {
+        text-align: center;
+        color: $primary-color;
+        font-weight: bold;
+        font-size: 21px;
+        margin-bottom: 3rem;
+      }
+      .figure-container {
+        .row {
+          .gallery-image {
+            visibility: visible;
+          }
+          .show-img {
+            visibility: hidden;
+          }
+        }
+        .image-list {
+          width: 0.1rem;
+        }
+      }
+    }
+  }
+
+  .client {
+    .container {
+      
+      .client-image {
+        gap:20rem;
+       
+       
+      }
+    }
+  }
+
+
+
+}

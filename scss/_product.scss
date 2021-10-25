@@ -1,0 +1,156 @@
+.links {
+  .container {
+    .links-list {
+      ul {
+          display: grid;
+          grid-template-columns: 1fr 1fr ;
+          
+        li {
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            text-align: center;
+          a {
+            text-decoration: none;
+          
+
+            &:hover {
+                color: $secondary-color;
+
+                &::after {
+                  width: 100%;
+                }
+              }
+          }
+          .active {
+            color: $primary-color;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+    .divide2{
+        display: none;
+    }
+  }
+}
+@include responsive($lg)
+{
+    .links {
+
+        .container {
+          .links-list {
+            ul {
+                margin-top: 2rem;
+                grid-template-columns: 1fr 1fr 1fr ;
+                
+           
+            }
+          }
+          .divide{
+              margin-top: 1rem;
+              margin-left: 10rem;
+             
+              overflow: hidden;
+          }
+        }
+      }   
+}
+
+@include responsive($xl){
+    .links {
+    
+        .container {
+            
+          
+          .links-list {
+           
+              
+            ul {
+                margin-top: 2rem;
+              
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                
+              li {
+                  margin-top: 1rem;
+                  margin-bottom: 1rem;
+                  text-align: center;
+                  line-height: 2rem;
+                a {
+                    font-size: 24px;
+                  text-decoration: none;
+
+                
+      
+                  &:hover {
+                      color: $secondary-color;
+      
+                      &::after {
+                        width: 100%;
+                      }
+                    }
+                }
+                .active {
+                  color: $primary-color;
+                  font-weight: bold;
+                }
+              }
+            }
+          }
+          .divide{
+            margin-top: 3rem;
+            margin-left: 25rem;
+           
+            overflow: hidden;
+             
+          }
+        
+        }
+      }
+      
+        
+}
+@include responsive($xxl){
+    .links {
+        .container {
+            
+          
+            .links-list {
+             
+                
+              ul {
+                  margin-top: 4rem;
+                
+                  display: grid;
+                  grid-template-columns: 1fr 1fr 1fr;
+                  
+                li {
+                    margin-top: 1rem;
+                    margin-bottom: 1.5rem;
+                    text-align: center;
+                    line-height: 2rem;
+                  a {
+                      font-size: 28px;
+                    text-decoration: none;
+  
+                  
+        
+                
+                  }
+                
+                }
+              }
+            }
+            .divide{
+              margin-top: 1rem;
+              margin-left: 40rem;
+           
+               
+            }
+          
+          }
+  
+  
+      
+    }     
+}
