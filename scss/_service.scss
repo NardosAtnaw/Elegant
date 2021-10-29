@@ -1,76 +1,85 @@
 .service-header {
-    height: 30vh;
+
     overflow-x: hidden;
-    background: url(../Image/pagescover.jpg) no-repeat;
+    background: url(../Image/back.jpg) no-repeat;
     background-size: cover;
     background-blend-mode: overlay;
     background-position: center center;
     position: relative;
-    .nav {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        .logo{
-            width: 4rem;
-            margin-top: .3rem;
-        }
-  
-        .nav-container {
-          background: #fff;
-          z-index: 999999;
-          position: fixed;
-          width: 80vw;
-          height: 100vh;
-          top: 0;
-          right: -80vw;
-          transition: all 0.3s linear;
-          .close-btn {
-           color:$primary-color;
+    .container{
+width: 100%-10%;
+
+      .nav {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          .logo{
+            margin-top: .5rem;
+            width: 9rem;
+            margin-left: .5rem;
           }
-  
-          ul {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-around;
-            height: 60%;
-            padding-left: 2rem;
-            list-style: none;
-            li {
-              a {
-                color: $primary-color;
-                font-size: 25px;
-                text-decoration: none;
-                padding: 7px 13px;
-                border-radius: 3px;
-               
+    
+          .nav-container {
+            
+            background: #fff;
+            z-index: 999999;
+            position: fixed;
+            width: 80vw;
+            height: 100vh;
+            top: 0;
+            right: -80vw;
+            transition: all 0.3s linear;
+            .close-btn {
+             color:$thrid-color;
+            }
+    
+            ul {
+              display: flex;
+              flex-direction: column;
+              justify-content: space-around;
+              height: 60%;
+              padding-left: 2rem;
+              list-style: none;
+              li {
+                a {
+                  color: $thrid-color;
+                  font-size: 25px;
+                  text-decoration: none;
+                  padding: 3px 13px;
+                  border-radius: 3px;
+                 
+                }
               }
             }
           }
-        }
-        .menu {
-          img {
-            width: 2rem;
+          .menu {
+            img {
+              width: 2rem;
+              margin-right: .5rem;
+            }
           }
         }
-      }
-      .moto {
-        display: grid;
-        place-items: center;
-        margin-top: 2rem;
-        margin-left: 1rem;
-        h1 {
-          font-size: 1rem;
-          margin: 0.5em;
-          color: #fff;
-          .big {
-            font-size: 1.5rem;
+        .moto {
+          display: grid;
+          place-items: center;
+          margin-top: 4rem;
+          margin-left: 1rem;
+          padding: 10px;
+          margin-bottom: 3rem;
+          h1 {
+            font-size: 1rem;
+            margin: 0.5em;
+            color: #fff;
+            .big {
+              font-size: 1.5rem;
+            }
+          }
+          a {
+            margin-top: .66rem;
+            margin-left: 6rem;
           }
         }
-        a {
-          margin-top: .66rem;
-          margin-left: 6rem;
-        }
-      }
+    }
   }
   
   @include responsive($md){
@@ -79,12 +88,12 @@
           height: 100%;
           img {
             margin-top: 0.5rem;
-            width: 8rem;
+            width: 15rem;
           }
           .nav{
             .menu {
               img {
-                width: 3rem;
+                width: 2.5rem;
               }
             }
            }
@@ -106,9 +115,10 @@
   }
   @include responsive($lg){
     .service-header {
-        height: 25vh;
+  
         
         .container {
+         
           height: 100%;
           .logo{
             margin-top: 0.5rem;
@@ -118,10 +128,8 @@
             margin-top: 3rem;
             margin-left: 1rem;
             h1 {
-              font-size: 2.55rem;
-              .big {
-                font-size: 3.5rem;
-              }
+              font-size: 2rem;
+             
             }
             a{
                 margin-left: 30rem;
@@ -132,76 +140,84 @@
       }
   }
   @include responsive($xl){
-    .service-header {
-        height: 45vh;
-        
+    .service-header {   
         .container {
-         
+          width: 100%-20%;
           .logo{
             margin-top: 0.5rem;
-            width: 6.3rem;
+            width: 8rem;
           }
-          .nav-container {
-            display: block;
-            background: transparent;
-            z-index: 999999;
-            position: static;
-            text-align: right;
-            margin-right: .5rem;
-            width: auto;
-            height: auto;
-            top: 0;
-            right: 0vw;
-            transition: all 0.3s linear;
-            .close-btn {
-              display: none;
-            }
-            h2 {
-              margin-top: 1rem;
-              margin-left: 3rem;
-              font-size: 18px;
-              color: #fff;
+          .nav {
+           
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+    
+            .nav-container {
               display: block;
-              img {
-                margin-left: 0.5rem;
-                margin-right: 0.5rem;
-                margin-top: 0.3rem;
+              background: transparent;
+              z-index: 999999;
+              position: static;
+              text-align: right;
+              margin-right: 0.5rem;
+              width: auto;
+              height: auto;
+              top: 0;
+              right: 0vw;
+              transition: all 0.3s linear;
+              .close-btn {
+                display: none;
               }
-            }
-            ul {
-              color: #fff;
-              flex-direction: row;
-              top: 0em;
-              li {
-                display: inline-block;
-                line-height: 80px;
-                margin: 0 5px;
-                position: relative;
-  
-                a {
-                  color: #fff;
-                  font-size:1.3rem;
-                  padding: 7px 13px;
-                  border-radius: 3px;
-                  text-decoration: none;
-                  
-                  
-                  &:hover {
-                    font-size: 1.6rem;
-                    font-weight: bold;
-                    color:#fff;
-  
-                    &::after {
-                      width: 100%;
+              h2 {
+                margin-top: 1rem;
+                margin-left: 3rem;
+                font-size: 18px;
+                color: #fff;
+                display: block;
+                img {
+                  margin-left: 0.5rem;
+                  margin-right: 0.5rem;
+                  margin-top: 0.3rem;
+                }
+              }
+              ul {
+                color: #fff;
+                flex-direction: row;
+                top: 0em;
+                li {
+                  display: inline-block;
+                  line-height: 80px;
+                  margin: 0 5px;
+                  position: relative;
+    
+                  a {
+                    color: #fff;
+                    font-size: 1.3rem;
+                    padding: 7px 13px;
+                    border-radius: 3px;
+                    text-decoration: none;
+    
+                    &:hover {
+                      font-size: 1.6rem;
+                      font-weight: bold;
+                      color: #fff;
+    
+                      &::after {
+                        width: 100%;
+                      }
                     }
                   }
                 }
               }
             }
+            .menu {
+              display: none;
+            }
           }
           .moto {
+      
             
-            margin-top: 6rem;
+            margin-top: 3rem;
             margin-left: 1rem;
             h1 {
               font-size: 3rem;
@@ -219,8 +235,7 @@
   }
   @include responsive($xxl){
     .service-header {
-        height: 50vh;
-        
+       
         .container {
          
           .logo{

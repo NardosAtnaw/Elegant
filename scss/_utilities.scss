@@ -3,10 +3,11 @@
 
  
 // Variables 
-$font: 'Montserrat Alternates', sans-serif;
+$font: 'Montserrat', sans-serif;
 $columns: 12;
 $primary-color: #FF0101;
 
+$thrid-color: #4D4B4B;
 $secondary-color: #cecece;
 
 
@@ -16,7 +17,7 @@ body{
 }
 // Gird system
 .container {
-  width: 100% - 10%;
+  width: 100% - 20%;
   // max-width: 1200px;
   margin: 0 auto;
 }

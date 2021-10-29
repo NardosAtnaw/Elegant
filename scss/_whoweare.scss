@@ -20,7 +20,10 @@
         }
         .story{
             p{
-                line-height: 1.8rem;
+                font-size: .8rem;
+                margin-top: 3rem;
+                text-align: center;
+                line-height: 1.4rem;
                 color: #777474;
             }
 
@@ -31,7 +34,7 @@
     
     .ourstory{
         background: url(../Image/offerbg.jpg) no-repeat;
-        background-size: 50rem;
+        background-size: 60rem;
         background-blend-mode: overlay;
         background-position: center center;
         margin-top: 5rem;
@@ -56,8 +59,32 @@
             }
             .story{
                 p{
-                  font-size: 24px;
-                  line-height: 3rem;
+                  font-size: 1.5rem;
+                  line-height: 2rem;
+                  margin-left: 5rem;
+                  margin-right: 5rem;
+                }
+    
+            }
+        }
+    }
+
+}
+
+@include responsive($xl){
+    
+    .ourstory{
+        margin-top: 5rem;
+        .container {
+            margin-left: 10rem;
+            margin-right: 10rem;
+     
+          
+            .story{
+                p{
+                  
+                  font-size: 1.2rem;
+                  line-height: 2rem;
                   margin-left: 5rem;
                   margin-right: 5rem;
                 }
