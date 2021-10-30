@@ -1,5 +1,5 @@
 ---
 deployment:
  tasks:
- - export DEPLOYPATH=/home/elegantprintsolutions/public_html/
+ - export DEPLOYPATH=/home/elegantprintsolu/public_html/
  - /bin/cp -R * $DEPLOYPATH
