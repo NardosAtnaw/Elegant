@@ -363,9 +363,10 @@ object-fit: cover;
     }
 
     .client-image {
-      .client-logo {
+      .client-logo3, .client-logo2, .client-logo1,.client-logo4, .client-logo5 {
         img {
-          width: 25rem;
+        
+        width: 10rem;
         }
       }
     }
@@ -416,7 +417,7 @@ object-fit: cover;
           span {
             margin-left: 1rem;
             color: $thrid-color;
-            font-size: 1rem;
+            font-size: .9rem;
           }
         }
       }
@@ -1041,7 +1042,7 @@ footer {
           }
         }
         .offer-item {
-          margin-top: 3rem;
+          // margin-top: 3rem;
           .offer-cont {
             margin-top: 3rem;
             h2 {
@@ -1100,7 +1101,7 @@ footer {
     
       .client-image {
         .client-logo3,
-        .client-logo2, .client-logo1 {
+        .client-logo2, .client-logo1, .client-logo4, .client-logo5{
           img {
             width: 55rem;
           }
@@ -1130,7 +1131,7 @@ footer {
               margin-top: .1rem;
             }
             span {
-              font-size: 1.6rem;
+              font-size: 1rem;
             }
           }
         }
@@ -1199,7 +1200,7 @@ footer {
 @include responsive($xxl) {
   .home-header {
 
-
+    height:100vh;
 
     .container {
       height: 100%;
@@ -1262,7 +1263,8 @@ footer {
       margin-left: 5rem;
 
       .client-image {
-        gap: 22rem;
+        margin-top: 2rem;
+       
       }
     }
   }

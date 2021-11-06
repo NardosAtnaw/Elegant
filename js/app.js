@@ -75,6 +75,8 @@ if(window.innerWidth > 1152){
 const client1 = document.querySelector('.client1')
 const client2 = document.querySelector('.client2')
 const client3 = document.querySelector('.client3')
+const client4 = document.querySelector('.client4')
+const client5 = document.querySelector('.client5')
 
 client1.addEventListener('mouseover', () =>{
   client1.setAttribute('src','./Image/c6.png')
@@ -96,3 +98,17 @@ client1.addEventListener('mouseleave', () =>{
     client3.addEventListener('mouseleave', () =>{
         client3.setAttribute('src','./Image/c1.png')
       })
+
+      client4.addEventListener('mouseover', () =>{
+        client4.setAttribute('src','./Image/client5.png')
+      })
+      client4.addEventListener('mouseleave', () =>{
+          client4.setAttribute('src','./Image/client6.png')
+        })
+    
+        client5.addEventListener('mouseover', () =>{
+          client5.setAttribute('src','./Image/client8.png')
+        })
+        client5.addEventListener('mouseleave', () =>{
+            client5.setAttribute('src','./Image/client7.png')
+          })

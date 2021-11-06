@@ -1807,8 +1807,8 @@ body {
   font-weight: lighter;
 }
 
-.client .container .client-image .client-logo img {
-  width: 25rem;
+.client .container .client-image .client-logo3 img, .client .container .client-image .client-logo2 img, .client .container .client-image .client-logo1 img, .client .container .client-image .client-logo4 img, .client .container .client-image .client-logo5 img {
+  width: 10rem;
 }
 
 .contact .container h1 {
@@ -1859,7 +1859,7 @@ body {
 .contact .contact-container .contact-list div a span {
   margin-left: 1rem;
   color: #4D4B4B;
-  font-size: 1rem;
+  font-size: .9rem;
 }
 
 .contact .contact-container .contact-btn {
@@ -2372,9 +2372,6 @@ footer .footer-copyright .container div {
   .offer .container .offer-list .service-list img {
     width: 4rem;
   }
-  .offer .container .offer-list .offer-item {
-    margin-top: 3rem;
-  }
   .offer .container .offer-list .offer-item .offer-cont {
     margin-top: 3rem;
   }
@@ -2420,7 +2417,7 @@ footer .footer-copyright .container div {
     font-size: 1rem;
   }
   .client .container .client-image .client-logo3 img,
-  .client .container .client-image .client-logo2 img, .client .container .client-image .client-logo1 img {
+  .client .container .client-image .client-logo2 img, .client .container .client-image .client-logo1 img, .client .container .client-image .client-logo4 img, .client .container .client-image .client-logo5 img {
     width: 55rem;
   }
   .contact {
@@ -2443,7 +2440,7 @@ footer .footer-copyright .container div {
     margin-top: .1rem;
   }
   .contact .contact-container .contact-list div a span {
-    font-size: 1.6rem;
+    font-size: 1rem;
   }
   .contact .contact-container .contact-btn .btn {
     margin-top: 5rem;
@@ -2491,6 +2488,9 @@ footer .footer-copyright .container div {
 }
 
 @media screen and (min-width: 1920px) {
+  .home-header {
+    height: 100vh;
+  }
   .home-header .container {
     height: 100%;
   }
@@ -2526,7 +2526,7 @@ footer .footer-copyright .container div {
     margin-left: 5rem;
   }
   .client .container .client-image {
-    gap: 22rem;
+    margin-top: 2rem;
   }
   .contact {
     margin-top: 10rem;
