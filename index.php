@@ -29,8 +29,10 @@
             <ul>
               <li><a href="whoweare.html">Who We Are</a></li>
               <li><a href="service.html">Service</a></li>
-              <li><a href="project.html">Our Designs</a></li>
+              <li><a href="project.php">Our Designs</a></li>
               <li><a href="contact.html">Contact Us</a></li>
+              <li><a href="./admin/index.php">Admin</a></li>
+          
             </ul>
           </div>
           <div class="menu">
@@ -50,7 +52,7 @@
             <!-- <img src="./Image/illust1.svg" alt="" /> -->
           </div>
           <div class="cont-desc">
-            <h1>Creative Graphics Designs</h1>
+            <h1> </h1>
             <p>
               We offer a wide range of graphic design in small quantity
               catalogue, brochure, business card, greeting card, magazine
@@ -73,94 +75,118 @@
         </h1>
 
         <div class="offer-list row align-center">
-          <!-- <div class="service-list col-12">
-            <img src="./Image/Service1.svg" alt="" />
-            <img src="./Image/service4.svg" alt="" />
-            <img src="./Image/service3.svg" alt="" />
-            <img src="./Image/service2.svg" alt="" />
-            <img src="./Image/service5.svg" alt="" />
-          </div> -->
-          <div class="offer-col col-md-6 col-xl-5">
-            <div class="offer-item row">
-              <div class="offer-img col-3 col-md-3 col-xxl-3">
-                <img src="./Image/Service1.svg" alt="" />
-              </div>
-              <div class="offer-cont col-12 col-md-12 col-xxl-6">
-                <h2>Printing Services</h2>
+      <div class="offer1 row">
+        <div class="offer-col col-12 col-xl-12 ">
+          <div class="offer-image ">
+          <img src="./Image/Service1.svg" alt="" />
+
+          </div>
+          <div class="offer-desc">
+          <h2>Printing Services</h2>
                 <p>
                   Our packaging design and our Point of Sale designs are
                   practical, cost-effective and absolutely great at grabbing
                   attention.
                 </p>
-              </div>
-            </div>
-            <div class="offer-item row">
-              <div class="offer-img col-3 col-md-3 col-xxl-3">
-                <img src="./Image/Service4.svg" alt="" />
-              </div>
-              <div class="offer-cont col-12 col-md-12 col-xxl-6">
-                <h2>Graphics Designs</h2>
-                <p>
-                  We offer a wide range of graphic design in small quantity
-                  catalogue, Brochure, Business Card... services to clients.
-                </p>
-              </div>
-            </div>
-            <div class="offer-item row">
-              <div class="offer-img col-3 col-md-3 col-xxl-3">
-                <img src="./Image/Service5.svg" alt="" />
-              </div>
-              <div class="offer-cont col-12 col-md-12 col-xxl-6">
-                <h2>Branding</h2>
-                <p>
-                  We believe a brand image should be one of your strongest
-                  assets, communicating the essence of your business.
-                </p>
-              </div>
-            </div>
           </div>
 
-          <div class="offer-col col-md-6 col-xl-5 col-xl-offset-1">
-            <div class="offer-item row">
-              <div class="offer-img col-3 col-md-3 col-xxl-3">
-                <img src="./Image/Service3.svg" alt="" />
-              </div>
-              <div class="offer-cont col-12 col-md-12 col-xxl-6">
-                <h2>Packaging</h2>
+        </div>
+
+      </div>
+      <div class="offer1 row">
+        <div class="offer-col col-12 col-xl-12  ">
+          <div class="offer-image ">
+          <img src="./Image/service3.svg" alt="" />
+
+          </div>
+          <div class="offer-desc">
+          <h2>Packaging</h2>
                 <p>
                   Our packaging design and our Point of Sale designs are
                   practical and absolutely great at grabbing attention.
                 </p>
-              </div>
-            </div>
-            <div class="offer-item row">
-              <div class="offer-img col-3 col-md-3 col-xxl-3">
-                <img src="./Image/Service5.svg" alt="" />
-             </div>
-             <div class="offer-cont col-12 col-md-12 col-xxl-6">
-               <h2>Car Branding</h2>
+          </div>
+
+        </div>
+
+      </div>
+      
+      <div class="offer1 row">
+        <div class="offer-col col-12 col-xl-12 ">
+          <div class="offer-image ">
+          <img src="./Image/service4.svg" alt="" />
+
+          </div>
+          <div class="offer-desc">
+          <h2>Graphics Designs</h2>
+                <p>
+                  We offer a wide range of graphic design in small quantity
+                  catalogue, Brochure, Business Card... services to clients.
+                </p>
+          </div>
+
+        </div>
+
+      </div>
+        
+      <div class="offer1 row">
+        <div class="offer-col col-12 col-xl-12 ">
+          <div class="offer-image ">
+          <img src="./Image/service2.svg" alt="" />
+
+          </div>
+          <div class="offer-desc">
+          <h2>Logo Design</h2>
                <p>
                  Your logo design or brand image should be one of your
                  strongest assets, communicating the essence of your business
                  and what you aspire to.
                </p>
-             </div>
-           </div>
-            <div class="offer-item row">
-              <div class="offer-img col-3 col-md-3 col-xxl-3">
-                <img src="./Image/Service2.svg" alt="" />
-              </div>
-              <div class="offer-cont col-12 col-md-12 col-xxl-6">
-                <h2>Car Branding</h2>
-                <p>
-                  Your logo design or brand image should be one of your
-                  strongest assets, communicating the essence of your business
-                  and what you aspire to.
-                </p>
-              </div>
-            </div>
-          
           </div>
+
+        </div>
+
+      </div>
+      <div class="offer1 row">
+        <div class="offer-col col-12 col-xl-12 ">
+          <div class="offer-image ">
+          <img src="./Image/service5.svg" alt="" />
+
+          </div>
+          <div class="offer-desc">
+          <h2>Branding</h2>
+                <p>
+                  We believe a brand image should be one of your strongest
+                  assets, communicating the essence of your business.
+                </p>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="offer1 row">
+        <div class="offer-col col-12 col-xl-12 ">
+          <div class="offer-image ">
+          <img src="./Image/service4.svg" alt="" />
+
+          </div>
+          <div class="offer-desc">
+          <h2>Car Branding</h2>
+                <p>
+                Your logo design or brand image should be one of your
+                 strongest assets to your business
+                 and what you aspire to.
+                </p>
+          </div>
+
+        </div>
+
+      </div>
+
+
+
+
         </div>
       </div>
     </section>

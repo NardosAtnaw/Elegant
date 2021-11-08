@@ -65,6 +65,9 @@ object-fit: cover;
               text-decoration: none;
               padding: 7px 13px;
               border-radius: 3px;
+              .admin-img{
+                width: 1rem;
+              }
             }
           }
         }
@@ -196,10 +199,39 @@ object-fit: cover;
           width: 2rem;
         }
       }
+      .offer1{
+        
+        .offer-col{
+          text-align: center;
+          .offer-image{
+            width: 2rem;
+            margin-left: 8rem;
+            margin-bottom: 1rem;
+
+          }
+          .offer-desc{
+            h2 {
+              color: $thrid-color;
+              font-weight: bold;
+          
+              margin-bottom: 1rem;
+            }
+            p {
+              line-height: 1.5rem;
+              margin-bottom: 2rem;
+              color: gray;
+              
+              margin-left: 1rem;
+              margin-right: 1rem;
+            }
+          }
+        }
+      }
       .offer-item {
         .offer-img {
           img {
             width: 2.55rem;
+           
           }
         }
         .offer-cont {
@@ -363,10 +395,16 @@ object-fit: cover;
     }
 
     .client-image {
-      .client-logo3, .client-logo2, .client-logo1,.client-logo4, .client-logo5 {
+      .client-logo3, .client-logo2, .client-logo1 {
         img {
-        
+        margin-left: 4rem;
         width: 10rem;
+        }
+      }
+      .client-logo4, .client-logo5 {
+        img {
+        margin-left:5rem;
+        width: 7rem;
         }
       }
     }
@@ -409,10 +447,10 @@ object-fit: cover;
 
           .bx {
             color: $thrid-color;
-            font-size: 2rem;
+            font-size: 1.5rem;
           }
           img {
-            width: 2rem;
+            width: 1.5rem;
           }
           span {
             margin-left: 1rem;
@@ -465,6 +503,32 @@ footer {
       img {
         width: 15rem;
       }
+      h1 {
+        font-size: 1rem;
+        margin-top: 1rem;
+        
+        color: $primary-color;
+        font-weight: bold;
+      }
+    }
+
+    div{
+      a {
+        display: inline-block;
+
+        img {
+          margin-top: 0.5rem;
+          margin-bottom: 0.5rem;
+          margin-left: 2rem;
+          width: 1.6rem;
+        }
+        .bx {
+          margin-top: 2rem;
+          color: $thrid-color;
+         margin-right: 1rem;
+          font-size: 1.3rem;
+        }
+      }
     }
     .footer-service {
       margin-top: 2rem;
@@ -507,7 +571,7 @@ footer {
   .footer-copyright {
     margin-top: 2rem;
     background-color: $secondary-color;
-    height: 2vh;
+    height: 1.5vh;
     .container {
       div {
         font-size: 8px;
@@ -565,6 +629,21 @@ footer {
         }
       }
       .offer-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        .offer1{
+        
+          .offer-col{
+      
+            .offer-image{
+              width: 2.5rem;
+         
+              margin-bottom: 1.3rem;
+  
+            }
+         
+          }
+        }
         .service-list {
           margin-left: 3rem;
           margin-bottom: 3rem;
@@ -634,10 +713,18 @@ footer {
         }
       }
       .client-image {
-        display: flex;
-        .client-logo {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        .client-logo3, .client-logo2, .client-logo1 {
           img {
-            width: 20rem;
+          margin-left: 0rem;
+          width: 10rem;
+          }
+        }
+        .client-logo4, .client-logo5 {
+          img {
+          margin-left:0rem;
+          width: 7rem;
           }
         }
       }
@@ -679,13 +766,35 @@ footer {
   }
   footer {
     .container {
+     
       width: 100% - 10%;
       display: flex;
+      justify-content: center;
       .footer-logo {
+     
         margin-right: 1rem;
         margin-left: 1rem;
         img {
-          width: 35rem;
+          width: 20rem;
+        }
+        div{
+          
+          a {
+            display: inline-block;
+    
+            img {
+              margin-top: 0.5rem;
+              margin-bottom: 0.5rem;
+              margin-left: 2rem;
+              width: 1.6rem;
+            }
+            .bx {
+              margin-top: 2rem;
+              color: $thrid-color;
+             margin-right: 1rem;
+              font-size: 1.6rem;
+            }
+          }
         }
       }
       .footer-service {
@@ -733,7 +842,7 @@ footer {
       height: 100%;
       img {
         margin-top: 0.5rem;
-        width: 15rem;
+        width: 10rem;
       }
 
       .moto {
@@ -772,6 +881,29 @@ footer {
     margin-bottom: 10rem;
     .container {
       .offer-list {
+        .offer1{
+        
+          .offer-col{
+      
+            .offer-image{
+              width: 3rem;
+              margin-left: 11rem;
+              margin-bottom: 1.3rem;
+  
+            }
+            .offer-desc{
+              h2{
+                font-size: 1.3rem;
+              }
+              p{
+                font-size: 1rem;
+                margin-left: 2rem;
+                margin-right: 2rem;
+              }
+            }
+         
+          }
+        }
         .service-list {
           margin-left: 2rem;
 
@@ -828,12 +960,16 @@ footer {
     margin-bottom: 10rem;
     .container {
       .client-image {
-        margin-left: 1rem;
-        display: flex;
-        gap: 7rem;
-        .client-logo {
+        .client-logo3, .client-logo2, .client-logo1 {
           img {
-            width: 30rem;
+          margin-left: 0rem;
+          width: 10rem;
+          }
+        }
+        .client-logo4, .client-logo5 {
+          img {
+          margin-left:1rem;
+          width: 7rem;
           }
         }
       }
@@ -846,7 +982,7 @@ footer {
       .contact-list {
         margin-left: 15rem;
         img {
-          width: 3rem;
+          width: 1rem;
         }
       }
     }
@@ -858,7 +994,29 @@ footer {
         margin-right: 1rem;
         margin-left: 1rem;
         img {
-          width: 40rem;
+          width: 30rem;
+        }
+        h1 {
+          font-size: 1.33rem;
+          
+        }
+        div{
+          
+          a {
+            display: inline-block;
+    
+            img {
+              margin-top: 0.5rem;
+              margin-bottom: 0.5rem;
+              margin-left: 2rem;
+              width: 1.6rem;
+            }
+            .bx {
+              
+             margin-right: 1rem;
+              font-size: 2rem;
+            }
+          }
         }
       }
       .footer-service {
@@ -1009,8 +1167,8 @@ footer {
             margin-top: 3rem;
             margin-left: 5rem;
             margin-right: 5rem;
-            line-height: 2.5rem;
-            font-size: 1.3rem;
+            line-height: 2rem;
+            font-size: 1rem;
           }
         }
       }
@@ -1019,6 +1177,7 @@ footer {
   .offer {
     margin-top: 15rem;
     .container {
+ 
       h1 {
         font-size: 2rem;
         margin-bottom: 3rem;
@@ -1031,6 +1190,34 @@ footer {
       }
 
       .offer-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        .offer1{
+        
+          .offer-col{
+            text-align: center;
+            .offer-image{
+              width: 4rem;
+              margin-left: 15rem;
+              margin-bottom: 2rem;
+            
+            
+              
+         
+           
+  
+            }
+            .offer-desc{
+              h2 {
+                font-size: 1.2rem;
+              }
+              p {
+                font-size: 1rem;
+            
+              }
+            }
+          }
+        }
         .service-list {
           margin-left: 5rem;
 
@@ -1101,9 +1288,18 @@ footer {
     
       .client-image {
         .client-logo3,
-        .client-logo2, .client-logo1, .client-logo4, .client-logo5{
+        .client-logo2, .client-logo1{
           img {
-            width: 55rem;
+            margin-left: 5rem;
+            width: 10rem;
+           
+          }
+        }
+        .client-logo4, .client-logo5{
+          img {
+            margin-left: 6.3rem;
+            width: 7rem;
+           
           }
         }
       }
@@ -1151,7 +1347,30 @@ footer {
         margin-right: 1rem;
         margin-left: 1rem;
         img {
-          width: 40rem;
+          width: 20rem;
+        }
+        h1 {
+          font-size: 1rem;
+          margin-top: 1rem;
+          margin-bottom: 1rem;
+        }
+        div{
+          
+          a {
+            display: inline-block;
+    
+            img {
+              margin-top: 0.5rem;
+              margin-bottom: 0.5rem;
+              margin-left: 2rem;
+              width: 1.6rem;
+            }
+            .bx {
+            
+             margin-right: 1.3rem;
+              font-size: 1.5rem;
+            }
+          }
         }
       }
       .footer-service {
@@ -1200,7 +1419,7 @@ footer {
 @include responsive($xxl) {
   .home-header {
 
-    height:100vh;
+    
 
     .container {
       height: 100%;
@@ -1210,9 +1429,10 @@ footer {
       }
     }
     .moto {
+      height: 50vh;
       display: grid;
       place-items: center;
-      margin-top: 5rem;
+      margin-top: 25rem;
       margin-left: 1rem;
       h1 {
         font-size: 3em;
@@ -1253,16 +1473,117 @@ footer {
   //     }
 
   // }
+  .we-do {
+    .container {
+      margin-top: 8rem;
+
+      .row {
+        .img-container {
+          img {
+            width: 20rem;
+          }
+        }
+
+        .cont-desc {
+          h1 {
+            font-size: 1.67rem;
+          }
+          p {
+            margin-top: 3rem;
+            margin-left: 5rem;
+            margin-right: 5rem;
+            line-height: 2rem;
+            font-size: 1.3rem;
+          }
+        }
+      }
+    }
+  }
+  .offer {
+    margin-top: 15rem;
+    .container {
+ 
+      h1 {
+        font-size: 2rem;
+        margin-bottom: 3rem;
+        p {
+          margin-left: 20rem;
+          margin-right: 20rem;
+          font-size: 1rem;
+          margin-bottom: 3rem;
+        }
+      }
+
+      .offer-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        .offer1{
+        
+          .offer-col{
+            text-align: center;
+            .offer-image{
+              width: 4rem;
+              margin-left: 22rem;
+              margin-bottom: 2rem;
+            
+            
+              
+         
+           
+  
+            }
+            .offer-desc{
+              h2 {
+                font-size: 1.2rem;
+              }
+              p {
+                font-size: 1rem;
+                margin-left: 10rem;
+                margin-right: 10rem;
+            
+              }
+            }
+          }
+        }
+        .service-list {
+          margin-left: 5rem;
+
+          margin-top: 3rem;
+          margin-bottom: 3rem;
+
+          img {
+            width: 4rem;
+          }
+        }
+        .offer-item {
+          // margin-top: 3rem;
+          .offer-cont {
+            margin-top: 3rem;
+            h2 {
+              font-size: 1.3rem;
+            }
+            p {
+              margin-top: 2rem;
+              text-align: center;
+              font-size: 1.22rem;
+              line-height: 2.3rem;
+            }
+          }
+        }
+      }
+    }
+  }
+
   .call-to-action {
     margin-top: 5rem;
   }
   .client {
-    margin-top: 5rem;
-    margin-left: 5rem;
+    
     .container {
-      margin-left: 5rem;
+  
 
       .client-image {
+        margin-left: 15rem;
         margin-top: 2rem;
        
       }
@@ -1272,6 +1593,7 @@ footer {
     margin-top: 10rem;
 
     .contact-container {
+      margin-left: 20rem;
       .contact-all {
         display: flex;
         margin-top: 2.4rem;
@@ -1283,6 +1605,7 @@ footer {
               .bx {
                 padding: 10px;
               }
+            
             }
           }
         }
