@@ -13,7 +13,7 @@ function header(){
          <li><a href="service.html">Service</a></li>
          <li><a href="project.php">Our Designs</a></li>
          <li><a href="contact.html">Contact Us</a></li>
-         <li><a href="./admin/index.php">Admin</a></li>
+        
        </ul>
      </div>
      <div class="menu">
@@ -64,7 +64,8 @@ function footer(){
      <div class="container ">
        <div>
 
-         Copyright 2021 Designed by Versavvy Media
+       <a href="https://versavvymedia.com/">  Copyright 2021 Designed by Versavvy Media </a>
+
        </div>
        
      </div>

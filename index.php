@@ -20,7 +20,7 @@
       </video>
       <div class="container">
         <section class="nav ">
-          <a class="logo" href="index.html"><img src="./Image/logo2.svg" alt="Elias Logo" /></a>
+          <a class="logo" href="index.php"><img src="./Image/logo2.svg" alt="Elias Logo" /></a>
 
           <div class="nav-container">
             <div class="close-btn">
@@ -31,7 +31,7 @@
               <li><a href="service.html">Service</a></li>
               <li><a href="project.php">Our Designs</a></li>
               <li><a href="contact.html">Contact Us</a></li>
-              <li><a href="./admin/index.php">Admin</a></li>
+          
           
             </ul>
           </div>

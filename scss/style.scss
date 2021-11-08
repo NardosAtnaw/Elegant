@@ -7,31 +7,28 @@
 @import "product";
 
 .home-header {
- 
   overflow-x: hidden;
   // background: url(../Image/back.jpg) no-repeat;
   // background-size: cover;
   // background-blend-mode: overlay;
   // background-position: center center;
   position: relative;
- 
-  .video{
-   width: 100%;
-height: 100%;
-object-fit: cover;
+
+  .video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     z-index: -1;
     position: absolute;
-    filter: blur(.1rem);
-
-    
+    filter: blur(0.1rem);
   }
   .container {
     width: 100%-10%;
     height: 100%;
     img {
-      margin-top: .5rem;
+      margin-top: 0.5rem;
       width: 9rem;
-      margin-left: .5rem;
+      margin-left: 0.5rem;
     }
     .nav {
       display: flex;
@@ -65,7 +62,7 @@ object-fit: cover;
               text-decoration: none;
               padding: 7px 13px;
               border-radius: 3px;
-              .admin-img{
+              .admin-img {
                 width: 1rem;
               }
             }
@@ -74,7 +71,7 @@ object-fit: cover;
       }
       .menu {
         img {
-          margin-right: .5rem;
+          margin-right: 0.5rem;
           width: 2rem;
         }
       }
@@ -116,7 +113,7 @@ object-fit: cover;
   top: 0;
   right: 0;
   width: 100%;
-  height:5rem;
+  height: 5rem;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   z-index: 999999;
 }
@@ -199,28 +196,26 @@ object-fit: cover;
           width: 2rem;
         }
       }
-      .offer1{
-        
-        .offer-col{
+      .offer1 {
+        .offer-col {
           text-align: center;
-          .offer-image{
+          .offer-image {
             width: 2rem;
             margin-left: 8rem;
             margin-bottom: 1rem;
-
           }
-          .offer-desc{
+          .offer-desc {
             h2 {
               color: $thrid-color;
               font-weight: bold;
-          
+
               margin-bottom: 1rem;
             }
             p {
               line-height: 1.5rem;
               margin-bottom: 2rem;
               color: gray;
-              
+
               margin-left: 1rem;
               margin-right: 1rem;
             }
@@ -231,7 +226,6 @@ object-fit: cover;
         .offer-img {
           img {
             width: 2.55rem;
-           
           }
         }
         .offer-cont {
@@ -245,7 +239,7 @@ object-fit: cover;
             line-height: 1.5rem;
             margin-bottom: 2rem;
             color: gray;
-            
+
             margin-left: 1rem;
             margin-right: 1rem;
           }
@@ -378,7 +372,6 @@ object-fit: cover;
 }
 .client {
   .container {
-
     h1 {
       margin-top: 3rem;
       text-align: center;
@@ -395,16 +388,19 @@ object-fit: cover;
     }
 
     .client-image {
-      .client-logo3, .client-logo2, .client-logo1 {
+      .client-logo3,
+      .client-logo2,
+      .client-logo1 {
         img {
-        margin-left: 4rem;
-        width: 10rem;
+          margin-left: 4rem;
+          width: 10rem;
         }
       }
-      .client-logo4, .client-logo5 {
+      .client-logo4,
+      .client-logo5 {
         img {
-        margin-left:5rem;
-        width: 7rem;
+          margin-left: 5rem;
+          width: 7rem;
         }
       }
     }
@@ -455,14 +451,14 @@ object-fit: cover;
           span {
             margin-left: 1rem;
             color: $thrid-color;
-            font-size: .9rem;
+            font-size: 0.9rem;
           }
         }
       }
     }
-  .contact-btn{
-    margin-top: 1.5rem;
-  }
+    .contact-btn {
+      margin-top: 1.5rem;
+    }
   }
 }
 .map1 {
@@ -506,13 +502,13 @@ footer {
       h1 {
         font-size: 1rem;
         margin-top: 1rem;
-        
+
         color: $primary-color;
         font-weight: bold;
       }
     }
 
-    div{
+    div {
       a {
         display: inline-block;
 
@@ -525,7 +521,7 @@ footer {
         .bx {
           margin-top: 2rem;
           color: $thrid-color;
-         margin-right: 1rem;
+          margin-right: 1rem;
           font-size: 1.3rem;
         }
       }
@@ -631,17 +627,13 @@ footer {
       .offer-list {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        .offer1{
-        
-          .offer-col{
-      
-            .offer-image{
+        .offer1 {
+          .offer-col {
+            .offer-image {
               width: 2.5rem;
-         
+
               margin-bottom: 1.3rem;
-  
             }
-         
           }
         }
         .service-list {
@@ -658,7 +650,6 @@ footer {
           .offer-img {
             img {
               width: 2.5rem;
-           
             }
           }
           .offer-cont {
@@ -715,16 +706,19 @@ footer {
       .client-image {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        .client-logo3, .client-logo2, .client-logo1 {
+        .client-logo3,
+        .client-logo2,
+        .client-logo1 {
           img {
-          margin-left: 0rem;
-          width: 10rem;
+            margin-left: 0rem;
+            width: 10rem;
           }
         }
-        .client-logo4, .client-logo5 {
+        .client-logo4,
+        .client-logo5 {
           img {
-          margin-left:0rem;
-          width: 7rem;
+            margin-left: 0rem;
+            width: 7rem;
           }
         }
       }
@@ -766,22 +760,19 @@ footer {
   }
   footer {
     .container {
-     
       width: 100% - 10%;
       display: flex;
       justify-content: center;
       .footer-logo {
-     
         margin-right: 1rem;
         margin-left: 1rem;
         img {
           width: 20rem;
         }
-        div{
-          
+        div {
           a {
             display: inline-block;
-    
+
             img {
               margin-top: 0.5rem;
               margin-bottom: 0.5rem;
@@ -791,7 +782,7 @@ footer {
             .bx {
               margin-top: 2rem;
               color: $thrid-color;
-             margin-right: 1rem;
+              margin-right: 1rem;
               font-size: 1.6rem;
             }
           }
@@ -805,7 +796,7 @@ footer {
         h2 {
           font-size: 1rem;
         }
-        p{
+        p {
           font-size: 1rem;
         }
         a {
@@ -881,27 +872,23 @@ footer {
     margin-bottom: 10rem;
     .container {
       .offer-list {
-        .offer1{
-        
-          .offer-col{
-      
-            .offer-image{
+        .offer1 {
+          .offer-col {
+            .offer-image {
               width: 3rem;
               margin-left: 11rem;
               margin-bottom: 1.3rem;
-  
             }
-            .offer-desc{
-              h2{
+            .offer-desc {
+              h2 {
                 font-size: 1.3rem;
               }
-              p{
+              p {
                 font-size: 1rem;
                 margin-left: 2rem;
                 margin-right: 2rem;
               }
             }
-         
           }
         }
         .service-list {
@@ -960,16 +947,19 @@ footer {
     margin-bottom: 10rem;
     .container {
       .client-image {
-        .client-logo3, .client-logo2, .client-logo1 {
+        .client-logo3,
+        .client-logo2,
+        .client-logo1 {
           img {
-          margin-left: 0rem;
-          width: 10rem;
+            margin-left: 0rem;
+            width: 10rem;
           }
         }
-        .client-logo4, .client-logo5 {
+        .client-logo4,
+        .client-logo5 {
           img {
-          margin-left:1rem;
-          width: 7rem;
+            margin-left: 1rem;
+            width: 7rem;
           }
         }
       }
@@ -998,13 +988,11 @@ footer {
         }
         h1 {
           font-size: 1.33rem;
-          
         }
-        div{
-          
+        div {
           a {
             display: inline-block;
-    
+
             img {
               margin-top: 0.5rem;
               margin-bottom: 0.5rem;
@@ -1012,8 +1000,7 @@ footer {
               width: 1.6rem;
             }
             .bx {
-              
-             margin-right: 1rem;
+              margin-right: 1rem;
               font-size: 2rem;
             }
           }
@@ -1061,17 +1048,13 @@ footer {
 }
 @include responsive($xl) {
   .home-header {
-  
-
     .container {
       width: 100%-20%;
       img {
         margin-top: 0.5rem;
         width: 9rem;
-       
       }
       .nav {
-       
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -1121,7 +1104,7 @@ footer {
                 text-decoration: none;
 
                 &:hover {
-                  font-size: 1.6rem;
+                  font-size: 1.3rem;
                   font-weight: bold;
                   color: #fff;
 
@@ -1177,7 +1160,6 @@ footer {
   .offer {
     margin-top: 15rem;
     .container {
- 
       h1 {
         font-size: 2rem;
         margin-bottom: 3rem;
@@ -1192,28 +1174,20 @@ footer {
       .offer-list {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        .offer1{
-        
-          .offer-col{
+        .offer1 {
+          .offer-col {
             text-align: center;
-            .offer-image{
+            .offer-image {
               width: 4rem;
               margin-left: 15rem;
               margin-bottom: 2rem;
-            
-            
-              
-         
-           
-  
             }
-            .offer-desc{
+            .offer-desc {
               h2 {
                 font-size: 1.2rem;
               }
               p {
                 font-size: 1rem;
-            
               }
             }
           }
@@ -1285,21 +1259,21 @@ footer {
           font-size: 1rem;
         }
       }
-    
+
       .client-image {
         .client-logo3,
-        .client-logo2, .client-logo1{
+        .client-logo2,
+        .client-logo1 {
           img {
             margin-left: 5rem;
             width: 10rem;
-           
           }
         }
-        .client-logo4, .client-logo5{
+        .client-logo4,
+        .client-logo5 {
           img {
             margin-left: 6.3rem;
             width: 7rem;
-           
           }
         }
       }
@@ -1324,7 +1298,7 @@ footer {
         div {
           a {
             img {
-              margin-top: .1rem;
+              margin-top: 0.1rem;
             }
             span {
               font-size: 1rem;
@@ -1335,7 +1309,6 @@ footer {
       .contact-btn {
         .btn {
           margin-top: 5rem;
-          
         }
       }
     }
@@ -1354,11 +1327,10 @@ footer {
           margin-top: 1rem;
           margin-bottom: 1rem;
         }
-        div{
-          
+        div {
           a {
             display: inline-block;
-    
+
             img {
               margin-top: 0.5rem;
               margin-bottom: 0.5rem;
@@ -1366,8 +1338,7 @@ footer {
               width: 1.6rem;
             }
             .bx {
-            
-             margin-right: 1.3rem;
+              margin-right: 1.3rem;
               font-size: 1.5rem;
             }
           }
@@ -1408,7 +1379,7 @@ footer {
         div {
           width: 100%;
           text-align: center;
-          font-size: .8rem;
+          font-size: 0.8rem;
           overflow: hidden;
         }
       }
@@ -1418,9 +1389,8 @@ footer {
 
 @include responsive($xxl) {
   .home-header {
-
-    
-
+    height: 100vh;
+    overflow: hidden;
     .container {
       height: 100%;
       img {
@@ -1429,13 +1399,12 @@ footer {
       }
     }
     .moto {
-      height: 50vh;
       display: grid;
       place-items: center;
-      margin-top: 25rem;
+      margin-top: 35rem;
       margin-left: 1rem;
       h1 {
-        font-size: 3em;
+        font-size: 3rem;
         margin: 0.5em;
         color: #fff;
         .big {
@@ -1502,7 +1471,6 @@ footer {
   .offer {
     margin-top: 15rem;
     .container {
- 
       h1 {
         font-size: 2rem;
         margin-bottom: 3rem;
@@ -1517,22 +1485,15 @@ footer {
       .offer-list {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        .offer1{
-        
-          .offer-col{
+        .offer1 {
+          .offer-col {
             text-align: center;
-            .offer-image{
+            .offer-image {
               width: 4rem;
               margin-left: 22rem;
               margin-bottom: 2rem;
-            
-            
-              
-         
-           
-  
             }
-            .offer-desc{
+            .offer-desc {
               h2 {
                 font-size: 1.2rem;
               }
@@ -1540,7 +1501,6 @@ footer {
                 font-size: 1rem;
                 margin-left: 10rem;
                 margin-right: 10rem;
-            
               }
             }
           }
@@ -1578,14 +1538,10 @@ footer {
     margin-top: 5rem;
   }
   .client {
-    
     .container {
-  
-
       .client-image {
         margin-left: 15rem;
         margin-top: 2rem;
-       
       }
     }
   }
@@ -1605,7 +1561,6 @@ footer {
               .bx {
                 padding: 10px;
               }
-            
             }
           }
         }
