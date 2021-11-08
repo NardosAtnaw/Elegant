@@ -37,7 +37,25 @@
   </div>
 
 
+
+
+
+
+
   <div class="form-group">
-    <input type="submit" class="btn btn-primary" name="create_post" value="Post Image">
+    <label for="title"> Type of Category</label>
+   
+
+    <select>
+    <option value="logo">Logo</option>
+  <option value="brand">Brand</option>
+  <option value="print">Print</option>
+  <option value="packaging">Packaging</option>
+  <option value="graphics">Graphics</option>
+  <option value=""></option>
+</select>
+ 
   </div>
+
+ 
 </form>

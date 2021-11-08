@@ -80,7 +80,6 @@ if(window.innerWidth > 1152){
 }
 
 
-
 const btnContainer = document.querySelector('.links-list')
 const galleryImage = document.querySelectorAll('.gallery-image')
 btnContainer.addEventListener('click', e => {

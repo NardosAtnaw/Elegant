@@ -1414,7 +1414,7 @@ body {
     line-height: 2rem;
   }
   .links .container .links-list ul li a {
-    font-size: 24px;
+    font-size: 1rem;
     text-decoration: none;
   }
   .links .container .links-list ul li a:hover {
@@ -1452,7 +1452,7 @@ body {
   }
   .links .container .divide {
     margin-top: 1rem;
-    margin-left: 40rem;
+    margin-left: 50rem;
   }
 }
 
@@ -2444,7 +2444,7 @@ footer .footer-copyright .container div {
     text-decoration: none;
   }
   .home-header .container .nav .nav-container ul li a:hover {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight: bold;
     color: #fff;
   }
