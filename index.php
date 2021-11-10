@@ -54,8 +54,8 @@
           <div class="cont-desc">
             <h1> </h1>
             <p>
-              We offer a wide range of graphic design in small quantity
-              catalogue, brochure, business card, greeting card, magazine
+              We offer a wides range of graphic design in small quantity
+              catalogue, brochures, business card, greeting card, magazine
               services to clients. We offer a wide range of graphic design in
               small quantity catalogue, brochure, business card, greeting card,
               magazine services to clients.
