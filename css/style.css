@@ -1847,11 +1847,13 @@ body {
 .client .container .client-image .client-logo3 img,
 .client .container .client-image .client-logo2 img,
 .client .container .client-image .client-logo1 img {
+  margin-bottom: 1rem;
   width: 10rem;
 }
 
 .client .container .client-image .client-logo4 img,
 .client .container .client-image .client-logo5 img {
+  margin-bottom: 1rem;
   width: 7rem;
 }
 
