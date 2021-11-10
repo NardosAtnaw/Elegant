@@ -185,17 +185,7 @@
       background-blend-mode: overlay;
       background-position: center center;
 
-      .service-list {
-        margin-left: 1rem;
-
-        margin-bottom: 3rem;
-        display: grid;
-        grid-template-columns: repeat(5, 1fr);
-
-        img {
-          width: 2rem;
-        }
-      }
+   
       .offer1 {
         .offer-col {
           text-align: center;
@@ -228,29 +218,7 @@
           }
         }
       }
-      .offer-item {
-        .offer-img {
-          img {
-            width: 2.55rem;
-          }
-        }
-        .offer-cont {
-          h2 {
-            color: $thrid-color;
-            font-weight: bold;
-            text-align: center;
-            margin-bottom: 1rem;
-          }
-          p {
-            line-height: 1.5rem;
-            margin-bottom: 2rem;
-            color: gray;
-
-            margin-left: 1rem;
-            margin-right: 1rem;
-          }
-        }
-      }
+  
     }
   }
 }
@@ -645,36 +613,8 @@ footer {
             }
           }
         }
-        .service-list {
-          margin-left: 3rem;
-          margin-bottom: 3rem;
-          display: grid;
-          grid-template-columns: repeat(5, 1fr);
-
-          img {
-            width: 3.3rem;
-          }
-        }
-        .offer-item {
-          .offer-img {
-            img {
-              width: 2.5rem;
-            }
-          }
-          .offer-cont {
-            h2 {
-              margin-bottom: 1rem;
-              font-weight: bold;
-            }
-            p {
-              margin-left: 0rem;
-              margin-right: 0rem;
-              line-height: 2.2rem;
-              line-height: 1.5rem;
-              margin-bottom: 2.4rem;
-            }
-          }
-        }
+   
+   
       }
     }
   }
@@ -901,31 +841,7 @@ footer {
             }
           }
         }
-        .service-list {
-          margin-left: 2rem;
-
-          img {
-            width: 3rem;
-          }
-        }
-        .offer-item {
-          .offer-img {
-            img {
-              width: 2.5rem;
-            }
-          }
-          .offer-cont {
-            h2 {
-              text-align: center;
-              margin-bottom: 1rem;
-            }
-            p {
-              line-height: 1.5rem;
-              margin-bottom: 2rem;
-              color: gray;
-            }
-          }
-        }
+     
       }
     }
   }
@@ -1202,31 +1118,8 @@ footer {
             }
           }
         }
-        .service-list {
-          margin-left: 5rem;
-
-          margin-top: 3rem;
-          margin-bottom: 3rem;
-
-          img {
-            width: 4rem;
-          }
-        }
-        .offer-item {
-          // margin-top: 3rem;
-          .offer-cont {
-            margin-top: 3rem;
-            h2 {
-              font-size: 1.3rem;
-            }
-            p {
-              margin-top: 2rem;
-              text-align: center;
-              font-size: 1.22rem;
-              line-height: 2.3rem;
-            }
-          }
-        }
+     
+     
       }
     }
   }
@@ -1508,37 +1401,14 @@ footer {
               }
               p {
                 font-size: 1rem;
-                margin-left: 10rem;
-                margin-right: 10rem;
+                margin-left: 5rem;
+                margin-right: 5rem;
               }
             }
           }
         }
-        .service-list {
-          margin-left: 5rem;
-
-          margin-top: 3rem;
-          margin-bottom: 3rem;
-
-          img {
-            width: 4rem;
-          }
-        }
-        .offer-item {
-          // margin-top: 3rem;
-          .offer-cont {
-            margin-top: 3rem;
-            h2 {
-              font-size: 1.3rem;
-            }
-            p {
-              margin-top: 2rem;
-              text-align: center;
-              font-size: 1.22rem;
-              line-height: 2.3rem;
-            }
-          }
-        }
+   
+   
       }
     }
   }

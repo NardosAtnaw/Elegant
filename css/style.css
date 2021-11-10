@@ -1641,17 +1641,6 @@ body {
   background-position: center center;
 }
 
-.offer .container .offer-list .service-list {
-  margin-left: 1rem;
-  margin-bottom: 3rem;
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-}
-
-.offer .container .offer-list .service-list img {
-  width: 2rem;
-}
-
 .offer .container .offer-list .offer1 .offer-col {
   text-align: center;
   display: flex;
@@ -1672,25 +1661,6 @@ body {
 }
 
 .offer .container .offer-list .offer1 .offer-col .offer-desc p {
-  line-height: 1.5rem;
-  margin-bottom: 2rem;
-  color: gray;
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
-
-.offer .container .offer-list .offer-item .offer-img img {
-  width: 2.55rem;
-}
-
-.offer .container .offer-list .offer-item .offer-cont h2 {
-  color: #4D4B4B;
-  font-weight: bold;
-  text-align: center;
-  margin-bottom: 1rem;
-}
-
-.offer .container .offer-list .offer-item .offer-cont p {
   line-height: 1.5rem;
   margin-bottom: 2rem;
   color: gray;
@@ -2078,29 +2048,6 @@ footer .footer-copyright .container div {
     width: 2.5rem;
     margin-bottom: 1.3rem;
   }
-  .offer .container .offer-list .service-list {
-    margin-left: 3rem;
-    margin-bottom: 3rem;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-  }
-  .offer .container .offer-list .service-list img {
-    width: 3.3rem;
-  }
-  .offer .container .offer-list .offer-item .offer-img img {
-    width: 2.5rem;
-  }
-  .offer .container .offer-list .offer-item .offer-cont h2 {
-    margin-bottom: 1rem;
-    font-weight: bold;
-  }
-  .offer .container .offer-list .offer-item .offer-cont p {
-    margin-left: 0rem;
-    margin-right: 0rem;
-    line-height: 2.2rem;
-    line-height: 1.5rem;
-    margin-bottom: 2.4rem;
-  }
   .call-to-action .call-title {
     margin-top: 1rem;
     font-size: 1.2rem;
@@ -2270,24 +2217,6 @@ footer .footer-copyright .container div {
     font-size: 1rem;
     margin-left: 2rem;
     margin-right: 2rem;
-  }
-  .offer .container .offer-list .service-list {
-    margin-left: 2rem;
-  }
-  .offer .container .offer-list .service-list img {
-    width: 3rem;
-  }
-  .offer .container .offer-list .offer-item .offer-img img {
-    width: 2.5rem;
-  }
-  .offer .container .offer-list .offer-item .offer-cont h2 {
-    text-align: center;
-    margin-bottom: 1rem;
-  }
-  .offer .container .offer-list .offer-item .offer-cont p {
-    line-height: 1.5rem;
-    margin-bottom: 2rem;
-    color: gray;
   }
   .call-to-action {
     margin-top: 5rem;
@@ -2515,26 +2444,6 @@ footer .footer-copyright .container div {
   .offer .container .offer-list .offer1 .offer-col .offer-desc p {
     font-size: 1rem;
   }
-  .offer .container .offer-list .service-list {
-    margin-left: 5rem;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-  }
-  .offer .container .offer-list .service-list img {
-    width: 4rem;
-  }
-  .offer .container .offer-list .offer-item .offer-cont {
-    margin-top: 3rem;
-  }
-  .offer .container .offer-list .offer-item .offer-cont h2 {
-    font-size: 1.3rem;
-  }
-  .offer .container .offer-list .offer-item .offer-cont p {
-    margin-top: 2rem;
-    text-align: center;
-    font-size: 1.22rem;
-    line-height: 2.3rem;
-  }
   .gallery .container h1 {
     font-size: 2rem;
     margin-bottom: 5rem;
@@ -2737,28 +2646,8 @@ footer .footer-copyright .container div {
   }
   .offer .container .offer-list .offer1 .offer-col .offer-desc p {
     font-size: 1rem;
-    margin-left: 10rem;
-    margin-right: 10rem;
-  }
-  .offer .container .offer-list .service-list {
     margin-left: 5rem;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-  }
-  .offer .container .offer-list .service-list img {
-    width: 4rem;
-  }
-  .offer .container .offer-list .offer-item .offer-cont {
-    margin-top: 3rem;
-  }
-  .offer .container .offer-list .offer-item .offer-cont h2 {
-    font-size: 1.3rem;
-  }
-  .offer .container .offer-list .offer-item .offer-cont p {
-    margin-top: 2rem;
-    text-align: center;
-    font-size: 1.22rem;
-    line-height: 2.3rem;
+    margin-right: 5rem;
   }
   .call-to-action {
     margin-top: 5rem;
