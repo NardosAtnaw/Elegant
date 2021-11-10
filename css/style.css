@@ -1094,13 +1094,13 @@ body {
   }
   .service-header .container .nav .nav-container ul li a {
     color: #fff;
-    font-size: 1rem;
+    font-size: 1.3rem;
     padding: 7px 13px;
     border-radius: 3px;
     text-decoration: none;
   }
   .service-header .container .nav .nav-container ul li a:hover {
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     font-weight: bold;
     color: #fff;
   }
@@ -1414,7 +1414,7 @@ body {
     line-height: 2rem;
   }
   .links .container .links-list ul li a {
-    font-size: 1rem;
+    font-size: 24px;
     text-decoration: none;
   }
   .links .container .links-list ul li a:hover {
@@ -1452,7 +1452,7 @@ body {
   }
   .links .container .divide {
     margin-top: 1rem;
-    margin-left: 50rem;
+    margin-left: 40rem;
   }
 }
 
@@ -1476,9 +1476,9 @@ body {
 }
 
 .home-header .container img {
-  margin-top: 0.5rem;
+  margin-top: .5rem;
   width: 9rem;
-  margin-left: 0.5rem;
+  margin-left: .5rem;
 }
 
 .home-header .container .nav {
@@ -1519,12 +1519,8 @@ body {
   border-radius: 3px;
 }
 
-.home-header .container .nav .nav-container ul li a .admin-img {
-  width: 1rem;
-}
-
 .home-header .container .nav .menu img {
-  margin-right: 0.5rem;
+  margin-right: .5rem;
   width: 2rem;
 }
 
@@ -1650,33 +1646,6 @@ body {
 
 .offer .container .offer-list .service-list img {
   width: 2rem;
-}
-
-.offer .container .offer-list .offer1 .offer-col {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.offer .container .offer-list .offer1 .offer-col .offer-image {
-  width: 2rem;
-  margin-bottom: 1rem;
-}
-
-.offer .container .offer-list .offer1 .offer-col .offer-desc h2 {
-  color: #4D4B4B;
-  font-weight: bold;
-  margin-bottom: 1rem;
-}
-
-.offer .container .offer-list .offer1 .offer-col .offer-desc p {
-  line-height: 1.5rem;
-  margin-bottom: 2rem;
-  color: gray;
-  margin-left: 1rem;
-  margin-right: 1rem;
 }
 
 .offer .container .offer-list .offer-item .offer-img img {
@@ -1838,23 +1807,8 @@ body {
   font-weight: lighter;
 }
 
-.client .container .client-image {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.client .container .client-image .client-logo3 img,
-.client .container .client-image .client-logo2 img,
-.client .container .client-image .client-logo1 img {
-  margin-bottom: 1rem;
-  width: 10rem;
-}
-
-.client .container .client-image .client-logo4 img,
-.client .container .client-image .client-logo5 img {
-  margin-bottom: 1rem;
-  width: 7rem;
+.client .container .client-image .client-logo img {
+  width: 25rem;
 }
 
 .contact .container h1 {
@@ -1895,17 +1849,17 @@ body {
 
 .contact .contact-container .contact-list div a .bx {
   color: #4D4B4B;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 .contact .contact-container .contact-list div a img {
-  width: 1.5rem;
+  width: 2rem;
 }
 
 .contact .contact-container .contact-list div a span {
   margin-left: 1rem;
   color: #4D4B4B;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 .contact .contact-container .contact-btn {
@@ -1915,6 +1869,7 @@ body {
 .map1 {
   margin-top: 2rem;
   margin-bottom: 2rem;
+  z-index: -1;
 }
 
 .map1 .location {
@@ -1954,31 +1909,6 @@ footer .container .footer-logo {
 
 footer .container .footer-logo img {
   width: 15rem;
-}
-
-footer .container .footer-logo h1 {
-  font-size: 1rem;
-  margin-top: 1rem;
-  color: #FF0101;
-  font-weight: bold;
-}
-
-footer .container div a {
-  display: inline-block;
-}
-
-footer .container div a img {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-  margin-left: 2rem;
-  width: 1.6rem;
-}
-
-footer .container div a .bx {
-  margin-top: 2rem;
-  color: #4D4B4B;
-  margin-right: 1rem;
-  font-size: 1.3rem;
 }
 
 footer .container .footer-service {
@@ -2023,7 +1953,7 @@ footer .container .footer-service a .bx {
 footer .footer-copyright {
   margin-top: 2rem;
   background-color: #cecece;
-  height: 1.5vh;
+  height: 2vh;
 }
 
 footer .footer-copyright .container div {
@@ -2069,14 +1999,6 @@ footer .footer-copyright .container div {
   }
   .offer .container h1 p {
     font-size: 1rem;
-  }
-  .offer .container .offer-list {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-  .offer .container .offer-list .offer1 .offer-col .offer-image {
-    width: 2.5rem;
-    margin-bottom: 1.3rem;
   }
   .offer .container .offer-list .service-list {
     margin-left: 3rem;
@@ -2130,19 +2052,10 @@ footer .footer-copyright .container div {
     font-size: 1rem;
   }
   .client .container .client-image {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
   }
-  .client .container .client-image .client-logo3 img,
-  .client .container .client-image .client-logo2 img,
-  .client .container .client-image .client-logo1 img {
-    margin-left: 0rem;
-    width: 10rem;
-  }
-  .client .container .client-image .client-logo4 img,
-  .client .container .client-image .client-logo5 img {
-    margin-left: 0rem;
-    width: 7rem;
+  .client .container .client-image .client-logo img {
+    width: 20rem;
   }
   .contact .container h1 {
     font-size: 2rem;
@@ -2164,34 +2077,18 @@ footer .footer-copyright .container div {
     margin-top: 2rem;
   }
   .location .map-responsive {
-    gap: 0.5rem;
+    gap: 0.1rem;
   }
   footer .container {
     width: 90%;
     display: flex;
-    justify-content: center;
   }
   footer .container .footer-logo {
     margin-right: 1rem;
     margin-left: 1rem;
   }
   footer .container .footer-logo img {
-    width: 20rem;
-  }
-  footer .container .footer-logo div a {
-    display: inline-block;
-  }
-  footer .container .footer-logo div a img {
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-    margin-left: 2rem;
-    width: 1.6rem;
-  }
-  footer .container .footer-logo div a .bx {
-    margin-top: 2rem;
-    color: #4D4B4B;
-    margin-right: 1rem;
-    font-size: 1.6rem;
+    width: 35rem;
   }
   footer .container .footer-service {
     margin-top: 2rem;
@@ -2228,7 +2125,7 @@ footer .footer-copyright .container div {
   }
   .home-header .container img {
     margin-top: 0.5rem;
-    width: 10rem;
+    width: 15rem;
   }
   .home-header .container .moto {
     margin-top: 13rem;
@@ -2258,18 +2155,6 @@ footer .footer-copyright .container div {
   .offer {
     margin-top: 10rem;
     margin-bottom: 10rem;
-  }
-  .offer .container .offer-list .offer1 .offer-col .offer-image {
-    width: 3rem;
-    margin-bottom: 1.3rem;
-  }
-  .offer .container .offer-list .offer1 .offer-col .offer-desc h2 {
-    font-size: 1.3rem;
-  }
-  .offer .container .offer-list .offer1 .offer-col .offer-desc p {
-    font-size: 1rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
   }
   .offer .container .offer-list .service-list {
     margin-left: 2rem;
@@ -2315,16 +2200,13 @@ footer .footer-copyright .container div {
   .client {
     margin-bottom: 10rem;
   }
-  .client .container .client-image .client-logo3 img,
-  .client .container .client-image .client-logo2 img,
-  .client .container .client-image .client-logo1 img {
-    margin-left: 0rem;
-    width: 10rem;
-  }
-  .client .container .client-image .client-logo4 img,
-  .client .container .client-image .client-logo5 img {
+  .client .container .client-image {
     margin-left: 1rem;
-    width: 7rem;
+    display: flex;
+    gap: 7rem;
+  }
+  .client .container .client-image .client-logo img {
+    width: 30rem;
   }
   .contact {
     margin-top: 5rem;
@@ -2334,7 +2216,7 @@ footer .footer-copyright .container div {
     margin-left: 15rem;
   }
   .contact .contact-container .contact-list img {
-    width: 1rem;
+    width: 3rem;
   }
   footer .container {
     display: flex;
@@ -2344,23 +2226,7 @@ footer .footer-copyright .container div {
     margin-left: 1rem;
   }
   footer .container .footer-logo img {
-    width: 30rem;
-  }
-  footer .container .footer-logo h1 {
-    font-size: 1.33rem;
-  }
-  footer .container .footer-logo div a {
-    display: inline-block;
-  }
-  footer .container .footer-logo div a img {
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-    margin-left: 2rem;
-    width: 1.6rem;
-  }
-  footer .container .footer-logo div a .bx {
-    margin-right: 1rem;
-    font-size: 2rem;
+    width: 40rem;
   }
   footer .container .footer-service {
     margin-top: 2rem;
@@ -2451,7 +2317,7 @@ footer .footer-copyright .container div {
     text-decoration: none;
   }
   .home-header .container .nav .nav-container ul li a:hover {
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     font-weight: bold;
     color: #fff;
   }
@@ -2482,8 +2348,8 @@ footer .footer-copyright .container div {
     margin-top: 3rem;
     margin-left: 5rem;
     margin-right: 5rem;
-    line-height: 2rem;
-    font-size: 1rem;
+    line-height: 2.5rem;
+    font-size: 1.3rem;
   }
   .offer {
     margin-top: 15rem;
@@ -2498,23 +2364,6 @@ footer .footer-copyright .container div {
     font-size: 1rem;
     margin-bottom: 3rem;
   }
-  .offer .container .offer-list {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-  .offer .container .offer-list .offer1 .offer-col {
-    text-align: center;
-  }
-  .offer .container .offer-list .offer1 .offer-col .offer-image {
-    width: 4rem;
-    margin-bottom: 2rem;
-  }
-  .offer .container .offer-list .offer1 .offer-col .offer-desc h2 {
-    font-size: 1.2rem;
-  }
-  .offer .container .offer-list .offer1 .offer-col .offer-desc p {
-    font-size: 1rem;
-  }
   .offer .container .offer-list .service-list {
     margin-left: 5rem;
     margin-top: 3rem;
@@ -2522,6 +2371,9 @@ footer .footer-copyright .container div {
   }
   .offer .container .offer-list .service-list img {
     width: 4rem;
+  }
+  .offer .container .offer-list .offer-item {
+    margin-top: 3rem;
   }
   .offer .container .offer-list .offer-item .offer-cont {
     margin-top: 3rem;
@@ -2568,15 +2420,8 @@ footer .footer-copyright .container div {
     font-size: 1rem;
   }
   .client .container .client-image .client-logo3 img,
-  .client .container .client-image .client-logo2 img,
-  .client .container .client-image .client-logo1 img {
-    margin-left: 5rem;
-    width: 10rem;
-  }
-  .client .container .client-image .client-logo4 img,
-  .client .container .client-image .client-logo5 img {
-    margin-left: 6.3rem;
-    width: 7rem;
+  .client .container .client-image .client-logo2 img, .client .container .client-image .client-logo1 img {
+    width: 55rem;
   }
   .contact {
     margin-bottom: 2rem;
@@ -2595,10 +2440,10 @@ footer .footer-copyright .container div {
     margin-top: 5rem;
   }
   .contact .contact-container .contact-list div a img {
-    margin-top: 0.1rem;
+    margin-top: .1rem;
   }
   .contact .contact-container .contact-list div a span {
-    font-size: 1rem;
+    font-size: 1.6rem;
   }
   .contact .contact-container .contact-btn .btn {
     margin-top: 5rem;
@@ -2611,25 +2456,7 @@ footer .footer-copyright .container div {
     margin-left: 1rem;
   }
   footer .container .footer-logo img {
-    width: 20rem;
-  }
-  footer .container .footer-logo h1 {
-    font-size: 1rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-  }
-  footer .container .footer-logo div a {
-    display: inline-block;
-  }
-  footer .container .footer-logo div a img {
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-    margin-left: 2rem;
-    width: 1.6rem;
-  }
-  footer .container .footer-logo div a .bx {
-    margin-right: 1.3rem;
-    font-size: 1.5rem;
+    width: 40rem;
   }
   footer .container .footer-service {
     margin-right: 1rem;
@@ -2658,16 +2485,12 @@ footer .footer-copyright .container div {
   footer .footer-copyright .container div {
     width: 100%;
     text-align: center;
-    font-size: 0.8rem;
+    font-size: .8rem;
     overflow: hidden;
   }
 }
 
 @media screen and (min-width: 1920px) {
-  .home-header {
-    height: 100vh;
-    overflow: hidden;
-  }
   .home-header .container {
     height: 100%;
   }
@@ -2678,11 +2501,11 @@ footer .footer-copyright .container div {
   .home-header .moto {
     display: grid;
     place-items: center;
-    margin-top: 35rem;
+    margin-top: 5rem;
     margin-left: 1rem;
   }
   .home-header .moto h1 {
-    font-size: 3rem;
+    font-size: 3em;
     margin: 0.5em;
     color: #fff;
   }
@@ -2692,87 +2515,21 @@ footer .footer-copyright .container div {
   .home-header .moto a {
     margin-left: 0rem;
   }
-  .we-do .container {
-    margin-top: 8rem;
-  }
-  .we-do .container .row .img-container img {
-    width: 20rem;
-  }
-  .we-do .container .row .cont-desc h1 {
-    font-size: 1.67rem;
-  }
-  .we-do .container .row .cont-desc p {
-    margin-top: 3rem;
-    margin-left: 5rem;
-    margin-right: 5rem;
-    line-height: 2rem;
-    font-size: 1.3rem;
-  }
-  .offer {
-    margin-top: 15rem;
-  }
-  .offer .container h1 {
-    font-size: 2rem;
-    margin-bottom: 3rem;
-  }
-  .offer .container h1 p {
-    margin-left: 20rem;
-    margin-right: 20rem;
-    font-size: 1rem;
-    margin-bottom: 3rem;
-  }
-  .offer .container .offer-list {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-  .offer .container .offer-list .offer1 .offer-col {
-    text-align: center;
-  }
-  .offer .container .offer-list .offer1 .offer-col .offer-image {
-    width: 4rem;
-    margin-left: 22rem;
-    margin-bottom: 2rem;
-  }
-  .offer .container .offer-list .offer1 .offer-col .offer-desc h2 {
-    font-size: 1.2rem;
-  }
-  .offer .container .offer-list .offer1 .offer-col .offer-desc p {
-    font-size: 1rem;
-    margin-left: 10rem;
-    margin-right: 10rem;
-  }
-  .offer .container .offer-list .service-list {
-    margin-left: 5rem;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-  }
-  .offer .container .offer-list .service-list img {
-    width: 4rem;
-  }
-  .offer .container .offer-list .offer-item .offer-cont {
-    margin-top: 3rem;
-  }
-  .offer .container .offer-list .offer-item .offer-cont h2 {
-    font-size: 1.3rem;
-  }
-  .offer .container .offer-list .offer-item .offer-cont p {
-    margin-top: 2rem;
-    text-align: center;
-    font-size: 1.22rem;
-    line-height: 2.3rem;
-  }
   .call-to-action {
     margin-top: 5rem;
   }
+  .client {
+    margin-top: 5rem;
+    margin-left: 5rem;
+  }
+  .client .container {
+    margin-left: 5rem;
+  }
   .client .container .client-image {
-    margin-left: 15rem;
-    margin-top: 2rem;
+    gap: 22rem;
   }
   .contact {
     margin-top: 10rem;
-  }
-  .contact .contact-container {
-    margin-left: 20rem;
   }
   .contact .contact-container .contact-all {
     display: flex;
