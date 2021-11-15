@@ -1821,6 +1821,7 @@ body {
 
 .call-to-action {
   margin-top: 3rem;
+  height: 20vh;
   overflow-x: hidden;
   background: url(../Image/back.jpg) no-repeat;
   background-size: cover;
@@ -1831,7 +1832,8 @@ body {
 }
 
 .call-to-action .call-title {
-  margin-top: 0.5rem;
+  margin-top: 2rem;
+  font-size: .8rem;
   padding: 10px;
   color: #fff;
 }
@@ -2102,8 +2104,8 @@ footer .footer-copyright .container div {
     margin-bottom: 1.3rem;
   }
   .call-to-action .call-title {
-    margin-top: 1rem;
-    font-size: 1.2rem;
+    margin-top: 3rem;
+    font-size: 1rem;
   }
   .call-to-action .call-btn {
     text-align: center;
@@ -2286,7 +2288,7 @@ footer .footer-copyright .container div {
   .call-to-action .call-title {
     margin-left: 2rem;
     margin-right: 2rem;
-    margin-top: 2rem;
+    margin-top: 5rem;
     font-size: 1.2rem;
   }
   .call-to-action .call-btn {
@@ -2460,7 +2462,7 @@ footer .footer-copyright .container div {
     margin-bottom: 15rem;
   }
   .home-header .container .moto h4 {
-    letter-spacing: .4rem;
+    letter-spacing: .2rem;
   }
   .home-header .container .moto h5 {
     letter-spacing: 1rem;
@@ -2530,6 +2532,9 @@ footer .footer-copyright .container div {
     grid-template-rows: repeat(2, 20vw);
     grid-gap: 10px;
   }
+  .call-to-action {
+    height: 25vh;
+  }
   .call-to-action .call-title {
     font-size: 1.33rem;
   }
@@ -2551,12 +2556,12 @@ footer .footer-copyright .container div {
   .client .container .client-image .client-logo2 img,
   .client .container .client-image .client-logo1 img {
     margin-left: 5rem;
-    width: 10rem;
+    width: 15rem;
   }
   .client .container .client-image .client-logo4 img,
   .client .container .client-image .client-logo5 img {
-    margin-left: 6.3rem;
-    width: 7rem;
+    margin-left: 6.5rem;
+    width: 9rem;
   }
   .contact {
     margin-bottom: 2rem;
