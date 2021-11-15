@@ -40,8 +40,14 @@
           </div>
         </section>
         <div class="moto">
-          <h1>Your Design & Printing Solution !</h1>
-          <a class="btn btn-primary" href="project.html">View Our Works </a>
+          <h4>Every design process has a solution that we provide.</h4>
+          <h1>Your <span> </span> Solution!</h1>
+          <h5>We're Elegant Design </h5>
+          <div class="btn-flex">
+          <a class="btn btn-outline-secondary " href="project.php">VIEW WORKS</a>
+          <a class="btn btn-outline-secondary " href="contact.html">CONTACT US</a>
+          </div>
+         
         </div>
       </div>
     </header>

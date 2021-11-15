@@ -22,7 +22,7 @@ function header(){
    </section>
    <div class="moto">
      <h1>Your Design & Printing Solution !</h1>
-     <a class="btn btn-primary" href="project.html">View Our Works </a>
+     <a class="btn btn-primary" href="project.php">View Our Works </a>
    </div>
  </div>`
 }
