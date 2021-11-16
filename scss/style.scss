@@ -80,13 +80,13 @@
     .moto {
       display: grid;
       place-items: center;
-      margin-top: 9rem;
+      margin-top: 7rem;
 
       h4 {
         margin: 0.5em;
-        font-style: italic;
+        // font-style: italic;
         font-weight: bold;
-        font-size: 0.5rem;
+        font-size: 0.7rem;
         color: #fff;
         margin-bottom: -0.5rem;
       }
@@ -598,6 +598,7 @@ footer {
     }
   }
 }
+
 @include responsive($md) {
   .home-header {
     .container {
@@ -675,7 +676,7 @@ footer {
     }
   }
   .gallery {
-    margin-top: 5rem;
+    margin-top: 10rem;
     .container {
       h1 {
         font-size: 2rem;
@@ -687,7 +688,7 @@ footer {
     .gallery-container {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: repeat(2, 20vw);
+      grid-template-rows: repeat(1, 20vw);
       grid-gap: 10px;
     }
   }
@@ -836,7 +837,7 @@ footer {
         margin-top: 13rem;
         margin-left: 0.6rem;
         h4 {
-          font-size: 0.9rem;
+          font-size: 1.1rem;
           margin-bottom: -1.5rem;
         }
         h5 {
@@ -937,7 +938,7 @@ footer {
         .client-logo4,
         .client-logo5 {
           img {
-            margin-left: 1rem;
+            margin-left: 2rem;
             width: 7rem;
           }
         }
@@ -1105,15 +1106,16 @@ footer {
         margin-top: 20rem;
         margin-bottom: 15rem;
         h4{
+          margin-bottom: -2rem;
           letter-spacing: .2rem;
+          font-size: 1.2rem;
+          font-weight: 900;
         }
         h5{
-          letter-spacing: 1rem;
-      
+          letter-spacing: .8rem; 
         }
-
         h1 {
-          font-size: 3.5em;
+          font-size: 4.5em;
           margin: 0.5em;
         }
       }
@@ -1146,7 +1148,7 @@ footer {
     }
   }
   .offer {
-    margin-top: 15rem;
+    margin-top: 10rem;
     .container {
       h1 {
         font-size: 2rem;
@@ -1198,7 +1200,7 @@ footer {
     .gallery-container {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: repeat(2, 20vw);
+      grid-template-rows: repeat(1, 20vw);
       grid-gap: 10px;
     }
   }
@@ -1236,8 +1238,8 @@ footer {
         .client-logo4,
         .client-logo5 {
           img {
-            margin-left: 6.5rem;
-            width: 9rem;
+            margin-left: 9rem;
+            width: 7.6rem;
           }
         }
       }
@@ -1366,8 +1368,8 @@ footer {
         margin-left: 1rem;
        
   h4  {
-    margin-bottom: -2rem;
-    font-size: 1rem;
+    margin-bottom: -3rem;
+    font-size: 1.4rem;
     letter-spacing: .4rem;
   }
   h5 {
@@ -1442,7 +1444,7 @@ letter-spacing: .8rem;
     }
   }
   .offer {
-    margin-top: 15rem;
+    margin-top: 10rem;
     .container {
       h1 {
         font-size: 2rem;
@@ -1482,7 +1484,7 @@ letter-spacing: .8rem;
   }
 
   .call-to-action {
-    margin-top: 5rem;
+    margin-top: 10rem;
   }
   .client {
     .container {

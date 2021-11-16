@@ -1532,14 +1532,13 @@ body {
 .home-header .container .moto {
   display: grid;
   place-items: center;
-  margin-top: 9rem;
+  margin-top: 7rem;
 }
 
 .home-header .container .moto h4 {
   margin: 0.5em;
-  font-style: italic;
   font-weight: bold;
-  font-size: 0.5rem;
+  font-size: 0.7rem;
   color: #fff;
   margin-bottom: -0.5rem;
 }
@@ -2111,7 +2110,7 @@ footer .footer-copyright .container div {
     text-align: center;
   }
   .gallery {
-    margin-top: 5rem;
+    margin-top: 10rem;
   }
   .gallery .container h1 {
     font-size: 2rem;
@@ -2122,7 +2121,7 @@ footer .footer-copyright .container div {
   .gallery .gallery-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 20vw);
+    grid-template-rows: repeat(1, 20vw);
     grid-gap: 10px;
   }
   .client .container h1 {
@@ -2237,7 +2236,7 @@ footer .footer-copyright .container div {
     margin-left: 0.6rem;
   }
   .home-header .container .moto h4 {
-    font-size: 0.9rem;
+    font-size: 1.1rem;
     margin-bottom: -1.5rem;
   }
   .home-header .container .moto h5 {
@@ -2315,7 +2314,7 @@ footer .footer-copyright .container div {
   }
   .client .container .client-image .client-logo4 img,
   .client .container .client-image .client-logo5 img {
-    margin-left: 1rem;
+    margin-left: 2rem;
     width: 7rem;
   }
   .contact {
@@ -2462,13 +2461,16 @@ footer .footer-copyright .container div {
     margin-bottom: 15rem;
   }
   .home-header .container .moto h4 {
+    margin-bottom: -2rem;
     letter-spacing: .2rem;
+    font-size: 1.2rem;
+    font-weight: 900;
   }
   .home-header .container .moto h5 {
-    letter-spacing: 1rem;
+    letter-spacing: .8rem;
   }
   .home-header .container .moto h1 {
-    font-size: 3.5em;
+    font-size: 4.5em;
     margin: 0.5em;
   }
   .we-do .container {
@@ -2488,7 +2490,7 @@ footer .footer-copyright .container div {
     font-size: 1rem;
   }
   .offer {
-    margin-top: 15rem;
+    margin-top: 10rem;
   }
   .offer .container h1 {
     font-size: 2rem;
@@ -2529,7 +2531,7 @@ footer .footer-copyright .container div {
   .gallery .gallery-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 20vw);
+    grid-template-rows: repeat(1, 20vw);
     grid-gap: 10px;
   }
   .call-to-action {
@@ -2560,8 +2562,8 @@ footer .footer-copyright .container div {
   }
   .client .container .client-image .client-logo4 img,
   .client .container .client-image .client-logo5 img {
-    margin-left: 6.5rem;
-    width: 9rem;
+    margin-left: 9rem;
+    width: 7.6rem;
   }
   .contact {
     margin-bottom: 2rem;
@@ -2665,8 +2667,8 @@ footer .footer-copyright .container div {
     margin-left: 1rem;
   }
   .home-header .container .moto h4 {
-    margin-bottom: -2rem;
-    font-size: 1rem;
+    margin-bottom: -3rem;
+    font-size: 1.4rem;
     letter-spacing: .4rem;
   }
   .home-header .container .moto h5 {
@@ -2699,7 +2701,7 @@ footer .footer-copyright .container div {
     font-size: 1.3rem;
   }
   .offer {
-    margin-top: 15rem;
+    margin-top: 10rem;
   }
   .offer .container h1 {
     font-size: 2rem;
@@ -2731,7 +2733,7 @@ footer .footer-copyright .container div {
     margin-right: 5rem;
   }
   .call-to-action {
-    margin-top: 5rem;
+    margin-top: 10rem;
   }
   .client .container .client-image {
     margin-left: 5rem;
