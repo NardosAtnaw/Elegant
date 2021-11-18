@@ -1545,7 +1545,7 @@ body {
 
 .home-header .container .moto h5 {
   margin: 0.5em;
-  letter-spacing: .2rem;
+  letter-spacing: 0.2rem;
   font-size: 0.5rem;
   color: #fff;
   margin-top: -0.5rem;
@@ -1680,38 +1680,14 @@ body {
   font-weight: lighter;
 }
 
-.offer .container .offer-list {
-  background: url(../Image/offerbg.jpg) no-repeat;
-  background-size: 30rem;
-  background-blend-mode: overlay;
-  background-position: center center;
+.offer .container .offer-links {
+  display: grid;
+  gap: 2rem;
 }
 
-.offer .container .offer-list .offer1 .offer-col {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.offer .container .offer-list .offer1 .offer-col .offer-image {
+.offer .container .offer-links img {
   width: 2rem;
   margin-bottom: 1rem;
-}
-
-.offer .container .offer-list .offer1 .offer-col .offer-desc h2 {
-  color: #4D4B4B;
-  font-weight: bold;
-  margin-bottom: 1rem;
-}
-
-.offer .container .offer-list .offer1 .offer-col .offer-desc p {
-  line-height: 1.5rem;
-  margin-bottom: 2rem;
-  color: gray;
-  margin-left: 1rem;
-  margin-right: 1rem;
 }
 
 .gallery {
@@ -1832,7 +1808,7 @@ body {
 
 .call-to-action .call-title {
   margin-top: 2rem;
-  font-size: .8rem;
+  font-size: 0.8rem;
   padding: 10px;
   color: #fff;
 }
@@ -2462,12 +2438,12 @@ footer .footer-copyright .container div {
   }
   .home-header .container .moto h4 {
     margin-bottom: -2rem;
-    letter-spacing: .2rem;
+    letter-spacing: 0.2rem;
     font-size: 1.2rem;
     font-weight: 900;
   }
   .home-header .container .moto h5 {
-    letter-spacing: .8rem;
+    letter-spacing: 0.8rem;
   }
   .home-header .container .moto h1 {
     font-size: 4.5em;
@@ -2669,10 +2645,10 @@ footer .footer-copyright .container div {
   .home-header .container .moto h4 {
     margin-bottom: -3rem;
     font-size: 1.4rem;
-    letter-spacing: .4rem;
+    letter-spacing: 0.4rem;
   }
   .home-header .container .moto h5 {
-    letter-spacing: .8rem;
+    letter-spacing: 0.8rem;
     margin-top: -2rem;
     font-size: 1rem;
   }
