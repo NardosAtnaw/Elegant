@@ -1,3 +1,4 @@
+@import "fonts";
 @import "reboot";
 @import "mixins";
 @import "utilities";
@@ -5,10 +6,11 @@
 @import "contact";
 @import "whoweare";
 @import "product";
+@import "animate";
 
 .home-header {
   overflow-x: hidden;
-  height: 50vh;
+  height: 100vh;
   // background: url(../Image/back.jpg) no-repeat;
   // background-size: cover;
   // background-blend-mode: overlay;
@@ -80,13 +82,14 @@
     .moto {
       display: grid;
       place-items: center;
-      margin-top: 7rem;
+      margin-top: 17rem;
 
       h4 {
         margin: 0.5em;
         // font-style: italic;
-        font-weight: bold;
-        font-size: 0.7rem;
+        font-family: 'Archive';
+       
+        font-size: 0.5rem;
         color: #fff;
         margin-bottom: -0.5rem;
       }
@@ -94,13 +97,15 @@
         margin: 0.5em;
         letter-spacing: 0.2rem;
         // font-style: italic;
-        font-size: 0.5rem;
+        font-size: 0.7rem;
         color: #fff;
         margin-top: -0.5rem;
       }
       h1 {
-        font-size: 1.5rem;
+        text-align: center;
+        font-size: 2.3rem;
         margin: 0.5em;
+        font-family: 'Archive';
         color: #fff;
         span:before {
           content: "Design";
@@ -164,6 +169,7 @@
 .we-do {
   margin-top: 2rem;
   .container {
+    width: 100%-20%;
     .row {
       margin-bottom: 5rem;
       .img-container {
@@ -205,11 +211,19 @@
       background-position: center center;
       position: relative;
     }
+    .btn-flex {
+      display: grid;
+      place-items: center;
+      .btn {
+        margin: 0;
+      }
+    }
   }
 }
 .offer {
   margin-top: 4rem;
   .container {
+    width: 100%-20%;
     h1 {
       text-align: center;
       color: $thrid-color;
@@ -223,13 +237,67 @@
         font-weight: lighter;
       }
     }
-    .offer-links {
-      display: grid;
+    .offer-des {
+      .offer-links {
+        display: flex;
+        justify-content: center;
+        margin-left: 0.5rem;
 
-      gap: 2rem;
-      img {
-        width: 2rem;
-        margin-bottom: 1rem;
+        button {
+          border: none;
+          background: none;
+          outline: none;
+          width: 3rem;
+          img {
+            width: 100%;
+            margin-bottom: 2rem;
+          }
+        }
+      }
+
+      .offer-des-container {
+        transition: all 0.3s linear;
+        .offer2 {
+          .offer-desc-list {
+            display: inline;
+            .offer3 {
+              margin-top: 1rem;
+              font-size: 1rem;
+              font-weight: 500;
+              color: #8b8484;
+
+              img {
+                display: inline;
+                margin-left: 0.5rem;
+                margin-right: 0.5rem;
+                margin-top: 0.5rem;
+                width: 1rem;
+              }
+            }
+          }
+
+          .offer-desc-full {
+            p {
+              font-size: 1rem;
+              color: gray;
+              margin-top: 2rem;
+            }
+          }
+          .offer-desc-letter {
+            p {
+              font-size: 1rem;
+              color: gray;
+              margin-top: 2rem;
+            }
+          }
+        }
+      }
+    }
+    .btn-flex {
+      display: grid;
+      place-items: center;
+      .btn {
+        margin-top: 5rem;
       }
     }
   }
@@ -237,6 +305,7 @@
 .gallery {
   margin-top: 4rem;
   .container {
+    width: 100%-20%;
     h1 {
       text-align: center;
       color: $thrid-color;
@@ -337,19 +406,85 @@
     }
   }
 }
+.call-to-action3 {
+  margin-top: 1rem;
+  height: 25vh;
+margin-bottom: -1rem;
+  overflow-x: hidden;
+  background: url(../Image/bkg1.jpg) no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-position: center center;
+  background-attachment: fixed;
+  text-align: center;
+  
+  .call-title {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Playfair Display', serif;
+    margin-top: 3rem;
+    font-size: 0.7rem;
+    letter-spacing: .5rem;
+    line-height: 1rem;
+    padding: 20px;
+    color: #fff;
+  }
+  .call-btn {
+    padding: 10px;
+  }
+}
+.img-portfoilo{
+  display: flex;
+  justify-content: center;
+  img{
+    width: 18rem;
+  
+    margin-bottom: -10rem;
+  }
+}
 
+.call-to-action2 {
+  margin-top: 3rem;
+  height: 40vh;
+
+  overflow-x: hidden;
+  background: url(../Image/bkg.jpg) no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-position: center center;
+  background-attachment: fixed;
+  text-align: center;
+  overflow: hidden;
+  .call-title {
+    font-family: 'Archive';
+    margin-top: 9rem;
+    font-size: 0.8rem;
+  
+    padding: 10px;
+    color: #fff;
+    p {
+
+      font-family: 'lato';
+      font-size: 1rem;
+      line-height: 1.5rem;
+    }
+  }
+  .call-btn {
+    padding: 10px;
+  }
+}
 .call-to-action {
   margin-top: 3rem;
   height: 20vh;
 
   overflow-x: hidden;
-  background: url(../Image/back.jpg) no-repeat;
+  background: url(../Image/bkg.jpg) no-repeat;
   background-size: cover;
   background-blend-mode: overlay;
   background-position: center center;
   background-attachment: fixed;
   text-align: center;
   .call-title {
+    font-family: 'Archive';
     margin-top: 2rem;
     font-size: 0.8rem;
     padding: 10px;
@@ -361,6 +496,7 @@
 }
 .client {
   .container {
+    width: 100%-10%;
     h1 {
       margin-top: 3rem;
       text-align: center;
@@ -400,6 +536,7 @@
 }
 .contact {
   .container {
+    width: 100%-20%;
     h1 {
       margin-top: 3rem;
       text-align: center;
@@ -416,8 +553,6 @@
     }
   }
   .contact-container {
-    padding: 10px;
-
     overflow-x: hidden;
     // background: url(../Image/backk.jpg) no-repeat;
     background-size: cover;
@@ -451,6 +586,32 @@
     .contact-btn {
       margin-top: 1.5rem;
     }
+  }
+}
+.call-to-action1 {
+  margin-top: 3rem;
+  height: 20vh;
+
+  overflow-x: hidden;
+  background: url(../Image/bkg1.jpg) no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-position: center center;
+  background-attachment: fixed;
+  text-align: center;
+  .call-title {
+   
+    font-family: 'Playfair Display', serif;
+    margin-top: 1rem;
+    font-size: 0.7rem;
+    letter-spacing: .3rem;
+    line-height: 1rem;
+    padding: 20px;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  .call-btn {
+    padding: 10px;
   }
 }
 .map1 {
@@ -558,7 +719,7 @@ footer {
   }
   .footer-copyright {
     margin-top: 2rem;
-    background-color: $secondary-color;
+    // background-color: $secondary-color;
     height: 1.5vh;
     .container {
       div {
@@ -622,19 +783,68 @@ footer {
           font-size: 1rem;
         }
       }
-      .offer-list {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        .offer1 {
-          .offer-col {
-            .offer-image {
-              width: 2.5rem;
 
-              margin-bottom: 1.3rem;
+      .offer-des {
+        .offer-links {
+          margin-top: 3rem;
+          margin-bottom: 3rem;
+
+          button {
+            width: 4rem;
+            margin-left: 8rem;
+
+            img {
+              margin: 0;
+            }
+          }
+        }
+
+        .offer-des-container {
+          .offer2 {
+            display: grid;
+            margin-top: 4rem;
+
+            grid-template-columns: 1fr 1fr 1fr;
+
+            .offer-desc-list {
+              .offer3 {
+                margin-top: 0rem;
+                font-size: 1.4rem;
+                margin-top: 2rem;
+
+                div {
+                  img {
+                    margin-top: 0.2rem;
+                  }
+                }
+              }
+            }
+
+            .offer-desc-full {
+              p {
+                font-size: 1rem;
+                margin-left: 2rem;
+              }
+            }
+            .offer-desc-letter {
+              p {
+                font-size: 1rem;
+                margin-left: 2rem;
+              }
             }
           }
         }
       }
+    }
+  }
+
+  .img-portfoilo{
+    display: flex;
+    justify-content: center;
+    img{
+    
+      width: 30rem;
+      margin-bottom: -12rem ;
     }
   }
   .call-to-action {
@@ -644,6 +854,31 @@ footer {
     }
     .call-btn {
       text-align: center;
+    }
+  }
+  .call-to-action1 {
+    .call-title {
+      margin-top: 3rem;
+      font-size: 1rem;
+    }
+    .call-btn {
+      text-align: center;
+    }
+  }
+  .call-to-action2 {
+  
+    .call-title {
+      margin-top: 12rem;
+     
+      font-size: 1.2rem;
+      p {
+  
+        font-size: 1.2rem;
+     
+      }
+    }
+    .call-btn {
+      padding: 10px;
     }
   }
   .gallery {
@@ -704,10 +939,10 @@ footer {
     }
     .contact-container {
       .contact-list {
-        width: 100%-10%;
         display: grid;
+        // place-items: center;
         grid-template-columns: 1fr 1fr;
-        margin-left: 8rem;
+
         div {
           a {
             img {
@@ -870,7 +1105,20 @@ footer {
       }
     }
   }
-
+  .img-portfoilo{
+   
+    img{
+    
+      width: 30rem;
+      margin-bottom: -15rem ;
+    }
+  }
+  .call-to-action3 {
+    height: 20vh;
+    .call-title {
+      font-size: 1.2rem;
+    }
+  }
   .call-to-action {
     margin-top: 5rem;
     margin-bottom: 10rem;
@@ -884,6 +1132,32 @@ footer {
       margin-top: 0.5rem;
     }
   }
+  .call-to-action1 {
+    .call-title {
+      margin-top: 3rem;
+      font-size: 1rem;
+    }
+    .call-btn {
+      text-align: center;
+    }
+  }
+  .call-to-action2 {
+  height: 30vh;
+    .call-title {
+      margin-top: 15rem;
+     
+      font-size: 1.2rem;
+      p {
+  
+        font-size: 1.2rem;
+     
+      }
+    }
+    .call-btn {
+      padding: 10px;
+    }
+  }
+
   .map1 {
     margin-bottom: 2rem;
     .location {
@@ -916,18 +1190,18 @@ footer {
       }
     }
   }
-  .contact {
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-    .contact-container {
-      .contact-list {
-        margin-left: 15rem;
-        img {
-          width: 1rem;
-        }
-      }
-    }
-  }
+  // .contact {
+  //   margin-top: 5rem;
+  //   margin-bottom: 5rem;
+  //   .contact-container {
+  //     .contact-list {
+  //       margin-left: 15rem;
+  //       img {
+  //         width: 1rem;
+  //       }
+  //     }
+  //   }
+  // }
   footer {
     .container {
       display: flex;
@@ -1002,7 +1276,7 @@ footer {
     overflow: hidden;
     height: 100vh;
     .container {
-      width: 100%-20%;
+      width: 100%-30%;
       img {
         margin-top: 0.5rem;
         width: 9rem;
@@ -1074,19 +1348,20 @@ footer {
         }
       }
       .moto {
+        width: 100%;
         margin-top: 20rem;
         margin-bottom: 15rem;
         h4 {
           margin-bottom: -2rem;
           letter-spacing: 0.2rem;
-          font-size: 1.2rem;
+          font-size: 1rem;
           font-weight: 900;
         }
         h5 {
           letter-spacing: 0.8rem;
         }
         h1 {
-          font-size: 4.5em;
+          font-size: 4rem;
           margin: 0.5em;
         }
       }
@@ -1125,33 +1400,70 @@ footer {
         font-size: 2rem;
         margin-bottom: 3rem;
         p {
-          margin-left: 20rem;
-          margin-right: 20rem;
+          margin-left: 10rem;
+          margin-right: 10rem;
           font-size: 1rem;
           margin-bottom: 3rem;
         }
       }
+      .offer-des {
+        .offer-links {
+          margin-top: 3rem;
+          margin-bottom: 3rem;
 
-      .offer-list {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        .offer1 {
-          .offer-col {
-            text-align: center;
-            .offer-image {
-              width: 4rem;
+          button {
+            width: 4rem;
+            margin-right: 3rem;
 
-              margin-bottom: 2rem;
+            img {
+              margin: 1.5rem;
             }
-            .offer-desc {
-              h2 {
-                font-size: 1.2rem;
+          }
+        }
+
+        .offer-des-container {
+          .offer2 {
+            display: grid;
+            margin-top: 4rem;
+
+            grid-template-columns: 1fr 1fr 1fr;
+
+            .offer-desc-list {
+              margin-top: 1.5rem;
+
+              .offer3 {
+                margin-top: 0rem;
+                font-size: 1.4rem;
+                margin-top: 2rem;
+
+                div {
+                  img {
+                    margin-top: 0.2rem;
+                  }
+                }
               }
+            }
+
+            .offer-desc-full {
               p {
                 font-size: 1rem;
+                margin-left: 2rem;
+              }
+            }
+            .offer-desc-letter {
+              p {
+                font-size: 1rem;
+                margin-left: 2rem;
               }
             }
           }
+        }
+      }
+      .btn-flex {
+        display: grid;
+        place-items: center;
+        .btn {
+          margin-top: 10rem;
         }
       }
     }
@@ -1162,8 +1474,8 @@ footer {
         font-size: 2rem;
         margin-bottom: 5rem;
         p {
-          margin-left: 20rem;
-          margin-right: 20rem;
+          margin-left: 10rem;
+          margin-right: 10rem;
           font-size: 1rem;
         }
       }
@@ -1171,8 +1483,32 @@ footer {
     .gallery-container {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: repeat(1, 20vw);
+      grid-template-rows: repeat(3, 20vw);
       grid-gap: 10px;
+    }
+  }
+  .img-portfoilo{
+  justify-content: left;
+    img{
+      margin-left: 4rem;
+      width: 30rem;
+      margin-bottom: -18rem ;
+    }
+  }
+  
+  .call-to-action2{
+    height: 30vh;
+
+    .call-title {
+      margin-top: 5rem;
+      margin-left: 35rem;
+      margin-right: 10rem;
+      font-size: 1.33rem;
+    }
+    .call-btn {
+      margin-left: 30rem;
+      margin-right: 10rem;
+      padding: 10px;
     }
   }
   .call-to-action {
@@ -1184,15 +1520,25 @@ footer {
       padding: 10px;
     }
   }
-
+  .call-to-action1 {
+    height: 25vh;
+    .call-title {
+      margin-top: 3.5rem;
+      font-size: 1.2rem;
+    }
+    .call-btn {
+      padding: 10px;
+    }
+  }
   .client {
     .container {
+      width: 100%-30%;
       text-align: center;
       h1 {
         font-size: 2rem;
         p {
-          margin-left: 20rem;
-          margin-right: 20rem;
+          margin-left: 10rem;
+          margin-right: 10rem;
           font-size: 1rem;
         }
       }
@@ -1228,17 +1574,19 @@ footer {
       }
     }
     .contact-container {
-      margin-left: 10rem;
-      margin-right: 10rem;
+      
       .contact-list {
         margin-top: 5rem;
         div {
+          margin-right: 5rem;
+          margin-left: 5rem;
           a {
             img {
               margin-top: 0.1rem;
+              width: 1.5rem;
             }
             span {
-              font-size: 1rem;
+              font-size: .9rem;
             }
           }
         }
@@ -1314,6 +1662,7 @@ footer {
     .footer-copyright {
       .container {
         div {
+          margin-top: 5rem;
           width: 100%;
           text-align: center;
           font-size: 0.8rem;
@@ -1335,12 +1684,12 @@ footer {
         width: 10rem;
       }
       .moto {
-        margin-top: 15rem;
+        margin-top: 20rem;
         margin-left: 1rem;
 
         h4 {
           margin-bottom: -3rem;
-          font-size: 1.4rem;
+          font-size: 1rem;
           letter-spacing: 0.4rem;
         }
         h5 {
@@ -1405,7 +1754,7 @@ footer {
             margin-left: 5rem;
             margin-right: 5rem;
             line-height: 2rem;
-            font-size: 1.3rem;
+            font-size: 1rem;
           }
         }
       }
@@ -1418,46 +1767,89 @@ footer {
         font-size: 2rem;
         margin-bottom: 3rem;
         p {
-          margin-left: 20rem;
-          margin-right: 20rem;
+          margin-left: 10rem;
+          margin-right: 10rem;
           font-size: 1rem;
           margin-bottom: 3rem;
         }
       }
 
-      .offer-list {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        .offer1 {
-          .offer-col {
-            text-align: center;
-            .offer-image {
-              width: 4rem;
-              margin-bottom: 2rem;
+      .offer-des {
+        .offer-links {
+          margin-top: 3rem;
+          margin-bottom: 3rem;
+
+          button {
+            width: 4rem;
+            margin-left: 8rem;
+
+            img {
+              margin: 0;
             }
-            .offer-desc {
-              h2 {
-                font-size: 1.2rem;
+          }
+        }
+
+        .offer-des-container {
+          .offer2 {
+            display: grid;
+            margin-top: 4rem;
+
+            grid-template-columns: 1fr 1fr 1fr;
+
+            .offer-desc-list {
+              margin-top: 1.5rem;
+
+              .offer3 {
+                margin-top: 0rem;
+                font-size: 1.4rem;
+                margin-top: 2rem;
+
+                div {
+                  img {
+                    margin-top: 0.2rem;
+                  }
+                }
               }
+            }
+
+            .offer-desc-full {
               p {
                 font-size: 1rem;
-                margin-left: 5rem;
-                margin-right: 5rem;
+                margin-left: 2rem;
+              }
+            }
+            .offer-desc-letter {
+              p {
+                font-size: 1rem;
+                margin-left: 2rem;
               }
             }
           }
         }
       }
+      .btn-flex {
+        display: grid;
+        place-items: center;
+        .btn {
+          margin-top: 10rem;
+        }
+      }
     }
   }
-
+  .img-portfoilo{
+  
+      img{
+      
+        width: 30rem;
+        margin-bottom: -17rem ;
+      }
+    }
   .call-to-action {
     margin-top: 10rem;
   }
   .client {
     .container {
       .client-image {
-        margin-left: 5rem;
         margin-top: 2rem;
       }
     }
@@ -1466,7 +1858,7 @@ footer {
     margin-top: 10rem;
 
     .contact-container {
-      margin-left: 20rem;
+
       .contact-all {
         display: flex;
         margin-top: 2.4rem;

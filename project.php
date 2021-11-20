@@ -42,12 +42,12 @@
           </ul>
         </div>
         <div class="filter-link"></div>
-        <div class="divide">
+        <!-- <div class="divide">
           <img src="./Image/divide.svg" alt="" />
         </div>
         <div class="divide2">
           <img src="./Image/divide2.svg" alt="" />
-        </div>
+        </div> -->
       </div>
     </section>
 
@@ -134,7 +134,16 @@
         </div>
       </div>
     </section> -->
-
+    <section class="call-to-action1">
+    <div class="call-title">
+      Please contact us if you would like to order a design or for additional
+      information.
+    </div>
+    <div class="call-btn">
+      <a href="contact.html" class="btn btn-outline-secondary" href="#">Contact Us
+      </a>
+    </div>
+  </section>
     <footer class="footer-down">
 
     </footer>

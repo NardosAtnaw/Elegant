@@ -1,4 +1,4 @@
-import {footer} from './common.js'
+import { footer } from './common.js'
 
 
 footer()
@@ -14,13 +14,13 @@ menu.addEventListener("click", () => {
   sidenav.classList.add("show-nav");
   links.forEach(link => {
     link.style.color = '#10284e'
-})
+  })
 });
 close.addEventListener("click", () => {
   sidenav.classList.remove("show-nav");
 });
 
-if(window.innerWidth > 1152){
+if (window.innerWidth > 1152) {
   console.log("scroll");
   console.log(window.innerWidth);
   window.addEventListener("scroll", () => {
@@ -34,21 +34,21 @@ if(window.innerWidth > 1152){
       logo.innerHTML = `<a href="./index.html"><img src="./Image/logo2.svg" alt="Elias Logo" /> </a>`;
       nav.classList.add("fixed-nav");
       links.forEach(link => {
-          link.style.color = '#4D4B4B'
+        link.style.color = '#4D4B4B'
       })
-      
+
 
     } else {
       logo.innerHTML = `<a href="./index.html"><img src="./Image/logo2.svg" alt="Elias Logo" />  </a>`;
       nav.classList.remove("fixed-nav");
       menu.innerHTML = ` <img src="./Image/menu.svg" class="ham" alt="" />`;
       links.forEach(link => {
-          link.style.color = '#4D4B4B'
+        link.style.color = '#4D4B4B'
       })
-      
+
     }
   });
-}else{
+} else {
   window.addEventListener("scroll", () => {
     const navheight = nav.getBoundingClientRect().height;
     const scorllheight = window.pageYOffset;
@@ -58,57 +58,181 @@ if(window.innerWidth > 1152){
 
       logo.innerHTML = `<a href="./index.html"><img src="./Image/logo2.svg" alt="Elias Logo" /> </a>`;
       nav.classList.add("fixed-nav");
-   
+
 
     } else {
       logo.innerHTML = `<a href="./index.html"><img src="./Image/logo2.svg" alt="Elias Logo" />  </a>`;
       nav.classList.remove("fixed-nav");
       menu.innerHTML = ` <img src="./Image/menu.svg" alt="" />`;
-     
+
     }
   });
 }
 
 
 
-  
-const client1 = document.querySelector('.client1')
-const client2 = document.querySelector('.client2')
-const client3 = document.querySelector('.client3')
-const client4 = document.querySelector('.client4')
-const client5 = document.querySelector('.client5')
 
-client1.addEventListener('mouseover', () =>{
-  client1.setAttribute('src','./Image/c6.png')
+const offerApp = Vue.createApp({
+  data(){
+    return {
+      offers: [
+        {
+          id: 1,
+          titles: ["Branding","Banner Printing","Package Printing","Production Paper Printing", "Card Printing"],
+          desc1: `We believe a brand image should be one of your strongest
+          assets, communicating the essence of your business. We believe a brand image should be one of your strongest
+          assets, communicating the essence of your business.`,
+          desc2: `We believe a brand image should be one of your strongest
+          assets, communicating the essence of your business. We believe a brand image should be one of your strongest
+          assets, communicating the essence of your business.`,
+          show: true
+        },
+        {
+          id: 2,
+          titles: ["Prinintg","Banner Printing","Package Printing","Production Paper Printing", "Card Printing"],
+          desc1: `We believe a brand image should be one of your strongest
+          assets, communicating the essence of your business. We believe a brand image should be one of your strongest
+          assets, communicating the essence of your business.`,
+          desc2: `We believe a brand image should be one of your strongest
+          assets, communicating the essence of your business. We believe a brand image should be one of your strongest
+          assets, communicating the essence of your business.`,
+          show: false
+        },
+        {
+          id: 3,
+          titles: ["logo design","Banner Printing","Package Printing","Production Paper Printing", "Card Printing"],
+          desc1: `We believe a brand image should be one of your strongest
+          assets, communicating the essence of your business. We believe a brand image should be one of your strongest
+          assets, communicating the essence of your business.`,
+          desc2: `We believe a brand image should be one of your strongest
+          assets, communicating the essence of your business. We believe a brand image should be one of your strongest
+          assets, communicating the essence of your business.`,
+          show: false
+        },
+        {
+          id: 4,
+          titles: ["packaging","Banner Printing","Package Printing","Production Paper Printing", "Card Printing"],
+          desc1: `We believe a brand image should be one of your strongest
+          assets, communicating the essence of your business. We believe a brand image should be one of your strongest
+          assets, communicating the essence of your business.`,
+          desc2: `We believe a brand image should be one of your strongest
+          assets, communicating the essence of your business. We believe a brand image should be one of your strongest
+          assets, communicating the essence of your business.`,
+          show: false
+        },
+        {
+          id: 5,
+          titles: ["graphics","Banner Printing","Package Printing","Production Paper Printing", "Card Printing"],
+          desc1: `We believe a brand image should be one of your strongest
+          assets, communicating the essence of your business. We believe a brand image should be one of your strongest
+          assets, communicating the essence of your business.`,
+          desc2: `We believe a brand image should be one of your strongest
+          assets, communicating the essence of your business. We believe a brand image should be one of your strongest
+          assets, communicating the essence of your business.`,
+          show: false
+        }
+        
+      ]
+    }
+  },
+  methods: {
+    toggleVisiblity(id){
+      this.offers.map(offer => {
+        
+        if(id == offer.id){
+          offer.show = true
+        }else{
+          offer.show = false
+        }
+        console.log(offer.show);
+      })
+    },
+    lastArray(title){
+      this.offers.map(offer => {
+        let lastElement = title[title.length - 1] 
+        console.log(lastElement);
+        if(lastElement){
+          return true
+        }else{
+          console.log("true");
+        }
+        
+      })
+      
+    }
+  }
 })
-client1.addEventListener('mouseleave', () =>{
-    client1.setAttribute('src','./Image/c3.png')
-  })
 
-  client2.addEventListener('mouseover', () =>{
-    client2.setAttribute('src','./Image/c5.png')
-  })
-  client2.addEventListener('mouseleave', () =>{
-      client2.setAttribute('src','./Image/c2.png')
-    })
+offerApp.mount("#offerApp")
 
-    client3.addEventListener('mouseover', () =>{
-      client3.setAttribute('src','./Image/c4.png')
-    })
-    client3.addEventListener('mouseleave', () =>{
-        client3.setAttribute('src','./Image/c1.png')
-      })
-
-      client4.addEventListener('mouseover', () =>{
-        client4.setAttribute('src','./Image/client5.png')
-      })
-      client4.addEventListener('mouseleave', () =>{
-          client4.setAttribute('src','./Image/client6.png')
-        })
+// function desturctTitle(title){
+  //   let title2 = title.map(offer => {
+    //     return `<li> ${offer} </li>`
+    //   }).join('')
+    //   console.log(title2);
+    //   return title2
+    // }
     
-        client5.addEventListener('mouseover', () =>{
-          client5.setAttribute('src','./Image/client8.png')
-        })
-        client5.addEventListener('mouseleave', () =>{
-            client5.setAttribute('src','./Image/client7.png')
-          })
+    // let offerContent = offers.map(offer => {
+      //   return ` <div class="offer-des-container">
+      //   <div class="offer-desc-list">
+      //     <ul>
+      //      ${desturctTitle(offer.titles)}
+      //     </ul>
+      
+      //   </div>
+      //   <div class="offer-desc-full">
+      //     <p>
+      //      ${offer.desc1}
+      //     </p>
+      //   </div>
+      //   <div class="offer-desc-letter">
+      //     <p>
+      //      ${offer.desc2}
+      //     </p>
+      //   </div>
+      // </div>`
+      // })
+      // offerDes.innerHTML = offerContent.join('')
+      
+      
+      const client1 = document.querySelector('.client1')
+      const client2 = document.querySelector('.client2')
+      const client3 = document.querySelector('.client3')
+      const client4 = document.querySelector('.client4')
+      const client5 = document.querySelector('.client5')
+      
+      client1.addEventListener('mouseover', () => {
+        client1.setAttribute('src', './Image/c6.png')
+      })
+      client1.addEventListener('mouseleave', () => {
+        client1.setAttribute('src', './Image/c3.png')
+      })
+      
+      client2.addEventListener('mouseover', () => {
+        client2.setAttribute('src', './Image/c5.png')
+      })
+      client2.addEventListener('mouseleave', () => {
+        client2.setAttribute('src', './Image/c2.png')
+      })
+      
+      client3.addEventListener('mouseover', () => {
+        client3.setAttribute('src', './Image/c4.png')
+      })
+      client3.addEventListener('mouseleave', () => {
+        client3.setAttribute('src', './Image/c1.png')
+      })
+      
+      client4.addEventListener('mouseover', () => {
+        client4.setAttribute('src', './Image/client5.png')
+      })
+      client4.addEventListener('mouseleave', () => {
+        client4.setAttribute('src', './Image/client6.png')
+      })
+      
+      client5.addEventListener('mouseover', () => {
+        client5.setAttribute('src', './Image/client8.png')
+      })
+      client5.addEventListener('mouseleave', () => {
+        client5.setAttribute('src', './Image/client7.png')
+      })

@@ -9,6 +9,7 @@
       href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
       rel="stylesheet"
     />
+    <script src="https://unpkg.com/vue@next"></script>
     <title>Service</title>
   </head>
 
@@ -16,7 +17,6 @@
     <header class="service-header">
       
       </header>
-
 
       <section class="offer">
         <div class="container">
@@ -27,123 +27,54 @@
               Please see the list below and contact us if you have any queries.
             </p>
           </h1>
-  
-          <div class="offer-list row align-center">
-        <div class="offer1 row">
-          <div class="offer-col col-12 col-xl-12 ">
-            <div class="offer-image ">
-            <img src="./Image/Service1.svg" alt="" />
-  
+          <div class="offer-des" id="offerApp">
+            <div class="offer-links">
+              <button class="" @click="toggleVisiblity(1)"><img src="./Image/Service1.svg" alt="" /></button>
+              <button class="" @click="toggleVisiblity(2)"><img src="./Image/service2.svg" alt="" /></button>
+              <button class="" @click="toggleVisiblity(3)"><img src="./Image/service3.svg" alt="" /></button>
+              <button class="" @click="toggleVisiblity(4)"><img src="./Image/service4.svg" alt="" /></button>
+              <button class="" @click="toggleVisiblity(5)"><img src="./Image/service5.svg" alt="" /></button>
             </div>
-            <div class="offer-desc">
-            <h2>Printing Services</h2>
+    
+            <div class="offer-des-container" v-for="offer in offers" :key="offer.id">
+              <div class="offer2" v-if="offer.show">
+                <div class="offer-desc-list">
+                  <span class="offer3" v-for="title in offer.titles" :key="title">
+    
+                    <span>{{ title }}</span>
+                    <span v-if="!offer.titles.length - 1">
+    
+                      <img src="./Image/circle.svg" alt="">
+                    </span>
+    
+    
+    
+                  </span>
+    
+                </div>
+                <div class="offer-desc-full">
                   <p>
-                    Our packaging design and our Point of Sale designs are
-                    practical, cost-effective and absolutely great at grabbing
-                    attention.
+                    {{ offer.desc1 }}
                   </p>
-            </div>
-  
-          </div>
-  
-        </div>
-        <div class="offer1 row">
-          <div class="offer-col col-12 col-xl-12  ">
-            <div class="offer-image ">
-            <img src="./Image/service3.svg" alt="" />
-  
-            </div>
-            <div class="offer-desc">
-            <h2>Packaging</h2>
+                </div>
+                <div class="offer-desc-letter">
                   <p>
-                    Our packaging design and our Point of Sale designs are
-                    practical and absolutely great at grabbing attention.
+                    {{ offer.desc2 }}
                   </p>
+                </div>
+              </div>
+    
+    
             </div>
-  
           </div>
-  
-        </div>
-        
-        <div class="offer1 row">
-          <div class="offer-col col-12 col-xl-12 ">
-            <div class="offer-image ">
-            <img src="./Image/service4.svg" alt="" />
-  
-            </div>
-            <div class="offer-desc">
-            <h2>Graphics Designs</h2>
-                  <p>
-                    We offer a wide range of graphic design in small quantity
-                    catalogue, Brochure, Business Card... services to clients.
-                  </p>
-            </div>
-  
+          <div class="btn-flex">
+            <a class="btn btn-outline-primary " href="project.php">VIEW WORKS</a>
+    
           </div>
-  
-        </div>
-          
-        <div class="offer1 row">
-          <div class="offer-col col-12 col-xl-12 ">
-            <div class="offer-image ">
-            <img src="./Image/service2.svg" alt="" />
-  
-            </div>
-            <div class="offer-desc">
-            <h2>Logo Design</h2>
-                 <p>
-                   Your logo design or brand image should be one of your
-                   strongest assets, communicating the essence of your business
-                   and what you aspire to.
-                 </p>
-            </div>
-  
-          </div>
-  
-        </div>
-        <div class="offer1 row">
-          <div class="offer-col col-12 col-xl-12 ">
-            <div class="offer-image ">
-            <img src="./Image/service5.svg" alt="" />
-  
-            </div>
-            <div class="offer-desc">
-            <h2>Branding</h2>
-                  <p>
-                    We believe a brand image should be one of your strongest
-                    assets, communicating the essence of your business.
-                  </p>
-            </div>
-  
-          </div>
-  
-        </div>
-  
-        <div class="offer1 row">
-          <div class="offer-col col-12 col-xl-12 ">
-            <div class="offer-image ">
-            <img src="./Image/service4.svg" alt="" />
-  
-            </div>
-            <div class="offer-desc">
-            <h2>Car Branding</h2>
-                  <p>
-                  Your logo design or brand image should be one of your
-                   strongest assets to your business
-                   and what you aspire to.
-                  </p>
-            </div>
-  
-          </div>
-  
-        </div>
-  
-  
-  
-  
-          </div>
+    
         </div>
       </section>
+
     <section class="contact">
       <div class="container">
         <h1>Contact Us
@@ -195,12 +126,12 @@
       </div>
     </section>
 
-    <section class="call-to-action">
+    <section class="call-to-action3">
       <div class="call-title">
         Please contact us if you would like to order a design or for additional information.
       </div>
       <div class="call-btn">
-        <a href="contact.html" class="btn btn-secondary" href="#">Contact Us </a>
+        <a href="contact.html" class="btn btn-outline-secondary" href="#">Contact Us </a>
       </div>
     </section>
 
@@ -208,5 +139,7 @@
      
     </footer>
     <script src="./js/pages.js" type="module"></script>
+    <script src="./js/app.js" type="module"></script>
+   
   </body>
 </html>

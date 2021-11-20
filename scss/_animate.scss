@@ -1,0 +1,16 @@
+$colors: (
+  // #71bf45,
+  #ef0e39,
+  // #9e79d7,
+);
+$color: nth($colors, random(length($colors)));
+
+#bg {
+  background: radial-gradient(ellipse at center, $color 0%, darken($color, 50%) 100%);
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  position: absolute;
+} 

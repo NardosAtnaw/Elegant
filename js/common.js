@@ -64,7 +64,7 @@ function footer(){
      <div class="container ">
        <div>
 
-       <a href="https://versavvymedia.com/">  Copyright 2021 Designed by Versavvy Media </a>
+       <a href="#">  &copy Copyright 2021 Designed Elegant Design </a>
 
        </div>
        

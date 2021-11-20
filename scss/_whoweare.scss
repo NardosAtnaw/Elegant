@@ -1,9 +1,10 @@
 .ourstory{
-    background: url(../Image/offerbg.jpg) no-repeat;
+    // background: url(../Image/offerbg.jpg) no-repeat;
     background-size: 30rem;
     background-blend-mode: overlay;
     background-position: center center;
     .container {
+        width: 100%-20%;
         h1 {
             margin-top: 2rem;
           text-align: left;
@@ -33,7 +34,7 @@
 @include responsive($xl){
     
     .ourstory{
-        background: url(../Image/offerbg.jpg) no-repeat;
+        
         background-size: 60rem;
         background-blend-mode: overlay;
         background-position: center center;

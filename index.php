@@ -9,13 +9,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="./css/style.css" />
   <link href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css" rel="stylesheet" />
+  <script src="https://unpkg.com/vue@next"></script>
   <title>Home</title>
 </head>
 
 <body>
   <header class="home-header">
-    <video class="video" src="./Image/Abstract_Red.mp4" loop muted autoplay>
-    </video>
+    <!-- <video class="video" src="./Image/Abstract_Red.mp4" loop muted autoplay> -->
+    <!-- <video class="video" src="./Image/Orange Abstract (720p).mp4" loop muted autoplay>
+    </video> -->
+    <div id="bg">
+
+</div>
     <div class="container">
       <section class="nav ">
         <a class="logo" href="index.php"><img src="./Image/logo2.svg" alt="Elias Logo" /></a>
@@ -66,6 +71,11 @@
           </p>
         </div>
       </div>
+
+      <div class="btn-flex">
+        <a class="btn btn-outline-primary " href="whoweare.html">OUR STORY</a>
+
+      </div>
     </div>
   </section>
   <section class="offer">
@@ -77,14 +87,50 @@
           Please see the list below and contact us if you have any queries.
         </p>
       </h1>
-      <div class="offer-links">
-      <a><img src="./Image/Service1.svg" alt="" /></a>
-      <a><img src="./Image/service2.svg" alt="" /></a>
-      <a><img src="./Image/service3.svg" alt="" /></a>
-      <a><img src="./Image/service4.svg" alt="" /></a>
-      <a><img src="./Image/service5.svg" alt="" /></a>
+      <div class="offer-des" id="offerApp">
+        <div class="offer-links">
+          <button class="" @click="toggleVisiblity(1)"><img src="./Image/Service1.svg" alt="" /></button>
+          <button class="" @click="toggleVisiblity(2)"><img src="./Image/service2.svg" alt="" /></button>
+          <button class="" @click="toggleVisiblity(3)"><img src="./Image/service3.svg" alt="" /></button>
+          <button class="" @click="toggleVisiblity(4)"><img src="./Image/service4.svg" alt="" /></button>
+          <button class="" @click="toggleVisiblity(5)"><img src="./Image/service5.svg" alt="" /></button>
+        </div>
+
+        <div class="offer-des-container" v-for="offer in offers" :key="offer.id">
+          <div class="offer2" v-if="offer.show">
+            <div class="offer-desc-list">
+              <span class="offer3" v-for="title in offer.titles" :key="title">
+
+                <span>{{ title }}</span>
+                <span v-if="!offer.titles.length - 1">
+
+                  <img src="./Image/circle.svg" alt="">
+                </span>
+
+
+
+              </span>
+
+            </div>
+            <div class="offer-desc-full">
+              <p>
+                {{ offer.desc1 }}
+              </p>
+            </div>
+            <div class="offer-desc-letter">
+              <p>
+                {{ offer.desc2 }}
+              </p>
+            </div>
+          </div>
+
+
+        </div>
       </div>
-      
+      <div class="btn-flex">
+        <a class="btn btn-outline-primary " href="project.php">VIEW WORKS</a>
+
+      </div>
 
     </div>
   </section>
@@ -105,14 +151,32 @@
 
     </div>
   </section>
-  <section class="call-to-action">
-    <div class="call-title">
-      Please contact us if you would like to order a design or for additional
-      information.
+   
+  <section class="call-to-action3">
+  
+  <div class="call-title">
+  PLEASE CONTACT US IF YOU WANT TO ORDER.
+     
     </div>
     <div class="call-btn">
-      <a href="contact.html" class="btn btn-secondary" href="#">Contact Us
-      </a>
+    <a class="btn btn-outline-secondary " href="contact.html">CONTACT US</a>
+    </div>
+  </section>
+  <section class="img-portfoilo">
+  <img src="./Image/portfoilo.svg" alt="">
+  </section>
+ 
+  <section class="call-to-action2 ">
+  
+    <div class="call-title ">
+    WE DO DIFFERENT DESIGNS AND PRINTING, VIEW OUR WORKS.
+    <p>
+      We  convey our clients their brand is a target  to market on the internet.
+      Take a look at some of our works!
+    </p>
+    </div>
+    <div class="call-btn">
+    <a class="btn btn-outline-secondary " href="contact.html">View Works</a>
     </div>
   </section>
   <section class="client">
@@ -194,15 +258,28 @@
       </div>
     </div>
   </section>
-  <section class="map1">
+  
+  <section class="call-to-action1">
+    <div class="call-title">
+    Please contact us if you would like to order or for additional
+      information.
+    </div>
+    <div class="call-btn">
+      <a href="contact.html" class="btn btn-outline-secondary" href="#">Contact Us
+      </a>
+    </div>
+  </section>
+
+  <!-- <section class="map1">
     <div class="location">
       <div class="map-responsive">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7881.425883314249!2d38.749138648132856!3d8.998539770849385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b85b8f94377a5%3A0x85a927d87a61e06f!2sElegant%20Design%20and%20Print!5e0!3m2!1sen!2set!4v1634731467017!5m2!1sen!2set" width="100%" height="450" style="border: 0" allowfullscreen="" loading="lazy"></iframe>
       </div>
     </div>
-  </section>
+  </section> -->
 
   <footer class="footer-down"></footer>
+  <script src="./js/animate.js"></script>
   <script src="./js/app.js" type="module"></script>
 </body>
 
