@@ -89,11 +89,21 @@
       </h1>
       <div class="offer-des" id="offerApp">
         <div class="offer-links">
-          <button class="" @click="toggleVisiblity(1)"><img src="./Image/Service1.svg" alt="" /></button>
-          <button class="" @click="toggleVisiblity(2)"><img src="./Image/service2.svg" alt="" /></button>
-          <button class="" @click="toggleVisiblity(3)"><img src="./Image/service3.svg" alt="" /></button>
-          <button class="" @click="toggleVisiblity(4)"><img src="./Image/service4.svg" alt="" /></button>
-          <button class="" @click="toggleVisiblity(5)"><img src="./Image/service5.svg" alt="" /></button>
+          <button  @click.stop="toggleVisiblity(1)"><img class="service1" src="./Image/Service1-1.svg" alt="" />
+          <h5> Printing </h5></button>
+        
+          <button  @click.stop="toggleVisiblity(2)"><img class="service2" src="./Image/service2-1.svg" alt="" />
+          <h5> Logo  </h5></button>
+          
+          <button  @click.stop="toggleVisiblity(3)"><img class="service3" src="./Image/service3-1.svg" alt="" />
+          <h5> Packaging </h5></button>
+          
+          <button  @click.stop="toggleVisiblity(4)"><img class="service4" src="./Image/service4-1.svg" alt="" />  
+          <h5> Graphics  </h5></button>
+        
+          <button  @click.stop="toggleVisiblity(5)"><img class="service5" src="./Image/service5-1.svg" alt="" />     
+          <h5> Branding </h5></button>
+     
         </div>
 
         <div class="offer-des-container" v-for="offer in offers" :key="offer.id">
@@ -185,7 +195,7 @@
         Our Clients
         <p>
           We've done a lot of designs for different firms, and these are a few
-          of or clients.
+          of our clients.
         </p>
       </h1>
       <div class="client-image">
@@ -279,8 +289,8 @@
   </section> -->
 
   <footer class="footer-down"></footer>
-  <script src="./js/animate.js"></script>
   <script src="./js/app.js" type="module"></script>
+  <script src="./js/animate.js"></script>
 </body>
 
 </html>

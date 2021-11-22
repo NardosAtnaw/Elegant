@@ -97,6 +97,8 @@
         margin: 0.5em;
         letter-spacing: 0.2rem;
         // font-style: italic;
+      
+font-family: 'Playfair Display', serif;
         font-size: 0.7rem;
         color: #fff;
         margin-top: -0.5rem;
@@ -225,6 +227,8 @@
   .container {
     width: 100%-20%;
     h1 {
+          
+font-family: 'Playfair Display', serif;
       text-align: center;
       color: $thrid-color;
       font-weight: bold;
@@ -251,6 +255,9 @@
           img {
             width: 100%;
             margin-bottom: 2rem;
+          }
+          h5{
+            display: none;
           }
         }
       }
@@ -281,6 +288,8 @@
               font-size: 1rem;
               color: gray;
               margin-top: 2rem;
+              
+              font-family: 'Playfair Display', serif;
             }
           }
           .offer-desc-letter {
@@ -288,6 +297,8 @@
               font-size: 1rem;
               color: gray;
               margin-top: 2rem;
+              
+              font-family: 'Playfair Display', serif;
             }
           }
         }
@@ -307,6 +318,8 @@
   .container {
     width: 100%-20%;
     h1 {
+          
+font-family: 'Playfair Display', serif;
       text-align: center;
       color: $thrid-color;
       font-weight: bold;
@@ -498,6 +511,8 @@ margin-bottom: -1rem;
   .container {
     width: 100%-10%;
     h1 {
+          
+font-family: 'Playfair Display', serif;
       margin-top: 3rem;
       text-align: center;
       color: $thrid-color;
@@ -538,6 +553,8 @@ margin-bottom: -1rem;
   .container {
     width: 100%-20%;
     h1 {
+          
+font-family: 'Playfair Display', serif;
       margin-top: 3rem;
       text-align: center;
       color: $thrid-color;
@@ -790,11 +807,19 @@ footer {
           margin-bottom: 3rem;
 
           button {
-            width: 4rem;
-            margin-left: 8rem;
-
+            width: 3.5rem;
+            margin-left: 5rem;
+            text-align: center;
             img {
               margin: 0;
+            }
+            h5{
+              display: block;
+              margin-top: .5rem;
+              font-size: 1rem;
+              color: #817f7f;
+            
+              font-family: 'Playfair Display', serif;
             }
           }
         }
@@ -1396,6 +1421,7 @@ footer {
   .offer {
     margin-top: 10rem;
     .container {
+      width:100%-40%;
       h1 {
         font-size: 2rem;
         margin-bottom: 3rem;
@@ -1413,10 +1439,22 @@ footer {
 
           button {
             width: 4rem;
-            margin-right: 3rem;
+          
 
             img {
-              margin: 1.5rem;
+              margin: 1rem;
+            }
+            h5{
+              display: block;
+              margin-top: 1rem;
+              font-size: 1.3rem;
+              color: #817f7f;
+            
+              font-family: 'Playfair Display', serif;
+              &:hover{
+                color: $primary-color;
+              }
+             
             }
           }
         }
@@ -1490,7 +1528,7 @@ footer {
   .img-portfoilo{
   justify-content: left;
     img{
-      margin-left: 4rem;
+      margin-left: 20rem;
       width: 30rem;
       margin-bottom: -18rem ;
     }
@@ -1500,13 +1538,15 @@ footer {
     height: 30vh;
 
     .call-title {
-      margin-top: 5rem;
-      margin-left: 35rem;
+      text-align: left;
+      margin-top: 3rem;
+      margin-left: 50rem;
       margin-right: 10rem;
-      font-size: 1.33rem;
+      font-size: 2rem;
     }
     .call-btn {
-      margin-left: 30rem;
+      margin-top: 1rem;
+      margin-left: 38rem;
       margin-right: 10rem;
       padding: 10px;
     }

@@ -195,6 +195,53 @@ offerApp.mount("#offerApp")
       // })
       // offerDes.innerHTML = offerContent.join('')
       
+
+
+       
+      const service1 = document.querySelector('.service1')
+      const service2 = document.querySelector('.service2')
+      const service3 = document.querySelector('.service3')
+      const service4 = document.querySelector('.service4')
+      const service5 = document.querySelector('.service5')
+      
+      service1.addEventListener('click', () => {
+        service1.setAttribute('src', './Image/Service1.svg')
+      })
+      service1.addEventListener('mouseover', () => {
+        service1.setAttribute('src', './Image/Service1.svg')
+      })
+      service1.addEventListener('mouseleave', () => {
+        service1.setAttribute('src', './Image/Service1-1.svg')
+      })
+     
+      
+      service2.addEventListener('mouseover', () => {
+        service2.setAttribute('src', './Image/Service2.svg')
+      })
+      service2.addEventListener('mouseleave', () => {
+        service2.setAttribute('src', './Image/Service2-1.svg')
+      })
+      
+      service3.addEventListener('mouseover', () => {
+        service3.setAttribute('src', './Image/Service3.svg')
+      })
+      service3.addEventListener('mouseleave', () => {
+        service3.setAttribute('src', './Image/Service3-1.svg')
+      })
+      
+      service4.addEventListener('mouseover', () => {
+        service4.setAttribute('src', './Image/Service4.svg')
+      })
+      service4.addEventListener('mouseleave', () => {
+        service4.setAttribute('src', './Image/Service4-1.svg')
+      })
+      
+      service5.addEventListener('mouseover', () => {
+        service5.setAttribute('src', './Image/Service5.svg')
+      })
+      service5.addEventListener('mouseleave', () => {
+        service5.setAttribute('src', './Image/Service5-1.svg')
+      })
       
       const client1 = document.querySelector('.client1')
       const client2 = document.querySelector('.client2')
@@ -236,3 +283,7 @@ offerApp.mount("#offerApp")
       client5.addEventListener('mouseleave', () => {
         client5.setAttribute('src', './Image/client7.png')
       })
+
+
+
+     
