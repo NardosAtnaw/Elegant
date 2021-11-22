@@ -92,7 +92,7 @@
           <button  @click.stop="toggleVisiblity(1)"><img class="service1" src="./Image/Service1-1.svg" alt="" />
           <h5> Printing </h5></button>
         
-          <button  @click.stop="toggleVisiblity(2)"><img class="service2" src="./Image/service2-1.svg" alt="" />
+          <button  @click.stop="toggleVisiblity(2)"><img class="service2" src="./Image/Service2-1.svg" alt="" />
           <h5> Logo  </h5></button>
           
           <button  @click.stop="toggleVisiblity(3)"><img class="service3" src="./Image/service3-1.svg" alt="" />

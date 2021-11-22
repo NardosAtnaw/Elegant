@@ -216,28 +216,28 @@ offerApp.mount("#offerApp")
      
       
       service2.addEventListener('mouseover', () => {
-        service2.setAttribute('src', './Image/Service2.svg')
+        service2.setAttribute('src', './Image/service2.svg')
       })
       service2.addEventListener('mouseleave', () => {
         service2.setAttribute('src', './Image/Service2-1.svg')
       })
       
       service3.addEventListener('mouseover', () => {
-        service3.setAttribute('src', './Image/Service3.svg')
+        service3.setAttribute('src', './Image/service3.svg')
       })
       service3.addEventListener('mouseleave', () => {
-        service3.setAttribute('src', './Image/Service3-1.svg')
+        service3.setAttribute('src', './Image/service3-1.svg')
       })
       
       service4.addEventListener('mouseover', () => {
-        service4.setAttribute('src', './Image/Service4.svg')
+        service4.setAttribute('src', './Image/service4.svg')
       })
       service4.addEventListener('mouseleave', () => {
-        service4.setAttribute('src', './Image/Service4-1.svg')
+        service4.setAttribute('src', './Image/service4-1.svg')
       })
       
       service5.addEventListener('mouseover', () => {
-        service5.setAttribute('src', './Image/Service5.svg')
+        service5.setAttribute('src', './Image/service5.svg')
       })
       service5.addEventListener('mouseleave', () => {
         service5.setAttribute('src', './Image/Service5-1.svg')
