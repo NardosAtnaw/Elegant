@@ -240,7 +240,7 @@ offerApp.mount("#offerApp")
         service5.setAttribute('src', './Image/service5.svg')
       })
       service5.addEventListener('mouseleave', () => {
-        service5.setAttribute('src', './Image/Service5-1.svg')
+        service5.setAttribute('src', './Image/service5-1.svg')
       })
       
       const client1 = document.querySelector('.client1')
