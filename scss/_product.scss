@@ -1,19 +1,22 @@
 .links {
-  .container {
+  margin-top: 2rem;
     .links-list {
       ul {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        color: gray;
 
         li {
-          margin-top: 2rem;
-          margin-bottom: 1rem;
+          margin-top: .5rem;
+          margin-bottom: .5rem;
           text-align: center;
+          font-size: .9rem;
+       
           a {
             text-decoration: none;
 
             &:hover {
-              color: $secondary-color;
+              color: $primary-color;
 
               &::after {
                 width: 100%;
@@ -30,36 +33,43 @@
     .divide2 {
       display: none;
     }
-  }
+  
+}
+@include responsive($md) {
+  .links {
+  
+    margin-top: 2rem;
+  margin-bottom: -5rem;
+
+      
+    }
+  
 }
 @include responsive($lg) {
   .links {
-    .container {
+  
       .links-list {
         ul {
-          margin-top: 2rem;
-          grid-template-columns: 1fr 1fr 1fr;
+          display: flex;
+          justify-content: center;
+          gap:3rem;
         }
       }
-      .divide {
-        margin-top: 1rem;
-        margin-left: 10rem;
-
-        overflow: hidden;
-      }
+      
     }
-  }
+  
 }
 
 @include responsive($xl) {
   .links {
-    .container {
+ 
+    margin-bottom: -5rem;
       .links-list {
         ul {
+          gap:5rem;
           margin-top: 2rem;
 
-          display: grid;
-          grid-template-columns: 1fr 1fr 1fr;
+      
 
           li {
             margin-top: 1rem;
@@ -67,16 +77,10 @@
             text-align: center;
             line-height: 2rem;
             a {
-              font-size: 1rem;
+              font-size: .8rem;
               text-decoration: none;
 
-              &:hover {
-                color: $secondary-color;
-
-                &::after {
-                  width: 100%;
-                }
-              }
+           
             }
             .active {
               color: $primary-color;
@@ -85,24 +89,18 @@
           }
         }
       }
-      .divide {
-        margin-top: 3rem;
-        margin-left: 25rem;
-
-        overflow: hidden;
-      }
+     
     }
-  }
+  
 }
 @include responsive($xxl) {
   .links {
-    .container {
+   
       .links-list {
         ul {
           margin-top: 4rem;
 
-          display: grid;
-          grid-template-columns: 1fr 1fr 1fr;
+      
 
           li {
             margin-top: 1rem;
@@ -116,10 +114,7 @@
           }
         }
       }
-      .divide {
-        margin-top: 1rem;
-        margin-left: 20rem;
-      }
+     
     }
-  }
+  
 }

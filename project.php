@@ -17,10 +17,10 @@
       
     </header>
     <section class="links">
-      <div class="container">
+      
         <div class="links-list">
           <ul>
-            <li class="col-12">
+            <li class="">
               <a class="active" href="#" id="all">ALL WORKS</a>
             </li>
             <li>
@@ -48,19 +48,19 @@
         <div class="divide2">
           <img src="./Image/divide2.svg" alt="" />
         </div> -->
-      </div>
+     
     </section>
 
 
     <section class="gallery">
       <div class="container">
-        <h1>All of Our Works
-          <p>
-            
-    We've wide range of services we offer.
-    To see a description of our services under each media, click on the pictures.
-          </p>
-        </h1>
+      <h1>
+        Some of Our Work
+        <p>
+          We've wide range of services we offer. To see a description of our
+          services under each media, click on the pictures.
+        </p>
+      </h1>
       </div>
         <div class="gallery-container">
         <?php include "./includes/posts.php"; ?>
