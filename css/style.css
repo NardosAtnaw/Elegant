@@ -312,7 +312,7 @@ template {
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Playfair Display", serif;
   font-size: 16px;
 }
 
@@ -983,17 +983,13 @@ body {
   margin-top: 4rem;
   margin-left: 1rem;
   padding: 10px;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .service-header .container .moto h1 {
   font-size: 1rem;
   margin: 0.5em;
   color: #fff;
-}
-
-.service-header .container .moto h1 .big {
-  font-size: 1.5rem;
 }
 
 .service-header .container .moto a {
@@ -1043,13 +1039,13 @@ body {
     font-size: 2rem;
   }
   .service-header .container .moto a {
-    margin-left: 30rem;
+    margin-left: 25rem;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .service-header .container {
-    width: 60%;
+    width: 70%;
   }
   .service-header .container .logo {
     margin-top: 0.5rem;
@@ -1136,13 +1132,9 @@ body {
   }
   .service-header .container .moto {
     margin-top: 4rem;
-    margin-left: 13rem;
   }
   .service-header .container .moto h1 {
     font-size: 3rem;
-  }
-  .service-header .container .moto a {
-    margin-left: 50rem;
   }
 }
 
@@ -1554,7 +1546,7 @@ body {
 
 .home-header .container .moto h4 {
   margin: 0.5em;
-  font-family: 'Archive';
+  font-family: "Archive";
   font-size: 0.5rem;
   color: #fff;
   margin-bottom: -0.5rem;
@@ -1563,7 +1555,7 @@ body {
 .home-header .container .moto h5 {
   margin: 0.5em;
   letter-spacing: 0.2rem;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: 0.7rem;
   color: #fff;
   margin-top: -0.5rem;
@@ -1573,7 +1565,7 @@ body {
   text-align: center;
   font-size: 2.3rem;
   margin: 0.5em;
-  font-family: 'Archive';
+  font-family: "Archive";
   color: #fff;
 }
 
@@ -1694,6 +1686,10 @@ body {
   margin: 0;
 }
 
+.show-dropdown {
+  max-height: 40rem !important;
+}
+
 .offer {
   margin-top: 4rem;
 }
@@ -1703,7 +1699,6 @@ body {
 }
 
 .offer .container h1 {
-  font-family: 'Playfair Display', serif;
   text-align: center;
   color: #4D4B4B;
   font-weight: bold;
@@ -1718,63 +1713,45 @@ body {
   font-weight: lighter;
 }
 
-.offer .container .offer-des .offer-links {
-  display: flex;
-  justify-content: center;
-  margin-left: 0.5rem;
+.offer .container .drop-down .cards .card {
+  display: grid;
+  place-items: center;
 }
 
-.offer .container .offer-des .offer-links button {
-  border: none;
-  background: none;
-  outline: none;
-  width: 3rem;
+.offer .container .drop-down .cards .card img {
+  width: 2rem;
 }
 
-.offer .container .offer-des .offer-links button img {
-  width: 100%;
-  margin-bottom: 2rem;
+.offer .container .drop-down .cards .card .text h2 {
+  text-align: center;
+  margin-top: 1rem;
+  color: #817f7f;
+  font-size: 1.3rem;
 }
 
-.offer .container .offer-des .offer-links button h5 {
-  display: none;
+.offer .container .drop-down .cards .card .text .drop-down-content, .offer .container .drop-down .cards .card .text .drop-down-content1, .offer .container .drop-down .cards .card .text .drop-down-content2, .offer .container .drop-down .cards .card .text .drop-down-content3, .offer .container .drop-down .cards .card .text .drop-down-content4 {
+  max-height: 5.5rem;
+  transition: all .5s ease-in-out;
+  overflow: hidden;
 }
 
-.offer .container .offer-des .offer-des-container {
-  transition: all 0.3s linear;
-}
-
-.offer .container .offer-des .offer-des-container .offer2 .offer-desc-list {
-  display: inline;
-}
-
-.offer .container .offer-des .offer-des-container .offer2 .offer-desc-list .offer3 {
+.offer .container .drop-down .cards .card .text .drop-down-content p, .offer .container .drop-down .cards .card .text .drop-down-content1 p, .offer .container .drop-down .cards .card .text .drop-down-content2 p, .offer .container .drop-down .cards .card .text .drop-down-content3 p, .offer .container .drop-down .cards .card .text .drop-down-content4 p {
+  text-align: center;
   margin-top: 1rem;
   font-size: 1rem;
-  font-weight: 500;
-  color: #8b8484;
+  color: #cecece;
 }
 
-.offer .container .offer-des .offer-des-container .offer2 .offer-desc-list .offer3 img {
-  display: inline;
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
-  margin-top: 0.5rem;
-  width: 1rem;
+.offer .container .drop-down .cards .card .text .more-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
-.offer .container .offer-des .offer-des-container .offer2 .offer-desc-full p {
-  font-size: 1rem;
-  color: gray;
-  margin-top: 2rem;
-  font-family: 'Playfair Display', serif;
-}
-
-.offer .container .offer-des .offer-des-container .offer2 .offer-desc-letter p {
-  font-size: 1rem;
-  color: gray;
-  margin-top: 2rem;
-  font-family: 'Playfair Display', serif;
+.offer .container .drop-down .cards .card .text .more-btn .drop, .offer .container .drop-down .cards .card .text .more-btn .drop1, .offer .container .drop-down .cards .card .text .more-btn .drop2, .offer .container .drop-down .cards .card .text .more-btn .drop3, .offer .container .drop-down .cards .card .text .more-btn .drop4 {
+  width: 1.5rem;
+  transition: all .5s ease-in-out;
 }
 
 .offer .container .btn-flex {
@@ -1795,7 +1772,7 @@ body {
 }
 
 .gallery .container h1 {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   text-align: center;
   color: #4D4B4B;
   font-weight: bold;
@@ -1909,11 +1886,11 @@ body {
 }
 
 .call-to-action3 .call-title {
-  font-family: 'Lato', sans-serif;
-  font-family: 'Playfair Display', serif;
+  font-family: "Lato", sans-serif;
+  font-family: "Playfair Display", serif;
   margin-top: 3rem;
   font-size: 0.7rem;
-  letter-spacing: .5rem;
+  letter-spacing: 0.3rem;
   line-height: 1rem;
   padding: 20px;
   color: #fff;
@@ -1947,7 +1924,7 @@ body {
 }
 
 .call-to-action2 .call-title {
-  font-family: 'Archive';
+  font-family: "Archive";
   margin-top: 9rem;
   font-size: 0.8rem;
   padding: 10px;
@@ -1955,7 +1932,7 @@ body {
 }
 
 .call-to-action2 .call-title p {
-  font-family: 'lato';
+  font-family: "lato";
   font-size: 1rem;
   line-height: 1.5rem;
 }
@@ -1977,7 +1954,7 @@ body {
 }
 
 .call-to-action .call-title {
-  font-family: 'Archive';
+  font-family: "Archive";
   margin-top: 2rem;
   font-size: 0.8rem;
   padding: 10px;
@@ -1993,8 +1970,8 @@ body {
 }
 
 .client .container h1 {
-  font-family: 'Playfair Display', serif;
-  margin-top: 3rem;
+  font-family: "Playfair Display", serif;
+  margin-top: 4rem;
   text-align: center;
   color: #4D4B4B;
   font-weight: bold;
@@ -2033,7 +2010,7 @@ body {
 }
 
 .contact .container h1 {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   margin-top: 3rem;
   text-align: center;
   color: #4D4B4B;
@@ -2100,10 +2077,10 @@ body {
 }
 
 .call-to-action1 .call-title {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   margin-top: 1rem;
   font-size: 0.7rem;
-  letter-spacing: .3rem;
+  letter-spacing: 0.3rem;
   line-height: 1rem;
   padding: 20px;
   color: #fff;
@@ -2276,45 +2253,13 @@ footer .footer-copyright .container div {
   .offer .container h1 p {
     font-size: 1rem;
   }
-  .offer .container .offer-des .offer-links {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-  }
-  .offer .container .offer-des .offer-links button {
-    width: 3.5rem;
-    margin-left: 5rem;
-    text-align: center;
-  }
-  .offer .container .offer-des .offer-links button img {
-    margin: 0;
-  }
-  .offer .container .offer-des .offer-links button h5 {
-    display: block;
-    margin-top: .5rem;
-    font-size: 1rem;
-    color: #817f7f;
-    font-family: 'Playfair Display', serif;
-  }
-  .offer .container .offer-des .offer-des-container .offer2 {
+  .offer .container .drop-down {
     display: grid;
-    margin-top: 4rem;
     grid-template-columns: 1fr 1fr 1fr;
   }
-  .offer .container .offer-des .offer-des-container .offer2 .offer-desc-list .offer3 {
-    margin-top: 0rem;
-    font-size: 1.4rem;
-    margin-top: 2rem;
-  }
-  .offer .container .offer-des .offer-des-container .offer2 .offer-desc-list .offer3 div img {
-    margin-top: 0.2rem;
-  }
-  .offer .container .offer-des .offer-des-container .offer2 .offer-desc-full p {
-    font-size: 1rem;
-    margin-left: 2rem;
-  }
-  .offer .container .offer-des .offer-des-container .offer2 .offer-desc-letter p {
-    font-size: 1rem;
-    margin-left: 2rem;
+  .offer .container .offer-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
   .img-portfoilo {
     display: flex;
@@ -2332,7 +2277,8 @@ footer .footer-copyright .container div {
     text-align: center;
   }
   .call-to-action1 .call-title {
-    margin-top: 3rem;
+    margin-top: 3.5rem;
+    margin-bottom: 2rem;
     font-size: 1rem;
   }
   .call-to-action1 .call-btn {
@@ -2371,7 +2317,7 @@ footer .footer-copyright .container div {
   }
   .client .container .client-image {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
   .client .container .client-image .client-logo3 img,
   .client .container .client-image .client-logo2 img,
@@ -2505,18 +2451,6 @@ footer .footer-copyright .container div {
     margin-top: 10rem;
     margin-bottom: 10rem;
   }
-  .offer .container .offer-list .offer1 .offer-col .offer-image {
-    width: 3rem;
-    margin-bottom: 1.3rem;
-  }
-  .offer .container .offer-list .offer1 .offer-col .offer-desc h2 {
-    font-size: 1.3rem;
-  }
-  .offer .container .offer-list .offer1 .offer-col .offer-desc p {
-    font-size: 1rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
-  }
   .img-portfoilo img {
     width: 30rem;
     margin-bottom: -15rem;
@@ -2571,12 +2505,15 @@ footer .footer-copyright .container div {
     padding: 0;
   }
   .client {
-    margin-bottom: 10rem;
+    margin-top: 5rem;
+  }
+  .client .container .client-image {
+    margin-top: 8rem;
+    margin-bottom: 8rem;
   }
   .client .container .client-image .client-logo3 img,
   .client .container .client-image .client-logo2 img,
   .client .container .client-image .client-logo1 img {
-    margin-left: 0rem;
     width: 10rem;
   }
   .client .container .client-image .client-logo4 img,
@@ -2732,7 +2669,7 @@ footer .footer-copyright .container div {
     margin: 0.5em;
   }
   .we-do .container {
-    margin-top: 8rem;
+    margin-top: 5rem;
   }
   .we-do .container .row .img-container img {
     width: 20rem;
@@ -2751,7 +2688,7 @@ footer .footer-copyright .container div {
     margin-top: 10rem;
   }
   .offer .container {
-    width: 60%;
+    width: 80%;
   }
   .offer .container h1 {
     font-size: 2rem;
@@ -2763,56 +2700,18 @@ footer .footer-copyright .container div {
     font-size: 1rem;
     margin-bottom: 3rem;
   }
-  .offer .container .offer-des .offer-links {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+  .offer .container .drop-down {
+    display: flex;
   }
-  .offer .container .offer-des .offer-links button {
-    width: 4rem;
-  }
-  .offer .container .offer-des .offer-links button img {
-    margin: 1rem;
-  }
-  .offer .container .offer-des .offer-links button h5 {
-    display: block;
-    margin-top: 1rem;
-    font-size: 1.3rem;
-    color: #817f7f;
-    font-family: 'Playfair Display', serif;
-  }
-  .offer .container .offer-des .offer-links button h5:hover {
-    color: #FF0101;
-  }
-  .offer .container .offer-des .offer-des-container .offer2 {
-    display: grid;
-    margin-top: 4rem;
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-  .offer .container .offer-des .offer-des-container .offer2 .offer-desc-list {
-    margin-top: 1.5rem;
-  }
-  .offer .container .offer-des .offer-des-container .offer2 .offer-desc-list .offer3 {
-    margin-top: 0rem;
-    font-size: 1.4rem;
-    margin-top: 2rem;
-  }
-  .offer .container .offer-des .offer-des-container .offer2 .offer-desc-list .offer3 div img {
-    margin-top: 0.2rem;
-  }
-  .offer .container .offer-des .offer-des-container .offer2 .offer-desc-full p {
-    font-size: 1rem;
-    margin-left: 2rem;
-  }
-  .offer .container .offer-des .offer-des-container .offer2 .offer-desc-letter p {
-    font-size: 1rem;
-    margin-left: 2rem;
+  .offer .container .drop-down .cards .card {
+    margin-left: 3rem;
   }
   .offer .container .btn-flex {
     display: grid;
     place-items: center;
   }
   .offer .container .btn-flex .btn {
-    margin-top: 10rem;
+    margin-top: 5rem;
   }
   .gallery .container h1 {
     font-size: 2rem;
@@ -2838,7 +2737,7 @@ footer .footer-copyright .container div {
     margin-bottom: -18rem;
   }
   .call-to-action2 {
-    height: 30vh;
+    height: 35vh;
   }
   .call-to-action2 .call-title {
     text-align: left;
@@ -2887,13 +2786,13 @@ footer .footer-copyright .container div {
   .client .container .client-image .client-logo3 img,
   .client .container .client-image .client-logo2 img,
   .client .container .client-image .client-logo1 img {
-    margin-left: 5rem;
+    margin-left: 2rem;
     width: 15rem;
   }
   .client .container .client-image .client-logo4 img,
   .client .container .client-image .client-logo5 img {
-    margin-left: 9rem;
-    width: 7.6rem;
+    margin-left: 5rem;
+    width: 8rem;
   }
   .contact {
     margin-bottom: 2rem;
@@ -2916,7 +2815,7 @@ footer .footer-copyright .container div {
     width: 1.5rem;
   }
   .contact .contact-container .contact-list div a span {
-    font-size: .9rem;
+    font-size: 0.9rem;
   }
   .contact .contact-container .contact-btn .btn {
     margin-top: 5rem;
@@ -2925,8 +2824,7 @@ footer .footer-copyright .container div {
     display: flex;
   }
   footer .container .footer-logo {
-    margin-right: 1rem;
-    margin-left: 1rem;
+    margin-top: 4rem;
   }
   footer .container .footer-logo img {
     width: 20rem;
@@ -2952,7 +2850,7 @@ footer .footer-copyright .container div {
   footer .container .footer-service {
     margin-right: 1rem;
     margin-left: 1rem;
-    margin-top: 2rem;
+    margin-top: 4rem;
     font-size: 20px;
     text-align: center;
   }

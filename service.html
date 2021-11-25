@@ -17,7 +17,6 @@
     <header class="service-header">
       
       </header>
-
       <section class="offer">
         <div class="container">
           <h1>
@@ -27,60 +26,174 @@
               Please see the list below and contact us if you have any queries.
             </p>
           </h1>
-          <div class="offer-des" id="offerApp">
-            <div class="offer-links">
-              <button  @click.stop="toggleVisiblity(1)"><img class="service1" src="./Image/Service1-1.svg" alt="" />
-              <h5> Printing </h5></button>
-            
-              <button  @click.stop="toggleVisiblity(2)"><img class="service2" src="./Image/Service2-1.svg" alt="" />
-              <h5> Logo  </h5></button>
-              
-              <button  @click.stop="toggleVisiblity(3)"><img class="service3" src="./Image/service3-1.svg" alt="" />
-              <h5> Packaging </h5></button>
-              
-              <button  @click.stop="toggleVisiblity(4)"><img class="service4" src="./Image/service4-1.svg" alt="" />  
-              <h5> Graphics  </h5></button>
-            
-              <button  @click.stop="toggleVisiblity(5)"><img class="service5" src="./Image/service5-1.svg" alt="" />     
-              <h5> Branding </h5></button>
-         
-            </div>
+          <div class="drop-down">
+            <div class="cards">
+              <div class="card">
+                <img src="./Image/Service1.svg" alt="" />
+                <div class="text">
+                  <h2>Printing</h2>
+                  <div class="drop-down-content">
+                    <p>
+                      We offer a wides range of graphic design in small quantity
+                      catalogue, brochures, business card, greeting card, magazine
+                      services to clients.
+                    </p>
     
-            <div class="offer-des-container" v-for="offer in offers" :key="offer.id">
-              <div class="offer2" v-if="offer.show">
-                <div class="offer-desc-list">
-                  <span class="offer3" v-for="title in offer.titles" :key="title">
+                    <p>
+                      We offer a wides range of graphic design in small quantity
+                      catalogue, brochures, business card, greeting card, magazine
+                      services to clients.
+                      We offer a wides range of graphic design in small quantity
+                      catalogue, brochures, business card, greeting card, magazine
+                      services to clients.
+                    
+                    </p>
+                   
+                  </div>
     
-                    <span>{{ title }}</span>
-                    <span v-if="!offer.titles.length - 1">
-    
-                      <img src="./Image/circle.svg" alt="">
-                    </span>
-    
-    
-    
-                  </span>
-    
+                  <div class="more-btn">
+                    <img class="drop" id="drop" src="./Image/drop.svg" alt="">
+                  </div>
                 </div>
-                <div class="offer-desc-full">
-                  <p>
-                    {{ offer.desc1 }}
-                  </p>
-                </div>
-                <div class="offer-desc-letter">
-                  <p>
-                    {{ offer.desc2 }}
-                  </p>
-                </div>
+    
               </div>
+              
+            </div>
+            <div class="cards">
+              <div class="card">
+                <img src="./Image/service2.svg" alt="" />
+                <div class="text">
+                  <h2>Logo Design</h2>
+                  <div class="drop-down-content1">
+                    <p>
+                      We offer a wides range of graphic design in small quantity
+                      catalogue, brochures, business card, greeting card, magazine
+                      services to clients.
+                    </p>
     
+                    <p>
+                      We offer a wides range of graphic design in small quantity
+                      catalogue, brochures, business card, greeting card, magazine
+                      services to clients.
+                      We offer a wides range of graphic design in small quantity
+                      catalogue, brochures, business card, greeting card, magazine
+                      services to clients.
+                   
+                    </p>
+                   
+                  </div>
     
+                  <div class="more-btn">
+                    <img class="drop1" id="drop" src="./Image/drop.svg" alt="">
+                  </div>
+                </div>
+    
+              </div>
+              
+            </div>
+            <div class="cards">
+              <div class="card">
+                <img src="./Image/service3.svg" alt="" />
+                <div class="text">
+                  <h2>Packaging</h2>
+                  <div class="drop-down-content2">
+                    <p>
+                      We offer a wides range of graphic design in small quantity
+                      catalogue, brochures, business card, greeting card, magazine
+                      services to clients.
+                    </p>
+    
+                    <p>
+                      We offer a wides range of graphic design in small quantity
+                      catalogue, brochures, business card, greeting card, magazine
+                      services to clients.
+                      We offer a wides range of graphic design in small quantity
+                      catalogue, brochures, business card, greeting card, magazine
+                      services to clients.
+                   
+                    </p>
+                   
+                  </div>
+    
+                  <div class="more-btn">
+                    <img class="drop2" id="drop" src="./Image/drop.svg" alt="">
+                  </div>
+                </div>
+    
+              </div>
+              
+            </div>
+            <div class="cards">
+              <div class="card">
+                <img src="./Image/service4.svg" alt="" />
+                <div class="text">
+                  <h2>Graphics Design</h2>
+                  <div class="drop-down-content3">
+                    <p>
+                      We offer a wides range of graphic design in small quantity
+                      catalogue, brochures, business card, greeting card, magazine
+                      services to clients.
+                    </p>
+    
+                    <p>
+                      We offer a wides range of graphic design in small quantity
+                      catalogue, brochures, business card, greeting card, magazine
+                      services to clients.
+                      We offer a wides range of graphic design in small quantity
+                      catalogue, brochures, business card, greeting card, magazine
+                      services to clients.
+                 
+                    </p>
+                   
+                  </div>
+    
+                  <div class="more-btn">
+                    <img class="drop3" id="drop" src="./Image/drop.svg" alt="">
+                  </div>
+                </div>
+    
+              </div>
+              
+            </div>
+            <div class="cards">
+              <div class="card">
+                <img src="./Image/service5.svg" alt="" />
+                <div class="text">
+                  <h2>Branding</h2>
+                  <div class="drop-down-content4">
+                    <p>
+                      We offer a wides range of graphic design in small quantity
+                      catalogue, brochures, business card, greeting card, magazine
+                      services to clients.
+                    </p>
+    
+                    <p>
+                      We offer a wides range of graphic design in small quantity
+                      catalogue, brochures, business card, greeting card, magazine
+                      services to clients.
+                      We offer a wides range of graphic design in small quantity
+                      catalogue, brochures, business card, greeting card, magazine
+                      services to clients.
+                      
+                    </p>
+                   
+                  </div>
+    
+                  <div class="more-btn">
+                    <img class="drop4" id="drop" src="./Image/drop.svg" alt="">
+                  </div>
+                </div>
+    
+              </div>
+              
             </div>
           </div>
+      
           <div class="btn-flex">
-            <a class="btn btn-outline-primary " href="project.php">VIEW WORKS</a>
+            <a class="btn btn-outline-primary " href="project.php">VIEW WORKS </a>
     
           </div>
+   
     
         </div>
       </section>

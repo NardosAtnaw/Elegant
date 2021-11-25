@@ -66,14 +66,12 @@ width: 100%-10%;
           margin-top: 4rem;
           margin-left: 1rem;
           padding: 10px;
-          margin-bottom: 3rem;
+          margin-bottom: 2rem;
           h1 {
             font-size: 1rem;
             margin: 0.5em;
             color: #fff;
-            .big {
-              font-size: 1.5rem;
-            }
+           
           }
           a {
             margin-top: .66rem;
@@ -133,7 +131,7 @@ width: 100%-10%;
              
             }
             a{
-                margin-left: 30rem;
+                margin-left: 25rem;
             }
           }
           
@@ -143,7 +141,7 @@ width: 100%-10%;
   @include responsive($xl){
     .service-header {   
         .container {
-          width: 100%-40%;
+          width: 100%-30%;
           .logo{
             margin-top: 0.5rem;
             width: 8rem;
@@ -243,14 +241,12 @@ width: 100%-10%;
           }
           .moto {
             margin-top: 4rem;
-            margin-left: 13rem;
+          
             h1 {
               font-size: 3rem;
              
             }
-            a{
-                margin-left: 50rem;
-            }
+          
           
           
           }

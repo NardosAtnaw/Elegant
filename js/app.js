@@ -69,9 +69,57 @@ if (window.innerWidth > 1152) {
   });
 }
 
+const moreBtn = document.querySelector('.drop')
+const dropdownContent = document.querySelector('.drop-down-content')
+const moreBtn1 = document.querySelector('.drop1')
+const dropdownContent1 = document.querySelector('.drop-down-content1')
+const moreBtn2 = document.querySelector('.drop2')
+const dropdownContent2 = document.querySelector('.drop-down-content2')
+const moreBtn3 = document.querySelector('.drop3')
+const dropdownContent3 = document.querySelector('.drop-down-content3')
+const moreBtn4 = document.querySelector('.drop4')
+const dropdownContent4 = document.querySelector('.drop-down-content4')
 
-
-
+moreBtn.addEventListener('click', () =>{
+  console.log(moreBtn);
+  dropdownContent.classList.toggle('show-dropdown')
+  moreBtn.style.transform = 'rotate(0deg)'
+  if(dropdownContent.classList.contains('show-dropdown')){
+    moreBtn.style.transform = 'rotate(180deg)'
+  }
+})
+moreBtn1.addEventListener('click', () =>{
+  console.log(moreBtn1);
+  dropdownContent1.classList.toggle('show-dropdown')
+  moreBtn1.style.transform = 'rotate(0deg)'
+  if(dropdownContent1.classList.contains('show-dropdown')){
+    moreBtn1.style.transform = 'rotate(180deg)'
+  }
+})
+moreBtn2.addEventListener('click', () =>{
+  console.log(moreBtn2);
+  dropdownContent2.classList.toggle('show-dropdown')
+  moreBtn2.style.transform = 'rotate(0deg)'
+  if(dropdownContent2.classList.contains('show-dropdown')){
+    moreBtn2.style.transform = 'rotate(180deg)'
+  }
+})
+moreBtn3.addEventListener('click', () =>{
+  console.log(moreBtn3);
+  dropdownContent3.classList.toggle('show-dropdown')
+  moreBtn3.style.transform = 'rotate(0deg)'
+  if(dropdownContent3.classList.contains('show-dropdown')){
+    moreBtn3.style.transform = 'rotate(180deg)'
+  }
+})
+moreBtn4.addEventListener('click', () =>{
+  console.log(moreBtn4);
+  dropdownContent4.classList.toggle('show-dropdown')
+  moreBtn4.style.transform = 'rotate(0deg)'
+  if(dropdownContent4.classList.contains('show-dropdown')){
+    moreBtn4.style.transform = 'rotate(180deg)'
+  }
+})
 const offerApp = Vue.createApp({
   data(){
     return {
@@ -195,7 +243,7 @@ offerApp.mount("#offerApp")
       // })
       // offerDes.innerHTML = offerContent.join('')
       
-
+    
 
        
       const service1 = document.querySelector('.service1')
@@ -243,6 +291,10 @@ offerApp.mount("#offerApp")
         service5.setAttribute('src', './Image/service5-1.svg')
       })
       
+  
+
+
+
       const client1 = document.querySelector('.client1')
       const client2 = document.querySelector('.client2')
       const client3 = document.querySelector('.client3')
@@ -283,6 +335,7 @@ offerApp.mount("#offerApp")
       client5.addEventListener('mouseleave', () => {
         client5.setAttribute('src', './Image/client7.png')
       })
+
 
 
 

@@ -20,7 +20,7 @@
     </video> -->
     <div id="bg">
 
-</div>
+    </div>
     <div class="container">
       <section class="nav ">
         <a class="logo" href="index.php"><img src="./Image/logo2.svg" alt="Elias Logo" /></a>
@@ -56,6 +56,7 @@
   </header>
   <section class="we-do">
     <div class="container">
+
       <div class="row align-center">
         <div class="img-container col-12 col-md-6">
           <!-- <img src="./Image/illust1.svg" alt="" /> -->
@@ -67,6 +68,8 @@
             catalogue, brochures, business card, greeting card, magazine
             services to clients. We offer a wide range of graphic design in
             small quantity catalogue, brochure, business card, greeting card,
+            magazine services to clients. We offer a wide range of graphic design in
+            small quantity catalogue, brochure, business card, greeting card,
             magazine services to clients.
           </p>
         </div>
@@ -76,6 +79,7 @@
         <a class="btn btn-outline-primary " href="whoweare.html">OUR STORY</a>
 
       </div>
+
     </div>
   </section>
   <section class="offer">
@@ -87,12 +91,271 @@
           Please see the list below and contact us if you have any queries.
         </p>
       </h1>
-      <div class="offer-des" id="offerApp">
+      <div class="drop-down">
+        <div class="cards">
+          <div class="card">
+            <img src="./Image/Service1.svg" alt="" />
+            <div class="text">
+              <h2>Design</h2>
+              <div class="drop-down-content">
+                <p>
+                  We offer a wides range of graphic design in small quantity
+                  catalogue, brochures, business card, greeting card, magazine
+                  services to clients.
+                </p>
+
+                <p>
+                  We offer a wides range of graphic design in small quantity
+                  catalogue, brochures, business card, greeting card, magazine
+                  services to clients.
+                  We offer a wides range of graphic design in small quantity
+                  catalogue, brochures, business card, greeting card, magazine
+                  services to clients.
+                
+                </p>
+               
+              </div>
+
+              <div class="more-btn">
+                <img class="drop" id="drop" src="./Image/drop.svg" alt="">
+              </div>
+            </div>
+
+          </div>
+          
+        </div>
+        <div class="cards">
+          <div class="card">
+            <img src="./Image/service2.svg" alt="" />
+            <div class="text">
+              <h2>Design</h2>
+              <div class="drop-down-content1">
+                <p>
+                  We offer a wides range of graphic design in small quantity
+                  catalogue, brochures, business card, greeting card, magazine
+                  services to clients.
+                </p>
+
+                <p>
+                  We offer a wides range of graphic design in small quantity
+                  catalogue, brochures, business card, greeting card, magazine
+                  services to clients.
+                  We offer a wides range of graphic design in small quantity
+                  catalogue, brochures, business card, greeting card, magazine
+                  services to clients.
+               
+                </p>
+               
+              </div>
+
+              <div class="more-btn">
+                <img class="drop1" id="drop" src="./Image/drop.svg" alt="">
+              </div>
+            </div>
+
+          </div>
+          
+        </div>
+        <div class="cards">
+          <div class="card">
+            <img src="./Image/service3.svg" alt="" />
+            <div class="text">
+              <h2>Design</h2>
+              <div class="drop-down-content2">
+                <p>
+                  We offer a wides range of graphic design in small quantity
+                  catalogue, brochures, business card, greeting card, magazine
+                  services to clients.
+                </p>
+
+                <p>
+                  We offer a wides range of graphic design in small quantity
+                  catalogue, brochures, business card, greeting card, magazine
+                  services to clients.
+                  We offer a wides range of graphic design in small quantity
+                  catalogue, brochures, business card, greeting card, magazine
+                  services to clients.
+               
+                </p>
+               
+              </div>
+
+              <div class="more-btn">
+                <img class="drop2" id="drop" src="./Image/drop.svg" alt="">
+              </div>
+            </div>
+
+          </div>
+          
+        </div>
+        <div class="cards">
+          <div class="card">
+            <img src="./Image/service4.svg" alt="" />
+            <div class="text">
+              <h2>Design</h2>
+              <div class="drop-down-content3">
+                <p>
+                  We offer a wides range of graphic design in small quantity
+                  catalogue, brochures, business card, greeting card, magazine
+                  services to clients.
+                </p>
+
+                <p>
+                  We offer a wides range of graphic design in small quantity
+                  catalogue, brochures, business card, greeting card, magazine
+                  services to clients.
+                  We offer a wides range of graphic design in small quantity
+                  catalogue, brochures, business card, greeting card, magazine
+                  services to clients.
+             
+                </p>
+               
+              </div>
+
+              <div class="more-btn">
+                <img class="drop3" id="drop" src="./Image/drop.svg" alt="">
+              </div>
+            </div>
+
+          </div>
+          
+        </div>
+        <div class="cards">
+          <div class="card">
+            <img src="./Image/service5.svg" alt="" />
+            <div class="text">
+              <h2>Design</h2>
+              <div class="drop-down-content4">
+                <p>
+                  We offer a wides range of graphic design in small quantity
+                  catalogue, brochures, business card, greeting card, magazine
+                  services to clients.
+                </p>
+
+                <p>
+                  We offer a wides range of graphic design in small quantity
+                  catalogue, brochures, business card, greeting card, magazine
+                  services to clients.
+                  We offer a wides range of graphic design in small quantity
+                  catalogue, brochures, business card, greeting card, magazine
+                  services to clients.
+                  
+                </p>
+               
+              </div>
+
+              <div class="more-btn">
+                <img class="drop4" id="drop" src="./Image/drop.svg" alt="">
+              </div>
+            </div>
+
+          </div>
+          
+        </div>
+      </div>
+      <!-- <div class="offer-col">
+        <div class="offer-singel-col">
+          <div class="offer-img">
+            <img class="service1" src="./Image/Service1-1.svg" alt="" />
+            <h5> Printing </h5>
+
+          </div>
+          <div class="fold-out" id="foldOut">
+
+            <div class="offer-description fold-out__inner u-multi-ellipsis" id="foldOutInner">
+              <p>
+
+                We believe a brand image should be one of your strongest
+                assets, communicating the essence of your business. We believe a brand image should be one of your strongest
+                assets, communicating the essence of your business.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="offer-singel-col">
+          <div class="offer-img">
+            <img class="service2" src="./Image/Service2-1.svg" alt="" />
+            <h5> Logo </h5>
+
+          </div>
+          <div class="fold-out" id="foldOut2">
+
+            <div class="offer-description fold-out__inner u-multi-ellipsis" id="foldOutInner2">
+              <p>
+
+                We believe a brand image should be one of your strongest
+                assets, communicating the essence of your business. We believe a brand image should be one of your strongest
+                assets, communicating the essence of your business.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="offer-singel-col">
+          <div class="offer-img">
+            <img class="service3" src="./Image/service3-1.svg" alt="" />
+            <h5> Packaging </h5>
+
+          </div>
+          <div class="fold-out" id="foldOut3">
+
+            <div class="offer-description fold-out__inner u-multi-ellipsis" id="foldOutInner3">
+              <p>
+
+                We believe a brand image should be one of your strongest
+                assets, communicating the essence of your business. We believe a brand image should be one of your strongest
+                assets, communicating the essence of your business.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="offer-singel-col">
+          <div class="offer-img">
+            <img class="service4" src="./Image/service4-1.svg" alt="" />
+            <h5> Graphics </h5>
+
+          </div>
+          <div class="fold-out" id="foldOut4">
+
+            <div class="offer-description fold-out__inner u-multi-ellipsis" id="foldOutInner4">
+              <p>
+
+                We believe a brand image should be one of your strongest
+                assets, communicating the essence of your business. We believe a brand image should be one of your strongest
+                assets, communicating the essence of your business.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="offer-singel-col">
+          <div class="offer-img">
+            <img class="service5" src="./Image/service5-1.svg" alt="" />
+            <h5>Branding</h5>
+
+          </div>
+          <div class="fold-out" id="foldOut5">
+
+            <div class="offer-description fold-out__inner u-multi-ellipsis" id="foldOutInner5">
+              <p>
+
+                We believe a brand image should be one of your strongest
+                assets, communicating the essence of your business. We believe a brand image should be one of your strongest
+                assets, communicating the essence of your business.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div> -->
+      <div class="btn-flex">
+        <a class="btn btn-outline-primary " href="project.php">VIEW WORKS </a>
+
+      </div>
+      <!-- <div class="offer-des" id="offerApp">
         <div class="offer-links">
           <button  @click.stop="toggleVisiblity(1)"><img class="service1" src="./Image/Service1-1.svg" alt="" />
           <h5> Printing </h5></button>
         
-          <button  @click.stop="toggleVisiblity(2)"><img class="service2" src="./Image/Service2-1.svg" alt="" />
+          <button  @click.stop="toggleVisiblity(2)"><img class="service2" src="./Image/service2-1.svg" alt="" />
           <h5> Logo  </h5></button>
           
           <button  @click.stop="toggleVisiblity(3)"><img class="service3" src="./Image/service3-1.svg" alt="" />
@@ -140,7 +403,7 @@
       <div class="btn-flex">
         <a class="btn btn-outline-primary " href="project.php">VIEW WORKS</a>
 
-      </div>
+      </div> -->
 
     </div>
   </section>
@@ -161,32 +424,32 @@
 
     </div>
   </section>
-   
+
   <section class="call-to-action3">
-  
-  <div class="call-title">
-  PLEASE CONTACT US IF YOU WANT TO ORDER.
-     
+
+    <div class="call-title">
+      PLEASE CONTACT US IF YOU WANT TO ORDER.
+
     </div>
     <div class="call-btn">
-    <a class="btn btn-outline-secondary " href="contact.html">CONTACT US</a>
+      <a class="btn btn-outline-secondary " href="contact.html">CONTACT US</a>
     </div>
   </section>
   <section class="img-portfoilo">
-  <img src="./Image/portfoilo.svg" alt="">
+    <img src="./Image/portfoilo.svg" alt="">
   </section>
- 
+
   <section class="call-to-action2 ">
-  
+
     <div class="call-title ">
-    WE DO DIFFERENT DESIGNS AND PRINTING, VIEW OUR WORKS.
-    <p>
-      We  convey our clients their brand is a target  to market on the internet.
-      Take a look at some of our works!
-    </p>
+      WE DO DIFFERENT DESIGNS AND PRINTING, VIEW OUR WORKS.
+      <p>
+        We convey our clients their brand is a target to market on the internet.
+        Take a look at some of our works!
+      </p>
     </div>
     <div class="call-btn">
-    <a class="btn btn-outline-secondary " href="contact.html">View Works</a>
+      <a class="btn btn-outline-secondary " href="contact.html">View Works</a>
     </div>
   </section>
   <section class="client">
@@ -268,10 +531,10 @@
       </div>
     </div>
   </section>
-  
+
   <section class="call-to-action1">
     <div class="call-title">
-    Please contact us if you would like to order or for additional
+      Please contact us if you would like to order or for additional
       information.
     </div>
     <div class="call-btn">
@@ -280,17 +543,25 @@
     </div>
   </section>
 
-  <!-- <section class="map1">
+  <section class="map1">
     <div class="location">
       <div class="map-responsive">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7881.425883314249!2d38.749138648132856!3d8.998539770849385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b85b8f94377a5%3A0x85a927d87a61e06f!2sElegant%20Design%20and%20Print!5e0!3m2!1sen!2set!4v1634731467017!5m2!1sen!2set" width="100%" height="450" style="border: 0" allowfullscreen="" loading="lazy"></iframe>
       </div>
     </div>
-  </section> -->
+  </section>
 
   <footer class="footer-down"></footer>
   <script src="./js/app.js" type="module"></script>
   <script src="./js/animate.js"></script>
+  <script>
+    // $(document).ready(fuction(){
+    //   $(".more-btn").on('click', funcion(){
+    //     $(this).parent().parent().find(".more-text").toggleClass(".none");
+    //   });
+    // });
+  </script>
+
 </body>
 
 </html>
