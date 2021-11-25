@@ -2706,6 +2706,9 @@ footer .footer-copyright .container div {
   .offer .container .drop-down .cards .card {
     margin-left: 3rem;
   }
+  .offer .container .drop-down .cards .card img {
+    width: 3rem;
+  }
   .offer .container .btn-flex {
     display: grid;
     place-items: center;
