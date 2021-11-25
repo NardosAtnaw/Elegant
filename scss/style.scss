@@ -1686,7 +1686,9 @@ footer {
       display: flex;
       .footer-logo {
         margin-top: 4rem;
+      
         img {
+          margin-bottom: -2rem;
           width: 20rem;
         }
         h1 {

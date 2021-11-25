@@ -2830,6 +2830,7 @@ footer .footer-copyright .container div {
     margin-top: 4rem;
   }
   footer .container .footer-logo img {
+    margin-bottom: -2rem;
     width: 20rem;
   }
   footer .container .footer-logo h1 {
