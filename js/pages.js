@@ -6,11 +6,6 @@ import {header , footer} from './common.js'
 header()
 footer()
 
-// const print = document.getElementById('print')
-// const logo = document.getElementById('logo')
-// const pack = document.getElementById('packaging')
-// const graphics = document.getElementById('graphics')
-// const brand = document.getElementById('brand')
 
 
 
@@ -80,9 +75,17 @@ if(window.innerWidth > 1152){
 }
 
 
+
+// const print = document.getElementById('print')
+// const logo = document.getElementById('logo')
+// const pack = document.getElementById('packaging')
+// const graphics = document.getElementById('graphics')
+// const brand = document.getElementById('brand')
+
 const btnContainer = document.querySelector('.links-list')
-const galleryImage = document.querySelectorAll('.gallery-image')
+const galleryImage = document.querySelectorAll('.grid_item')
 btnContainer.addEventListener('click', e => {
+  console.log(galleryImage);
    e.preventDefault()
   galleryImage.forEach(img =>{
       let id = img.dataset.id

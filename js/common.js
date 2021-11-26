@@ -22,8 +22,10 @@ function header(){
    </section>
    <div class="moto">
      <h1>Your Design & Printing Solution !</h1>
+     <div>
      <a class="btn btn-outline-secondary" href="project.php">View Our Works </a>
-   </div>
+     </div>
+     </div>
  </div>`
 }
 function footer(){
@@ -36,7 +38,7 @@ function footer(){
        <img src="./Image/ElegantLogo.png" alt="">
        <h1></h1>
        <div>
-       <a href="https://www.facebook.com/designelias">
+       <a href="https://www.facebook.com/elegantdesignandprint">
          <i class="bx bxl-facebook"></i>
        </a>
        <a href="https://www.behance.net/eli-has">

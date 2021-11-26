@@ -1,10 +1,11 @@
 .links {
   margin-top: 2rem;
     .links-list {
+      color: $secondary-color;
       ul {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        color: gray;
+     
 
         li {
           margin-top: .5rem;
@@ -77,7 +78,7 @@
             text-align: center;
             line-height: 2rem;
             a {
-              font-size: .8rem;
+              font-size: 1rem;
               text-decoration: none;
 
            

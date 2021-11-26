@@ -243,7 +243,47 @@ offerApp.mount("#offerApp")
       // })
       // offerDes.innerHTML = offerContent.join('')
       
-    
+      const client1 = document.querySelector('.client1')
+      const client2 = document.querySelector('.client2')
+      const client3 = document.querySelector('.client3')
+      const client4 = document.querySelector('.client4')
+      const client5 = document.querySelector('.client5')
+      
+      client1.addEventListener('mouseover', () => {
+        client1.setAttribute('src', './Image/c6.png')
+      })
+      client1.addEventListener('mouseleave', () => {
+        client1.setAttribute('src', './Image/c3.png')
+      })
+      
+      client2.addEventListener('mouseover', () => {
+        client2.setAttribute('src', './Image/c5.png')
+      })
+      client2.addEventListener('mouseleave', () => {
+        client2.setAttribute('src', './Image/c2.png')
+      })
+      
+      client3.addEventListener('mouseover', () => {
+        client3.setAttribute('src', './Image/c4.png')
+      })
+      client3.addEventListener('mouseleave', () => {
+        client3.setAttribute('src', './Image/c1.png')
+      })
+      
+      client4.addEventListener('mouseover', () => {
+        client4.setAttribute('src', './Image/client5.png')
+      })
+      client4.addEventListener('mouseleave', () => {
+        client4.setAttribute('src', './Image/client6.png')
+      })
+      
+      client5.addEventListener('mouseover', () => {
+        client5.setAttribute('src', './Image/client8.png')
+      })
+      client5.addEventListener('mouseleave', () => {
+        client5.setAttribute('src', './Image/client7.png')
+      })
+
 
        
       const service1 = document.querySelector('.service1')
@@ -295,47 +335,7 @@ offerApp.mount("#offerApp")
 
 
 
-      const client1 = document.querySelector('.client1')
-      const client2 = document.querySelector('.client2')
-      const client3 = document.querySelector('.client3')
-      const client4 = document.querySelector('.client4')
-      const client5 = document.querySelector('.client5')
-      
-      client1.addEventListener('mouseover', () => {
-        client1.setAttribute('src', './Image/c6.png')
-      })
-      client1.addEventListener('mouseleave', () => {
-        client1.setAttribute('src', './Image/c3.png')
-      })
-      
-      client2.addEventListener('mouseover', () => {
-        client2.setAttribute('src', './Image/c5.png')
-      })
-      client2.addEventListener('mouseleave', () => {
-        client2.setAttribute('src', './Image/c2.png')
-      })
-      
-      client3.addEventListener('mouseover', () => {
-        client3.setAttribute('src', './Image/c4.png')
-      })
-      client3.addEventListener('mouseleave', () => {
-        client3.setAttribute('src', './Image/c1.png')
-      })
-      
-      client4.addEventListener('mouseover', () => {
-        client4.setAttribute('src', './Image/client5.png')
-      })
-      client4.addEventListener('mouseleave', () => {
-        client4.setAttribute('src', './Image/client6.png')
-      })
-      
-      client5.addEventListener('mouseover', () => {
-        client5.setAttribute('src', './Image/client8.png')
-      })
-      client5.addEventListener('mouseleave', () => {
-        client5.setAttribute('src', './Image/client7.png')
-      })
-
+    
 
 
 

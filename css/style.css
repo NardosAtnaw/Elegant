@@ -978,23 +978,25 @@ body {
 }
 
 .service-header .container .moto {
-  display: grid;
-  place-items: center;
-  margin-top: 4rem;
-  margin-left: 1rem;
-  padding: 10px;
-  margin-bottom: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 .service-header .container .moto h1 {
   font-size: 1rem;
-  margin: 0.5em;
+  letter-spacing: .5rem;
   color: #fff;
 }
 
-.service-header .container .moto a {
-  margin-top: .66rem;
-  margin-left: 6rem;
+.service-header .container .moto div {
+  display: flex;
+  width: 100%;
+  justify-content: right;
+  margin-top: 1rem;
+}
+
+.service-header .container .moto div a {
+  margin-top: 1rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -1009,17 +1011,14 @@ body {
     width: 2.5rem;
   }
   .service-header .container .moto {
-    margin-top: 3rem;
+    margin-top: 4rem;
     margin-left: 1rem;
   }
   .service-header .container .moto h1 {
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
-  .service-header .container .moto h1 .big {
-    font-size: 3rem;
-  }
-  .service-header .container .moto a {
-    margin-left: 20rem;
+  .service-header .container .moto div a {
+    margin-top: 1.2rem;
   }
 }
 
@@ -1032,14 +1031,15 @@ body {
     width: 5.3rem;
   }
   .service-header .container .moto {
-    margin-top: 3rem;
-    margin-left: 1rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
   }
   .service-header .container .moto h1 {
-    font-size: 2rem;
+    font-size: 2.4rem;
   }
-  .service-header .container .moto a {
-    margin-left: 25rem;
+  .service-header .container .moto div a {
+    margin-right: 5rem;
+    margin-top: 1.3rem;
   }
 }
 
@@ -1114,11 +1114,16 @@ body {
     display: none;
   }
   .service-header .container .moto {
-    margin-top: 3rem;
+    margin-top: 5rem;
     margin-left: 1rem;
+    margin-bottom: 5rem;
   }
   .service-header .container .moto h1 {
-    font-size: 2.5rem;
+    letter-spacing: .9rem;
+    font-size: 2rem;
+  }
+  .service-header .container .moto div a {
+    margin-right: 2rem;
   }
   .service-header .container .menu {
     display: none;
@@ -1130,17 +1135,17 @@ body {
     margin-top: 0.5rem;
     width: 6.3rem;
   }
-  .service-header .container .moto {
-    margin-top: 4rem;
-  }
   .service-header .container .moto h1 {
-    font-size: 3rem;
+    letter-spacing: 1.3rem;
+    font-size: 2rem;
+  }
+  .service-header .container .moto div a {
+    margin-right: 10rem;
   }
 }
 
 .contact-form {
   overflow-x: hidden;
-  background: url(../Image/contactbg.jpg) no-repeat;
   background-size: cover;
   background-blend-mode: overlay;
   background-position: center center;
@@ -1360,10 +1365,13 @@ body {
   margin-top: 2rem;
 }
 
+.links .links-list {
+  color: #cecece;
+}
+
 .links .links-list ul {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  color: gray;
 }
 
 .links .links-list ul li {
@@ -1424,7 +1432,7 @@ body {
     line-height: 2rem;
   }
   .links .links-list ul li a {
-    font-size: .8rem;
+    font-size: 1rem;
     text-decoration: none;
   }
   .links .links-list ul li .active {
@@ -1708,6 +1716,7 @@ body {
 }
 
 .offer .container .drop-down .cards .card {
+  margin-top: 2rem;
   display: grid;
   place-items: center;
 }
@@ -1744,7 +1753,7 @@ body {
 }
 
 .offer .container .drop-down .cards .card .text .more-btn .drop, .offer .container .drop-down .cards .card .text .more-btn .drop1, .offer .container .drop-down .cards .card .text .more-btn .drop2, .offer .container .drop-down .cards .card .text .more-btn .drop3, .offer .container .drop-down .cards .card .text .more-btn .drop4 {
-  width: 1.5rem;
+  width: 1.2rem;
   transition: all .5s ease-in-out;
 }
 
@@ -1792,6 +1801,13 @@ body {
   height: 100%;
   object-fit: cover;
   transition: 0.5s ease-in;
+  filter: gray;
+  /* IE6-9 */
+  /* Google Chrome, Safari 6+ & Opera 15+ */
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 
 .gallery .grid_item {
@@ -1802,6 +1818,8 @@ body {
 .gallery .grid_item:hover .grid_image {
   transform: scale(1.1);
   filter: blur(3px);
+  filter: none;
+  -webkit-filter: grayscale(0);
 }
 
 .gallery .text {
@@ -2031,6 +2049,8 @@ body {
 
 .contact .contact-container .contact-list {
   margin-top: 1rem;
+  display: flex;
+  gap: 2rem;
 }
 
 .contact .contact-container .contact-list div a {
@@ -2049,6 +2069,32 @@ body {
 }
 
 .contact .contact-container .contact-list div a span {
+  margin-left: 1rem;
+  color: #4D4B4B;
+  font-size: 0.9rem;
+}
+
+.contact .contact-container .phone {
+  display: flex;
+  gap: 1rem;
+}
+
+.contact .contact-container .phone div a {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.contact .contact-container .phone div a .bx {
+  color: #4D4B4B;
+  font-size: 1.5rem;
+}
+
+.contact .contact-container .phone div a img {
+  width: 1.5rem;
+}
+
+.contact .contact-container .phone div a span {
   margin-left: 1rem;
   color: #4D4B4B;
   font-size: 0.9rem;
@@ -2271,7 +2317,7 @@ footer .footer-copyright .container div {
     text-align: center;
   }
   .call-to-action1 {
-    height: 23vh;
+    height: 16vh;
   }
   .call-to-action1 .call-title {
     margin-top: 3.5rem;
@@ -2292,7 +2338,7 @@ footer .footer-copyright .container div {
     padding: 10px;
   }
   .gallery {
-    margin-top: 10rem;
+    margin-top: 8rem;
   }
   .gallery .container h1 {
     font-size: 2rem;
@@ -2303,7 +2349,7 @@ footer .footer-copyright .container div {
   .gallery .gallery-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(1, 20vw);
+    grid-template-rows: repeat(3, 20vw);
     grid-gap: 10px;
   }
   .client .container h1 {
@@ -2335,11 +2381,20 @@ footer .footer-copyright .container div {
     font-size: 1rem;
   }
   .contact .contact-container .contact-list {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    margin-top: 2rem;
   }
   .contact .contact-container .contact-list div a img {
     width: 2rem;
+  }
+  .contact .contact-container .phone {
+    margin-top: .5rem;
+    gap: 2rem;
+  }
+  .contact .contact-container .phone div a img {
+    width: 2rem;
+  }
+  .contact .contact-container .phone div a span {
+    font-size: 1.2rem;
   }
   .contact .contact-container .contact-btn {
     margin-top: 2rem;
@@ -2460,7 +2515,7 @@ footer .footer-copyright .container div {
   }
   .call-to-action {
     margin-top: 5rem;
-    margin-bottom: 10rem;
+    margin-bottom: 5rem;
   }
   .call-to-action .call-title {
     margin-left: 2rem;
@@ -2517,6 +2572,13 @@ footer .footer-copyright .container div {
   .client .container .client-image .client-logo5 img {
     margin-left: 2rem;
     width: 7rem;
+  }
+  .contact {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+  .contact .contact-container .contact-list {
+    margin-top: 3rem;
   }
   footer .container {
     display: flex;
@@ -2698,6 +2760,7 @@ footer .footer-copyright .container div {
     margin-bottom: 3rem;
   }
   .offer .container .drop-down {
+    margin-top: 4rem;
     display: flex;
   }
   .offer .container .drop-down .cards .card {
@@ -2705,6 +2768,9 @@ footer .footer-copyright .container div {
   }
   .offer .container .drop-down .cards .card img {
     width: 3rem;
+  }
+  .offer .container .drop-down .cards .card .text .more-btn .drop, .offer .container .drop-down .cards .card .text .more-btn .drop1, .offer .container .drop-down .cards .card .text .more-btn .drop2, .offer .container .drop-down .cards .card .text .more-btn .drop3, .offer .container .drop-down .cards .card .text .more-btn .drop4 {
+    width: 1.6rem;
   }
   .offer .container .btn-flex {
     display: grid;
@@ -2762,7 +2828,7 @@ footer .footer-copyright .container div {
     padding: 10px;
   }
   .call-to-action1 {
-    height: 25vh;
+    height: 23vh;
   }
   .call-to-action1 .call-title {
     margin-top: 3.5rem;
@@ -2805,17 +2871,31 @@ footer .footer-copyright .container div {
   }
   .contact .contact-container .contact-list {
     margin-top: 5rem;
+    gap: 0rem;
   }
   .contact .contact-container .contact-list div {
-    margin-right: 5rem;
-    margin-left: 5rem;
+    margin-right: 4rem;
+    margin-left: 4rem;
   }
   .contact .contact-container .contact-list div a img {
     margin-top: 0.1rem;
-    width: 1.5rem;
+    width: 2rem;
   }
   .contact .contact-container .contact-list div a span {
     font-size: 0.9rem;
+  }
+  .contact .contact-container .phone {
+    margin-right: 2rem;
+    margin-left: 2rem;
+    gap: 3rem;
+    margin-top: 2rem;
+  }
+  .contact .contact-container .phone a img {
+    margin-top: 0.1rem;
+    width: 2rem;
+  }
+  .contact .contact-container .phone a span {
+    font-size: 1rem;
   }
   .contact .contact-container .contact-btn .btn {
     margin-top: 5rem;
@@ -3007,5 +3087,9 @@ footer .footer-copyright .container div {
   .contact .contact-container .contact-all .contact2 div a .bx {
     padding: 10px;
   }
+}
+
+.show-img {
+  display: none;
 }
 /*# sourceMappingURL=style.css.map */

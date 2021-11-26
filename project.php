@@ -21,23 +21,23 @@
         <div class="links-list">
           <ul>
             <li class="">
-              <a class="active" href="#" id="all">ALL WORKS</a>
+              <a class="active" href="#" id="all">All Works</a>
             </li>
             <li>
-              <a href="#" id="print">PRINTING</a>
+              <a href="#" id="print">Printing</a>
             </li>
             <li>
-              <a href="#" id="logo">LOGO DESIGNING</a>
+              <a href="#" id="logo">Logo Solution</a>
             </li>
             <li>
-              <a href="#" id="packaging">PACKAGING</a>
+              <a href="#" id="packaging">Packaging</a>
             </li>
 
             <li>
-              <a href="#" id="graphics">GRAPHIC DESIGN</a>
+              <a href="#" id="graphics">Design Solution</a>
             </li>
             <li>
-              <a href="#" id="brand"> BRANDING</a>
+              <a href="#" id="brand"> Branding</a>
             </li>
           </ul>
         </div>
@@ -54,12 +54,12 @@
 
     <section class="gallery">
       <div class="container">
-      <h1>
+      <!-- <h1>
         Some of Our Work
         <p>
           We've wide range of services we offer. To see a description of our
           services under each media, click on the pictures.
-        </p>
+        </p> -->
       </h1>
       </div>
         <div class="gallery-container">
@@ -67,73 +67,6 @@
         </div>
       
     </section>
-<!-- 
-    <section class="gallery">
-      <div class="container">
-        <div class="figure-container">
-          <div class="row">
-            <div
-              class="gallery-image col-md-3 col-md-offset-1 col-xl-3 col-xxl-3"
-              data-id="logo"
-            >
-              <img class="grid_image" src="./Image/pic4.jpg" alt="" />
-            </div>
-            <div
-              class="gallery-image col-md-3 col-md-offset-1 col-xl-3 col-xxl-3"
-              data-id="graphics"
-            >
-              <img class="grid_image" src="./Image/pic1.jpg" alt="" />
-            </div>
-            <div
-              class="gallery-image col-md-3 col-md-offset-1 col-xl-3 col-xxl-3"
-              data-id="brand"
-            >
-              <img class="grid_image" src="./Image/pic3.jpg" alt="" />
-            </div>
-          </div>
-          <div class="row">
-            <div
-              class="gallery-image col-md-3 col-md-offset-1 col-xl-3 col-xxl-3"
-              data-id="packaging"
-            >
-              <img class="grid_image" src="./Image/pic1.jpg" alt="" />
-            </div>
-            <div
-              class="gallery-image col-md-3 col-md-offset-1 col-xl-3 col-xxl-3"
-              data-id="print"
-            >
-              <img class="grid_image" src="./Image/pic3.jpg" alt="" />
-            </div>
-            <div
-              class="gallery-image col-md-3 col-md-offset-1 col-xl-3 col-xxl-3"
-              data-id="logo"
-            >
-              <img class="grid_image" src="./Image/pic4.jpg" alt="" />
-            </div>
-          </div>
-          <div class="row">
-            <div
-              class="gallery-image col-md-3 col-md-offset-1 col-xl-3 col-xxl-3"
-              data-id="packaging"
-            >
-              <img class="grid_image" src="./Image/pic3.jpg" alt="" />
-            </div>
-            <div
-              class="gallery-image col-md-3 col-md-offset-1 col-xl-3 col-xxl-3"
-              data-id="print"
-            >
-              <img class="grid_image" src="./Image/pic4.jpg" alt="" />
-            </div>
-            <div
-              class="gallery-image col-md-3 col-md-offset-1 col-xl-3 col-xxl-3"
-              data-id="logo"
-            >
-              <img class="grid_image" src="./Image/pic1.jpg" alt="" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> -->
     <section class="call-to-action1">
     <div class="call-title">
       Please contact us if you would like to order a design or for additional
@@ -144,6 +77,64 @@
       </a>
     </div>
   </section>
+  <section class="contact">
+  <div class="container">
+      <h1>
+        Contact Us
+        <p>Contact us at any time using the information below.</p>
+      </h1>
+    </div>
+      <div class="contact-container row">
+        <div class="contact-list col-12">
+          <div>
+            <a href="https://www.behance.net/eli-has">
+              <!-- <i class="bx bxl-behance"></i> -->
+              <img src="./Image/co2.svg" alt="" />
+              <!-- <span>behance.net/eli-has</span> -->
+            </a>
+          </div>
+  
+          <div>
+            <a href="https://www.facebook.com/elegantdesignandprint">
+              <img src="./Image/co1.svg" alt="" />
+              <!-- <span>designelias</span> -->
+            </a>
+          </div>
+          <div>
+            <a href="https://t.me/Elegant_Design_Print">
+              <img src="./Image/co3.svg" alt="" />
+              <!-- <span>Elegant Design</span> -->
+            </a>
+          </div>
+          <div>
+            <a href="mailto:infooelias@gmail.com">
+              <img src="./Image/co5.svg" alt="" />
+              <!-- <span>infooelias@gmail.com</span> -->
+            </a>
+          </div>
+      
+        </div>
+        <div class="phone">
+        <div>
+            <a href="#">
+              <img src="./Image/co4.svg" alt="" />
+              <span>
+                +251 11 888 9960
+              </span>
+            </a>
+          </div>
+          <div>
+            <a href="#">
+              <img src="./Image/co6.svg" alt="" />
+              <span> +251 913 121812</span>
+            </a>
+          </div>
+        </div>
+       
+   
+      </div>
+  
+    </section>
     <footer class="footer-down">
 
     </footer>

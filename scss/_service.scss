@@ -61,21 +61,27 @@ width: 100%-10%;
           }
         }
         .moto {
-          display: grid;
-          place-items: center;
-          margin-top: 4rem;
-          margin-left: 1rem;
-          padding: 10px;
-          margin-bottom: 2rem;
+          // display: grid;
+          // place-items: center;
+          margin-top: 3rem;
+       
+          margin-bottom: 3rem;
           h1 {
             font-size: 1rem;
-            margin: 0.5em;
+            letter-spacing: .5rem;
             color: #fff;
            
           }
-          a {
-            margin-top: .66rem;
-            margin-left: 6rem;
+          div{
+            display: flex;
+            width: 100%;
+          justify-content: right;
+          margin-top: 1rem;
+            a {
+           
+              margin-top: 1rem;
+            
+            }
           }
         }
     }
@@ -97,17 +103,22 @@ width: 100%-10%;
             }
            }
           .moto {
-            margin-top: 3rem;
+            margin-top: 4rem;
             margin-left: 1rem;
+           
             h1 {
-              font-size: 2rem;
-              .big {
-                font-size: 3rem;
+              font-size: 1.7rem;
+       
+            }
+            div{
+         
+              a {
+             
+                margin-top: 1.2rem;
+            
               }
             }
-            a{
-                margin-left: 20rem;
-            }
+           
           }
         }
       }
@@ -124,15 +135,22 @@ width: 100%-10%;
             width: 5.3rem;
           }
           .moto {
-            margin-top: 3rem;
-            margin-left: 1rem;
+            margin-top: 5rem;
+            margin-bottom: 5rem;
             h1 {
-              font-size: 2rem;
+              font-size: 2.4rem;
+       
+            }
+            div{
+         
+              a {
+                margin-right: 5rem;
              
+                margin-top: 1.3rem;
+            
+              }
             }
-            a{
-                margin-left: 25rem;
-            }
+            
           }
           
         }
@@ -216,11 +234,21 @@ width: 100%-10%;
           .moto {
       
             
-            margin-top: 3rem;
+            margin-top: 5rem;
             margin-left: 1rem;
+            margin-bottom: 5rem;
             h1 {
-              font-size: 2.5rem;
+              letter-spacing: .9rem;
+              font-size: 2rem;
             
+            }
+            div{
+           
+              a {
+                margin-right: 2rem;
+             
+            
+              }
             }
           
           }
@@ -240,12 +268,17 @@ width: 100%-10%;
             width: 6.3rem;
           }
           .moto {
-            margin-top: 4rem;
+        
           
-            h1 {
-              font-size: 3rem;
-             
-            }
+           h1{
+            letter-spacing: 1.3rem;
+             font-size: 2rem;
+           }
+           div{
+             a{
+               margin-right: 10rem;
+             }
+           }
           
           
           

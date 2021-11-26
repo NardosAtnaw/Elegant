@@ -17,7 +17,7 @@ if (isset($_GET['p_id'])) {
 }
 if (isset($_POST['update_post'])) {
   $desc = $_POST['desc'];
-    
+  $category = $_POST['category'];
     
   $image = $_FILES['image']['name'];
   $image_temp = $_FILES['image']['tmp_name'];
@@ -34,11 +34,12 @@ if (isset($_POST['update_post'])) {
     }
   }
 
-  $query = "UPDATE `works` SET `image` = '$image', `description` = '$desc', `date` = now() WHERE `works`.`id` = $p_id;";
+  $query = "UPDATE `works` SET `image` = '$image', `description` = '$desc', `category` = '$category', `date` = now() WHERE `works`.`id` = $p_id;";
 
   $update_post = mysqli_query($connection, $query);
 
   confirm($update_post);
+  header('Location: ./posts.php');
 }
 ?>
 
@@ -59,7 +60,17 @@ if (isset($_POST['update_post'])) {
 
     <input type="file" name="image">
   </div>
+  <div class="form-group">
+    <label for="title"> Type of Category</label>
+    <select name="category">
+      <option value="logo">Logo</option>
+      <option value="brand">Brand</option>
+      <option value="print">Print</option>
+      <option value="packaging">Packaging</option>
+      <option value="graphics">Graphics</option>
+    </select>
 
+  </div>
 
   <div class="form-group">
     <input type="submit" class="btn btn-primary" name="update_post" value="Update Image">

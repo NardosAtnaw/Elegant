@@ -96,7 +96,7 @@
           <div class="card">
             <img src="./Image/Service1.svg" alt="" />
             <div class="text">
-              <h2>Design</h2>
+              <h2>Printing</h2>
               <div class="drop-down-content">
                 <p>
                   We offer a wides range of graphic design in small quantity
@@ -128,7 +128,7 @@
           <div class="card">
             <img src="./Image/service2.svg" alt="" />
             <div class="text">
-              <h2>Design</h2>
+              <h2>Logo Solution</h2>
               <div class="drop-down-content1">
                 <p>
                   We offer a wides range of graphic design in small quantity
@@ -160,7 +160,7 @@
           <div class="card">
             <img src="./Image/service3.svg" alt="" />
             <div class="text">
-              <h2>Design</h2>
+              <h2>Packaging</h2>
               <div class="drop-down-content2">
                 <p>
                   We offer a wides range of graphic design in small quantity
@@ -192,7 +192,7 @@
           <div class="card">
             <img src="./Image/service4.svg" alt="" />
             <div class="text">
-              <h2>Design</h2>
+              <h2>Design Solution  </h2>
               <div class="drop-down-content3">
                 <p>
                   We offer a wides range of graphic design in small quantity
@@ -224,7 +224,7 @@
           <div class="card">
             <img src="./Image/service5.svg" alt="" />
             <div class="text">
-              <h2>Design</h2>
+              <h2>Branding</h2>
               <div class="drop-down-content4">
                 <p>
                   We offer a wides range of graphic design in small quantity
@@ -357,7 +357,7 @@
       </p>
     </div>
     <div class="call-btn">
-      <a class="btn btn-outline-secondary " href="contact.html">View Works</a>
+      <a class="btn btn-outline-secondary " href="p roject.php">View Works</a>
     </div>
   </section>
   <section class="client">
@@ -401,52 +401,60 @@
           <a href="https://www.behance.net/eli-has">
             <!-- <i class="bx bxl-behance"></i> -->
             <img src="./Image/co2.svg" alt="" />
-            <span>behance.net/eli-has</span>
+            <!-- <span>behance.net/eli-has</span> -->
           </a>
         </div>
 
         <div>
-          <a href="https://www.facebook.com/designelias">
-            <img src="./Image/co1.svg" alt="" /><span>designelias</span>
+          <a href="https://www.facebook.com/elegantdesignandprint">
+            <img src="./Image/co1.svg" alt="" />
+            <!-- <span>designelias</span> -->
           </a>
         </div>
         <div>
           <a href="https://t.me/Elegant_Design_Print">
-            <img src="./Image/co3.svg" alt="" /><span>Elegant Design</span>
+            <img src="./Image/co3.svg" alt="" />
+            <!-- <span>Elegant Design</span> -->
           </a>
         </div>
         <div>
           <a href="mailto:infooelias@gmail.com">
-            <img src="./Image/co5.svg" alt="" /><span>infooelias@gmail.com</span>
+            <img src="./Image/co5.svg" alt="" />
+            <!-- <span>infooelias@gmail.com</span> -->
           </a>
         </div>
-        <div>
+    
+      </div>
+      <div class="phone">
+      <div>
           <a href="#">
-            <img src="./Image/co4.svg" alt="" /><span>
+            <img src="./Image/co4.svg" alt="" />
+            <span>
               +251 11 888 9960
             </span>
           </a>
         </div>
         <div>
           <a href="#">
-            <img src="./Image/co4.svg" alt="" /><span> +251 913 121812</span>
+            <img src="./Image/co6.svg" alt="" />
+            <span> +251 913 121812</span>
           </a>
         </div>
       </div>
-
+     
       <div class="contact-btn">
         <a class="btn btn-primary" href="#">Contact Us </a>
       </div>
     </div>
+
   </section>
 
   <section class="call-to-action1">
     <div class="call-title">
-      Please contact us if you would like to order or for additional
-      information.
+    learn more about us and view our top work.
     </div>
     <div class="call-btn">
-      <a href="contact.html" class="btn btn-outline-secondary" href="#">Contact Us
+      <a href="whoweare.html" class="btn btn-outline-secondary" href="#">View Our Story
       </a>
     </div>
   </section>
