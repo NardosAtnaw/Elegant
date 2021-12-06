@@ -256,11 +256,13 @@ $transTime: 0.35s;
           margin-top: 2rem;
           display: grid;
           place-items: center;
+         
           img {
             width: 2rem;
           }
           .text {
             h2 {
+            
               text-align: center;
               margin-top: 1rem;
               color: #817f7f;
@@ -644,7 +646,7 @@ $transTime: 0.35s;
     .contact-list {
       margin-top: 1rem;
       display: flex;
-      gap: 2rem;
+      gap: 1.5rem;
 
 
       div {
@@ -661,41 +663,22 @@ $transTime: 0.35s;
           img {
             width: 1.5rem;
           }
-          span {
-            margin-left: 1rem;
-            color: $thrid-color;
-            font-size: 0.9rem;
+          .phone1{
+            p {
+    
+              color: $thrid-color;
+              font-size: .7rem;
+              margin-left: 1rem;
+              // display: flex;
+              // flex-direction: column;
+            }
           }
+       
         }
       }
     
     }
-    .phone{
-        display: flex;
-        gap:1rem;
 
-      div {
-        
-        a {
-          display: flex;
-          align-items: center;
-          margin-bottom: 1.5rem;
-
-          .bx {
-            color: $thrid-color;
-            font-size: 1.5rem;
-          }
-          img {
-            width: 1.5rem;
-          }
-          span {
-            margin-left: 1rem;
-            color: $thrid-color;
-            font-size: 0.9rem;
-          }
-        }
-      }
-      }
     .contact-btn {
       margin-top: 1.5rem;
     }
@@ -1009,7 +992,7 @@ footer {
     }
   }
   .gallery {
-    margin-top: 8rem;
+    margin-top: 5rem;
     .container {
       h1 {
         font-size: 2rem;
@@ -1528,7 +1511,7 @@ footer {
         display:flex;
         .cards{
           .card{
-
+            width: 11rem;
             margin-left: 3rem;
             img{
               width:3rem;
@@ -1734,15 +1717,16 @@ footer {
         margin-top: 5rem;
         gap:0rem;
         div {
-          margin-right: 4rem;
-          margin-left:4rem;
+          margin-right: 2rem;
+          margin-left:2rem;
           a {
             img {
               margin-top: 0.1rem;
               width: 2rem;
             }
-            span {
-              font-size: 0.9rem;
+            .phone1 {
+              font-size: 1rem;
+              margin-left: 0rem;
             }
           }
         }
@@ -1907,6 +1891,39 @@ footer {
   //     }
 
   // }
+  .offer {
+    margin-top: 10rem;
+    .container {
+      width: 100%-20%;
+      h1 {
+        font-size: 2rem;
+        margin-bottom: 3rem;
+        p {
+          margin-left: 10rem;
+          margin-right: 10rem;
+          font-size: 1rem;
+          margin-bottom: 3rem;
+        }
+      }
+      .drop-down {
+        margin-top: 4rem;
+        display:flex;
+        .cards{
+          .card{
+            width: 15rem;
+            margin-left: 3rem;
+            img{
+              width:3rem;
+            }
+          
+          }
+          
+        }
+          }
+   
+   
+    }
+  }
   .we-do {
     .container {
       margin-top: 8rem;
@@ -1937,6 +1954,7 @@ footer {
     margin-top: 10rem;
     .container {
       h1 {
+        
         font-size: 2rem;
         margin-bottom: 3rem;
         p {

@@ -64,13 +64,16 @@
         <div class="cont-desc">
           <h1> </h1>
           <p>
-            We offer a wides range of graphic design in small quantity
-            catalogue, brochures, business card, greeting card, magazine
-            services to clients. We offer a wide range of graphic design in
-            small quantity catalogue, brochure, business card, greeting card,
-            magazine services to clients. We offer a wide range of graphic design in
-            small quantity catalogue, brochure, business card, greeting card,
-            magazine services to clients.
+            Elegant Design & Print is proud to offer a wide range of graphic design
+            services to clients.
+            Whether you are an existing company looking to ‘freshen up’ your corporate
+            branding, or a start up business requiring a complete package from logo
+            design/branding advice and a suite of services which may include design
+            and print of stationery, company brochures, packaging and web site.
+            We are always happy to provide a quote based on as much information as
+            we can get. You can either give us a call to discuss the requirements, or
+            email through as much information as you have. Either way we’ll get an idea
+            of costs to you straight away.
           </p>
         </div>
       </div>
@@ -99,21 +102,16 @@
               <h2>Printing</h2>
               <div class="drop-down-content">
                 <p>
-                  We offer a wides range of graphic design in small quantity
-                  catalogue, brochures, business card, greeting card, magazine
-                  services to clients.
+
+                  Elegant Design & Print , is a distinctive and most trusted name in the printing industry in Addis Ababa, Ethiopia.
                 </p>
 
-                <p>
-                  We offer a wides range of graphic design in small quantity
-                  catalogue, brochures, business card, greeting card, magazine
-                  services to clients.
-                  We offer a wides range of graphic design in small quantity
-                  catalogue, brochures, business card, greeting card, magazine
-                  services to clients.
+                <p> With long years of experience. we do have digital and offset printing service.
+                  the printing service we provide is magazine, book, catalogue, calendar, agenda, business card, letter head, envelop, compliment slip, notebook, folder, postcard, brochure, flyer, poster, etc…
                 
+
                 </p>
-               
+
               </div>
 
               <div class="more-btn">
@@ -122,7 +120,7 @@
             </div>
 
           </div>
-          
+
         </div>
         <div class="cards">
           <div class="card">
@@ -131,21 +129,14 @@
               <h2>Logo Solution</h2>
               <div class="drop-down-content1">
                 <p>
-                  We offer a wides range of graphic design in small quantity
-                  catalogue, brochures, business card, greeting card, magazine
-                  services to clients.
+                  Designing a logo doesn’t have to be a complicated process. On the contrary, it should be easy! That’s where Elegant Design & Print can help.
                 </p>
 
                 <p>
-                  We offer a wides range of graphic design in small quantity
-                  catalogue, brochures, business card, greeting card, magazine
-                  services to clients.
-                  We offer a wides range of graphic design in small quantity
-                  catalogue, brochures, business card, greeting card, magazine
-                  services to clients.
-               
+                  We are the place where a customer gets a logo that is simple, attractive, and meaningful.
+
                 </p>
-               
+
               </div>
 
               <div class="more-btn">
@@ -154,7 +145,7 @@
             </div>
 
           </div>
-          
+
         </div>
         <div class="cards">
           <div class="card">
@@ -163,21 +154,14 @@
               <h2>Packaging</h2>
               <div class="drop-down-content2">
                 <p>
-                  We offer a wides range of graphic design in small quantity
-                  catalogue, brochures, business card, greeting card, magazine
-                  services to clients.
+                  Creating the right balance of visual and structural package designs will attract shoppers and establish your competitive advantage at shelf and online.
                 </p>
 
                 <p>
-                  We offer a wides range of graphic design in small quantity
-                  catalogue, brochures, business card, greeting card, magazine
-                  services to clients.
-                  We offer a wides range of graphic design in small quantity
-                  catalogue, brochures, business card, greeting card, magazine
-                  services to clients.
-               
+                  We'll customize a strategy to fit your needs. From graphics, photography, illustrations, and print-ready files, we're the experts
+
                 </p>
-               
+
               </div>
 
               <div class="more-btn">
@@ -186,30 +170,36 @@
             </div>
 
           </div>
-          
+
         </div>
         <div class="cards">
           <div class="card">
             <img src="./Image/service4.svg" alt="" />
             <div class="text">
-              <h2>Design Solution  </h2>
+              <h2>Design Solution </h2>
               <div class="drop-down-content3">
                 <p>
-                  We offer a wides range of graphic design in small quantity
-                  catalogue, brochures, business card, greeting card, magazine
-                  services to clients.
+                  Firstly, we need to fully understand your business. Our clients span a wide
+                  variety of industry sectors but all share the same need for a visual solution to
+                  a business issue. Whether that is to improve the image of the business,
+                  communicate a particular message, or to sell more products, our role is to
+                  help get that message across
                 </p>
 
                 <p>
-                  We offer a wides range of graphic design in small quantity
-                  catalogue, brochures, business card, greeting card, magazine
+                  Elegant Design & Print is proud to offer a wide range of graphic design
                   services to clients.
-                  We offer a wides range of graphic design in small quantity
-                  catalogue, brochures, business card, greeting card, magazine
-                  services to clients.
-             
+                  Whether you are an existing company looking to ‘freshen up’ your corporate
+                  branding, or a start up business requiring a complete package from logo
+                  design/branding advice and a suite of services which may include design
+                  and print of stationery, company brochures, packaging and web site.
+                  We are always happy to provide a quote based on as much information as
+                  we can get. You can either give us a call to discuss the requirements, or
+                  email through as much information as you have. Either way we’ll get an idea
+                  of costs to you straight away.
+
                 </p>
-               
+
               </div>
 
               <div class="more-btn">
@@ -218,7 +208,7 @@
             </div>
 
           </div>
-          
+
         </div>
         <div class="cards">
           <div class="card">
@@ -227,21 +217,14 @@
               <h2>Branding</h2>
               <div class="drop-down-content4">
                 <p>
-                  We offer a wides range of graphic design in small quantity
-                  catalogue, brochures, business card, greeting card, magazine
-                  services to clients.
+                  The right logo design and brand name will create a unique brand identity that's memorable. We’d like to help you determine which ones are best for you.
                 </p>
 
                 <p>
-                  We offer a wides range of graphic design in small quantity
-                  catalogue, brochures, business card, greeting card, magazine
-                  services to clients.
-                  We offer a wides range of graphic design in small quantity
-                  catalogue, brochures, business card, greeting card, magazine
-                  services to clients.
-                  
+                  We're brand naming experts and designers of logos for national and regional brands. All which are tested to resonate with consumers
+
                 </p>
-               
+
               </div>
 
               <div class="more-btn">
@@ -250,10 +233,10 @@
             </div>
 
           </div>
-          
+
         </div>
       </div>
-     
+
       <div class="btn-flex">
         <a class="btn btn-outline-primary " href="project.php">VIEW WORKS </a>
 
@@ -423,25 +406,21 @@
             <!-- <span>infooelias@gmail.com</span> -->
           </a>
         </div>
-    
-      </div>
-      <div class="phone">
-      <div>
-          <a href="#">
-            <img src="./Image/co4.svg" alt="" />
-            <span>
-              +251 11 888 9960
-            </span>
-          </a>
-        </div>
         <div>
           <a href="#">
-            <img src="./Image/co6.svg" alt="" />
-            <span> +251 913 121812</span>
+            <img src="./Image/co4.svg" alt="" />
+            <div class="phone1">
+
+              <p> +251 11 888 9960</p>
+              <p> +251 913 121812</p>
+            </div>
+          </a>
           </a>
         </div>
+
       </div>
-     
+
+
       <div class="contact-btn">
         <a class="btn btn-primary" href="#">Contact Us </a>
       </div>
@@ -451,7 +430,7 @@
 
   <section class="call-to-action1">
     <div class="call-title">
-    learn more about us and view our top work.
+      learn more about us and view our top work.
     </div>
     <div class="call-btn">
       <a href="whoweare.html" class="btn btn-outline-secondary" href="#">View Our Story
