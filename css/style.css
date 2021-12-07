@@ -2737,6 +2737,7 @@ footer .footer-copyright .container div {
   .offer .container .drop-down {
     margin-top: 4rem;
     display: flex;
+    justify-content: center;
   }
   .offer .container .drop-down .cards .card {
     width: 11rem;
