@@ -9,7 +9,7 @@ function header(){
          <i class="bx bx-x bx-md"></i>
        </div>
        <ul >
-         <li><a href="whoweare.html">Who We Are</a></li>
+         <li><a href="whoweare.php">Who We Are</a></li>
          <li><a href="service.html">Service</a></li>
          <li><a href="project.php">Our Designs</a></li>
          <li><a href="contact.html">Contact Us</a></li>

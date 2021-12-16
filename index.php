@@ -30,7 +30,7 @@
             <i class="bx bx-x bx-md"></i>
           </div>
           <ul>
-            <li><a href="whoweare.html">Who We Are</a></li>
+            <li><a href="whoweare.php">Who We Are</a></li>
             <li><a href="service.html">Service</a></li>
             <li><a href="project.php">Our Designs</a></li>
             <li><a href="contact.html">Contact Us</a></li>
@@ -79,7 +79,7 @@
       </div>
 
       <div class="btn-flex">
-        <a class="btn btn-outline-primary " href="whoweare.html">OUR STORY</a>
+        <a class="btn btn-outline-primary " href="whoweare.php">OUR STORY</a>
 
       </div>
 
@@ -433,7 +433,7 @@
       learn more about us and view our top work.
     </div>
     <div class="call-btn">
-      <a href="whoweare.html" class="btn btn-outline-secondary" href="#">View Our Story
+      <a href="whoweare.php" class="btn btn-outline-secondary" href="#">View Our Story
       </a>
     </div>
   </section>

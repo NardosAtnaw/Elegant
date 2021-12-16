@@ -18,12 +18,12 @@
       </header>
       <div class="ourstory">
           <div class="container">
-              <!-- <h1>
+              <h1>
                Our Story
               </h1>
               <div class="line">
                   <img src="./Image/line1.svg" alt="">
-              </div> -->
+              </div>
               <div class="story">
                   <p>
                     Elegant Design & Print is an Ethiopian company based in Addis Ababa. The business was founded in July of 2016. Graphic design, digital printing, prepress, offset printing, out-of-door printing, and promotional goods are all services we offer. We create eye-catching design solutions for a wide range of industries. The organization employs ten full-time professionals with a wide range of talents and abilities. The business has rented a design and production center with a variety of equipment, including iMac computers and desktop PCs.
